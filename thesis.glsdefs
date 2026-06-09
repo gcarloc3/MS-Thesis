@@ -1,0 +1,252 @@
+\glsdefs@newdocentry{a-Si}%
+{%
+name={\acronymfont {\glsentryshort {a-Si}}},%
+sort={a-Si},%
+type={acronym},%
+first={a-Si},%
+firstplural={a-Sis},%
+text={a-Si},%
+plural={a-Sis},%
+description={amorphous silicon},%
+descriptionplural={amorphous silicon},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={amorphous silicon},%
+longplural={amorphous silicons},%
+short={a-Si},%
+shortplural={a-Sis},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{DBR}%
+{%
+name={\acronymfont {\glsentryshort {DBR}}},%
+sort={DBR},%
+type={acronym},%
+first={DBR},%
+firstplural={DBRs},%
+text={DBR},%
+plural={DBRs},%
+description={distributed Bragg reflector},%
+descriptionplural={distributed Bragg reflector},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={distributed Bragg reflector},%
+longplural={distributed Bragg reflectors},%
+short={DBR},%
+shortplural={DBRs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{LT}%
+{%
+name={\acronymfont {\glsentryshort {LT}}},%
+sort={LT},%
+type={acronym},%
+first={LT},%
+firstplural={LTs},%
+text={LT},%
+plural={LTs},%
+description={low temperature},%
+descriptionplural={low temperature},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={low temperature},%
+longplural={low temperatures},%
+short={LT},%
+shortplural={LTs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{MBE}%
+{%
+name={\acronymfont {\glsentryshort {MBE}}},%
+sort={MBE},%
+type={acronym},%
+first={MBE},%
+firstplural={MBEs},%
+text={MBE},%
+plural={MBEs},%
+description={molecular beam epitaxy},%
+descriptionplural={molecular beam epitaxy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={molecular beam epitaxy},%
+longplural={molecular beam epitaxys},%
+short={MBE},%
+shortplural={MBEs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{PCA}%
+{%
+name={\acronymfont {\glsentryshort {PCA}}},%
+sort={PCA},%
+type={acronym},%
+first={PCA},%
+firstplural={PCAs},%
+text={PCA},%
+plural={PCAs},%
+description={photoconductive antenna},%
+descriptionplural={photoconductive antenna},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={photoconductive antenna},%
+longplural={photoconductive antennas},%
+short={PCA},%
+shortplural={PCAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{RF}%
+{%
+name={\acronymfont {\glsentryshort {RF}}},%
+sort={RF},%
+type={acronym},%
+first={RF},%
+firstplural={RFs},%
+text={RF},%
+plural={RFs},%
+description={radio frequency},%
+descriptionplural={radio frequency},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={radio frequency},%
+longplural={radio frequencys},%
+short={RF},%
+shortplural={RFs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{SI}%
+{%
+name={\acronymfont {\glsentryshort {SI}}},%
+sort={SI},%
+type={acronym},%
+first={SI},%
+firstplural={SIs},%
+text={SI},%
+plural={SIs},%
+description={semi-insulating},%
+descriptionplural={semi-insulating},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={semi-insulating},%
+longplural={semi-insulatings},%
+short={SI},%
+shortplural={SIs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{THz}%
+{%
+name={\acronymfont {\glsentryshort {THz}}},%
+sort={THz},%
+type={acronym},%
+first={THz},%
+firstplural={THzs},%
+text={THz},%
+plural={THzs},%
+description={terahertz},%
+descriptionplural={terahertz},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={terahertz},%
+longplural={terahertzs},%
+short={THz},%
+shortplural={THzs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{TDS}%
+{%
+name={\acronymfont {\glsentryshort {TDS}}},%
+sort={TDS},%
+type={acronym},%
+first={TDS},%
+firstplural={TDSs},%
+text={TDS},%
+plural={TDSs},%
+description={time domain spectroscopy},%
+descriptionplural={time domain spectroscopy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={time domain spectroscopy},%
+longplural={time domain spectroscopys},%
+short={TDS},%
+shortplural={TDSs},%
+counter={page},%
+parent={},%
+%
+}%
+

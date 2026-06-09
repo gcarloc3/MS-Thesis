@@ -1,0 +1,42 @@
+
+\documentclass[12pt]{gatechthesis}
+
+% preamble
+\usepackage{pdfpages}    
+\title{Investigation of a-Si/SiO$_2$ distributed Bragg reflectors with InGaAs terahertz emitters}
+\author{Gian Carlo B. Carrillo}
+%\vspace*{0.5cm} \\{Nunas Eluzai\\ Index No: 12-CC-1027}}
+	
+\approvaldate{\underline{\hspace{2in}}}
+\department{National Institute of Physics}
+\bibliography{references}
+
+% document body
+\begin{document}
+
+\makeTitlePage{June}{2025}
+% \input{declaration}
+%\input{approvalPage.tex}
+% \makeDedication{For my cousin Kara}
+
+\begin{frontmatter}
+    % \input{acknowledgments}
+    % \input{abstract}
+    \makeTOC{}
+    \makeListOfTables{}
+    \makeListOfFigures{}
+    \input{abbrevs}
+\end{frontmatter}
+
+\begin{thesisbody}
+    \input{chapters/chapter1}
+    \input{chapters/chapter2}
+    \input{chapters/chapter3}
+    % \input{chapters/chapter4}
+    % \input{chapters/chapter5.tex}
+    \makeBibliography{}
+    % \input{chapters/appendix.tex}
+    \includepdf[pages=-]{thesis_appendix.pdf}
+\end{thesisbody}
+
+\end{document}
