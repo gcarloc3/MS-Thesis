@@ -244,9 +244,6 @@ INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
-INPUT ./thesis.aux
-INPUT ./thesis.aux
-INPUT thesis.aux
 OUTPUT thesis.aux
 INPUT c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -303,19 +300,10 @@ INPUT c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
-INPUT ./thesis.toc
-INPUT ./thesis.toc
-INPUT thesis.toc
 OUTPUT thesis.toc
 INPUT c:/texlive/2026/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2026/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
-INPUT ./thesis.lot
-INPUT ./thesis.lot
-INPUT thesis.lot
 OUTPUT thesis.lot
-INPUT ./thesis.lof
-INPUT ./thesis.lof
-INPUT thesis.lof
 OUTPUT thesis.lof
 INPUT ./abbrevs.tex
 INPUT ./abbrevs.tex
@@ -433,7 +421,6 @@ INPUT ./thesis_appendix.pdf
 INPUT ./thesis_appendix.pdf
 INPUT ./thesis_appendix.pdf
 INPUT thesis.aux
-INPUT thesis.run.xml
 OUTPUT thesis.run.xml
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb

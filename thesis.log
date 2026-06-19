@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.12)  19 JUN 2026 14:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.12)  19 JUN 2026 20:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -904,7 +904,8 @@ Package translations Info: No language package found. I am going to use `english
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 15.
  (c:/texlive/2026/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./thesis.aux)
+)
+No file thesis.aux.
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -925,7 +926,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- (c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(c:/texlive/2026/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count519
 \scratchdimen=\dimen291
@@ -1023,25 +1024,28 @@ Package pdftex.def Info: uplogo.png  used on input line 17.
 
 \openout4 = `thesis.ist'.
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./uplogo.png>] (./thesis.toc)
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc} <./uplogo.png>]
+No file thesis.toc.
 \tf@toc=\write7
 \openout7 = `thesis.toc'.
 
- [2
+[2
 
 
-] (./thesis.lot)
+]
+No file thesis.lot.
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
- [3
+[3
 
 
-] (./thesis.lof)
+]
+No file thesis.lof.
 \tf@lof=\write9
 \openout9 = `thesis.lof'.
 
- [4
+[4
 
 
 ] (./abbrevs.tex
@@ -1062,89 +1066,193 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 
-]) (./chapters/chapter2.tex [2] [3]
+]
+
+./chapters/chapter1.tex:10: Package glossaries Error: Glossary entry `ARC' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 ...{LT}-InGaAs \gls{PCA}s using an \gls{ARC} 
+                                                  stack made of \gls{a-Si}/S...
+You need to define a glossary entry before you can use it.
+
+
+./chapters/chapter1.tex:13: Package glossaries Error: Glossary entry `ARC' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 	\item to integrate the fabricated \gls{ARC} 
+                                                  stack with an InGaAs PCA, and
+You need to define a glossary entry before you can use it.
+
+
+./chapters/chapter1.tex:14: Package glossaries Error: Glossary entry `ARC' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ...d  \gls{LT}-InGaAs a-Si/SiO$_2$ \gls{ARC} 
+                                                  \gls{PCA} device using \gl...
+You need to define a glossary entry before you can use it.
+
+
+./chapters/chapter1.tex:19: Package glossaries Error: Glossary entry `ARC' has not been defined.
+
+See the glossaries package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ... with an \gls{a-Si} and SiO$_2$ \gls{ARC}.
+                                                   As such, the study will n...
+You need to define a glossary entry before you can use it.
+
+) (./chapters/chapter2.tex [2]
 Chapter 2.
-<figures/thz_subs.png, id=204, 437.2335pt x 162.6075pt>
+
+LaTeX Warning: Reference `fig: aln_structure' on page 3 undefined on input line 3.
+
+<figures/thz_subs.png, id=132, 437.2335pt x 162.6075pt>
 File: figures/thz_subs.png Graphic file (type png)
 <use figures/thz_subs.png>
 Package pdftex.def Info: figures/thz_subs.png  used on input line 7.
 (pdftex.def)             Requested size: 354.31049pt x 131.77089pt.
-[4
+
+LaTeX Warning: Reference `fig: antenna' on page 3 undefined on input line 10.
+
+[3
 
  <./figures/thz_subs.png>]
-<figures/antenna.jpg, id=224, 1013.58675pt x 205.9695pt>
+<figures/antenna.jpg, id=155, 1013.58675pt x 205.9695pt>
 File: figures/antenna.jpg Graphic file (type jpg)
 <use figures/antenna.jpg>
 Package pdftex.def Info: figures/antenna.jpg  used on input line 14.
 (pdftex.def)             Requested size: 395.98996pt x 80.4692pt.
- [5 <./figures/antenna.jpg>]
-<figures/thz_tds.png, id=249, 432.11438pt x 311.66437pt>
+
+
+LaTeX Warning: Reference `eqn:THz_electric' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Reference `eqn:transient' on page 4 undefined on input line 23.
+
+[4 <./figures/antenna.jpg>]
+
+LaTeX Warning: Reference `fig: thz_tds' on page 5 undefined on input line 40.
+
+<figures/thz_tds.png, id=178, 432.11438pt x 311.66437pt>
 File: figures/thz_tds.png Graphic file (type png)
 <use figures/thz_tds.png>
 Package pdftex.def Info: figures/thz_tds.png  used on input line 44.
 (pdftex.def)             Requested size: 333.46758pt x 240.52444pt.
- [6 <./figures/thz_tds.png>]
-<figures/MBE_growth.png, id=273, 363.759pt x 245.11575pt>
+[5 <./figures/thz_tds.png>]
+
+LaTeX Warning: Reference `fig: surface' on page 6 undefined on input line 52.
+
+<figures/MBE_growth.png, id=202, 363.759pt x 245.11575pt>
 File: figures/MBE_growth.png Graphic file (type png)
 <use figures/MBE_growth.png>
 Package pdftex.def Info: figures/MBE_growth.png  used on input line 56.
 (pdftex.def)             Requested size: 291.78174pt x 196.61647pt.
- [7]
-<figures/bandgap.png, id=296, 387.69844pt x 301.8778pt>
+
+LaTeX Warning: Reference `fig: bandgap' on page 6 undefined on input line 60.
+
+[6]
+<figures/bandgap.png, id=224, 387.69844pt x 301.8778pt>
 File: figures/bandgap.png Graphic file (type png)
 <use figures/bandgap.png>
 Package pdftex.def Info: figures/bandgap.png  used on input line 64.
 (pdftex.def)             Requested size: 250.10226pt x 194.74423pt.
-<figures/band_struc.png, id=301, 479.54156pt x 342.5297pt>
+
+
+LaTeX Warning: Reference `fig: mole_frac' on page 7 undefined on input line 68.
+
+<figures/band_struc.png, id=228, 479.54156pt x 342.5297pt>
 File: figures/band_struc.png Graphic file (type png)
 <use figures/band_struc.png>
 Package pdftex.def Info: figures/band_struc.png  used on input line 72.
 (pdftex.def)             Requested size: 375.14705pt x 267.96652pt.
-<figures/phase.png, id=306, 233.07076pt x 162.6075pt>
+
+LaTeX Warning: Reference `fig: phase' on page 7 undefined on input line 76.
+
+<figures/phase.png, id=232, 233.07076pt x 162.6075pt>
 File: figures/phase.png Graphic file (type png)
 <use figures/phase.png>
 Package pdftex.def Info: figures/phase.png  used on input line 80.
 (pdftex.def)             Requested size: 333.46758pt x 232.65846pt.
- [8 <./figures/MBE_growth.png>] [9 <./figures/bandgap.png> <./figures/band_struc.png>]
-<figures/absorb.jpg, id=328, 189.6686pt x 177.6236pt>
+[7 <./figures/MBE_growth.png>] [8 <./figures/bandgap.png> <./figures/band_struc.png>]
+
+LaTeX Warning: Reference `fig: mole_frac' on page 9 undefined on input line 84.
+
+
+LaTeX Warning: Reference `fig: absorb' on page 9 undefined on input line 84.
+
+<figures/absorb.jpg, id=254, 189.6686pt x 177.6236pt>
 File: figures/absorb.jpg Graphic file (type jpg)
 <use figures/absorb.jpg>
 Package pdftex.def Info: figures/absorb.jpg  used on input line 88.
 (pdftex.def)             Requested size: 270.93883pt x 253.74774pt.
- [10 <./figures/phase.png>] [11 <./figures/absorb.jpg>]
-<figures/dbr.png, id=352, 828.09375pt x 232.61906pt>
+[9 <./figures/phase.png>]
+
+LaTeX Warning: Reference `eqn:wave_eqn' on page 10 undefined on input line 101.
+
+
+LaTeX Warning: Reference `fig: dbr_structure' on page 10 undefined on input line 105.
+
+
+LaTeX Warning: Reference `eqn:matrix' on page 10 undefined on input line 105.
+
+[10 <./figures/absorb.jpg>]
+<figures/dbr.png, id=278, 828.09375pt x 232.61906pt>
 File: figures/dbr.png Graphic file (type png)
 <use figures/dbr.png>
 Package pdftex.def Info: figures/dbr.png  used on input line 122.
 (pdftex.def)             Requested size: 395.98996pt x 111.24059pt.
-<figures/transmission.png, id=359, 724.95844pt x 448.67625pt>
+
+
+LaTeX Warning: Reference `fig: transmission' on page 11 undefined on input line 126.
+
+
+LaTeX Warning: Reference `fig: dbr_structure' on page 11 undefined on input line 126.
+
+<figures/transmission.png, id=283, 724.95844pt x 448.67625pt>
 File: figures/transmission.png Graphic file (type png)
 <use figures/transmission.png>
 Package pdftex.def Info: figures/transmission.png  used on input line 130.
 (pdftex.def)             Requested size: 333.46758pt x 206.38673pt.
- [12 <./figures/dbr.png>] [13 <./figures/transmission.png>]
-<figures/magnetron.png, id=396, 437.9562pt x 205.2468pt>
+[11 <./figures/dbr.png>]
+
+LaTeX Warning: Reference `fig: magnetron_diagram' on page 12 undefined on input line 138.
+
+
+LaTeX Warning: Reference `fig: magnetron_diagram' on page 12 undefined on input line 138.
+
+[12 <./figures/transmission.png>]
+<figures/magnetron.png, id=320, 437.9562pt x 205.2468pt>
 File: figures/magnetron.png Graphic file (type png)
 <use figures/magnetron.png>
 Package pdftex.def Info: figures/magnetron.png  used on input line 146.
 (pdftex.def)             Requested size: 333.46758pt x 156.28355pt.
-) (./chapters/chapter3.tex [14 <./figures/magnetron.png>]
+) (./chapters/chapter3.tex [13 <./figures/magnetron.png>]
 Chapter 3.
-) [15
+) [14
 
-] [16] [17
+] [15] [16
 
-] [18] [19]
+] [17] [18]
 Overfull \hbox (9.36426pt too wide) in paragraph at lines 37--37
 []\OT1/ptm/m/n/12 O. Sj[]odin, R. Ur-d-hwareshe, I. Koirala, A. Str[]omberg, and M. Ham-mar, ``Nanomem-
  []
 
-<thesis_appendix.pdf, id=427, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=358, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf>
 Package pdftex.def Info: thesis_appendix.pdf  used on input line 39.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<thesis_appendix.pdf, id=429, page=1, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=360, page=1, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
@@ -1153,7 +1261,7 @@ File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
-[20]
+[19]
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
@@ -1166,10 +1274,10 @@ File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
- [21
+ [20
 
  <./thesis_appendix.pdf>]
-<thesis_appendix.pdf, id=456, page=2, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=387, page=2, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 2>
 Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 39.
@@ -1182,22 +1290,34 @@ File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 2>
 Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 39.
 (pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
- [22
+ [21
 
  <./thesis_appendix.pdf>] (./thesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                thesis
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32944 strings out of 467525
- 677729 string characters out of 5423209
- 1525770 words of memory out of 5000000
- 61374 multiletter control sequences out of 15000+600000
+ 32931 strings out of 467525
+ 677542 string characters out of 5423209
+ 1519248 words of memory out of 5000000
+ 61370 multiletter control sequences out of 15000+600000
  645578 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,17n,103p,2599b,2445s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1226,10 +1346,10 @@ pdfTeX warning (dest): name{glo:PCA} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:THz} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (27 pages, 2156142 bytes).
+Output written on thesis.pdf (26 pages, 2152565 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 497 compressed objects within 5 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 527 PDF objects out of 1000 (max. 8388607)
+ 430 compressed objects within 5 object streams
+ 118 named destinations out of 1000 (max. 500000)
  225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
