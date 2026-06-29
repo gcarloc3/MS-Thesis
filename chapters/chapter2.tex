@@ -147,12 +147,20 @@ where $\mathbf{E}$ is the electric field and $\mathbf{F}$ is the force experienc
 	\caption[Schematics of a magnetron sputtering system]{Schematics of a magnetron sputtering system (a) with cathode target (b). The plasma is confined by the magnetic field in a toroidal pattern\cite{songHandbookTerahertzTechnologies2015}.}\label{fig: magnetron_diagram}
 \end{figure}
 \section{Electromagnetic Waves in Dielectric Materials}\label{EM waves}
-The interaction of electromagnetic waves with dielectric materials is governed by Maxwell's equations, which describe how electric and magnetic fields propagate and interact with matter. 
-\begin{equation} \label{eqn: Maxwell}
-		\begin{align*}
-		\nabla \cdot \mathbf{E} &= \frac{\rho}{\epsilon_0} \\
-		\nabla \cdot \mathbf{B} &= 0 \\
-		\nabla \times \mathbf{E} &= -\frac{\partial \mathbf{B}}{\partial t} \\
-		\nabla \times \mathbf{B} &= \mu_0 \mathbf{J} + \mu_0 \epsilon_0 \frac	{\partial \mathbf{E}}{\partial t}
-		\end{align*}	
+The propagation of electromagnetic waves through dielectric materials can be described using the Fresnel equations, which can be derived from the boundary conditions that constrain the electric and magnetic field components arising as a direct result of Maxwell's equations. 
+Suppose incident light approaches a boundary between two dielectric materials with refractive indices $n_1$ and $n_2$ as shown in~\ref{fig: phase}. The first case shows s-polarized light, where the electric field is perpendicular to the plane of incidence, while the second case shows p-polarized light, where the electric field is parallel to the plane of incidence. The incident and reflected angles are equal$\theta_i = \theta_r$, and the transmitted angle is given by Snell's law $n_1\sin \theta_i = n_2 \sin \theta_t$. The boundary conditions require that the components of the electric and magnetic fields be continuous, thus for s-polarized light, the electric fields are given by $E_i + E_r = E_t$ or $1 + r = t$, where $r$ and $t$ are the reflected and transmitted amplitudes and the incident amplitude is normalized to $1$. The y-component of the magnetic field is given by $H_i \cos \theta_i - H_r \cos \theta_r = H_t \cos \theta_t$, which can be rewritten as $n_1 \cos \theta_i (1 - r) = n_2 \cos \theta_t t$ using the relation $H = n E / c$. Solving for $r$ gives 
+\begin{equation} \label{eqn: reflection_s-polarized}
+		r_s = \frac{n_1 \cos \theta_i - n_2 \cos \theta_t}{n_1 \cos \theta_i + n_2 \cos \theta_t}
+\end{equation}
+while solving for $t$ gives
+\begin{equation} \label{eqn: transmission_s-polarized}
+		t_s = \frac{2 n_1 \cos \theta_i}{n_1 \cos \theta_i + n_2 \cos \theta_t}.
+\end{equation}
+For p-polarized light, the magnetic fields are given by $H_i + H_r = H_t$ or $n_1 (1 + r) = n_2 t$, thus the electric fields are given by $E_i \cos \theta_i - E_r \cos \theta_r = E_t \cos \theta_t$, which can be rewritten as $n_1 (1 - r) \cos \theta_i = n_2 t \cos \theta_t$. solving for $r$ gives
+\begin{equation} \label{eqn: reflection_p-polarized}
+		r_p = \frac{n_2 \cos \theta_i - n_1 \cos \theta_t}{n_2 \cos \theta_i + n_1 \cos \theta_t}
+\end{equation}
+while solving for $t$ gives
+\begin{equation} \label{eqn: transmission_p-polarized}
+		t_p = \frac{2 n_1 \cos \theta_i}{n_2 \cos \theta_i + n_1 \cos \theta_t}.
 \end{equation}

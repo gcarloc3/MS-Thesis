@@ -384,72 +384,6 @@
       \verb C:\Users\User\Zotero\storage\XTSCTI8C\Burford and El-Shenawee - 2017 - Review of terahertz photoconductive antenna techno.pdf
       \endverb
     \endentry
-    \entry{jungTerahertzDifferencefrequencyQuantum2017}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=cb974441214996ca9d745c74546f27fc}{%
-           family={Jung},
-           familyi={J\bibinitperiod},
-           given={Seungyong},
-           giveni={S\bibinitperiod}}}%
-        {{hash=ed4468bfc860e2739089f70f28d2f7a1}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Jae\bibnamedelima Hyun},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=d5940e4d199254b98bb386a04f005d53}{%
-           family={Jiang},
-           familyi={J\bibinitperiod},
-           given={Yifan},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=a837fd981f3076bcec2ff03efddc09d4}{%
-           family={Vijayraghavan},
-           familyi={V\bibinitperiod},
-           given={Karun},
-           giveni={K\bibinitperiod}}}%
-        {{hash=8458b68c788ba36b17fc43d65bd1220a}{%
-           family={Belkin},
-           familyi={B\bibinitperiod},
-           given={Mikhail\bibnamedelima A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Optica Publishing Group}%
-      }
-      \strng{namehash}{575c24da894990431e36f8d668659134}
-      \strng{fullhash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \strng{fullhashraw}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \strng{bibnamehash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \strng{authorbibnamehash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \strng{authornamehash}{575c24da894990431e36f8d668659134}
-      \strng{authorfullhash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \strng{authorfullhashraw}{b0e071cfe4a1b27f36e2bf1f57a5840f}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Terahertz quantum cascade laser sources based on intra-cavity frequency mixing are currently the only monolithic electrically pumped semiconductor devices that can operate in the 1--6 THz spectral range at room temperature. The introduction of the Cherenkov waveguide scheme in these devices grown on semi-insulating InP substrates enabled generation of tens of microwatts of average terahertz power output and wide spectral tunability. However, terahertz radiation outcoupling in these sources is still highly inefficient. Here we demonstrate that an application of the III--V-on-silicon hybrid laser concept to terahertz quantum cascade laser sources based on Cherenkov intra-cavity difference-frequency generation dramatically improves their output power and mid-infrared-to-terahertz conversion efficiency. The best-performing device transfer-printed on a float-zone high-resistivity silicon substrate produced 270 {$\mu$}W of peak power output at 3.5 THz at room temperature, a factor of 5 improvement over the best reference devices on a native semi-insulating InP substrate.}
-      \field{issn}{2334-2536}
-      \field{journaltitle}{Optica, OPTICA}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{number}{1}
-      \field{title}{Terahertz Difference-Frequency Quantum Cascade Laser Sources on Silicon}
-      \field{urlday}{2}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{4}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{38\bibrangedash 43}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1364/OPTICA.4.000038
-      \endverb
-      \verb{file}
-      \verb C:\Users\User\Zotero\storage\ELBXMDP4\Jung et al. - 2017 - Terahertz difference-frequency quantum cascade laser sources on silicon.pdf
-      \endverb
-      \keyw{Absorption coefficient,Hybrid lasers,Laser sources,Scanning electron microscopy,Semiconductor lasers,Total internal reflection}
-    \endentry
     \entry{riturajHighlySensitiveEfficient2025}{article}{}{}
       \name{author}{5}{}{%
         {{hash=165c280e6f6e05c027db99b64830b59a}{%
@@ -484,8 +418,8 @@
       \strng{authornamehash}{c08bd6e33429c0e2e42bc7d4919064bd}
       \strng{authorfullhash}{68678df5fa9da2d7dd92d1ae207768e0}
       \strng{authorfullhashraw}{68678df5fa9da2d7dd92d1ae207768e0}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Photonic quantum technologies such as effective quantum communication require room temperature (RT) operating single- or few-photon sensors with high external quantum efficiency (EQE) at 1550~nm wavelength. The leading class of devices in this segment is avalanche photodetectors operating particularly in the Geiger mode. However, for superior performance, a trade-off has to be made between temperature of operation, device thickness, and EQE. Two-dimensional (2D) materials can be used to reduce the absorber thickness and thus dark current, leading to an increase in the operating temperature, but they suffer from low EQE. We use specifically stacked bilayer hexagonal BAs, with material properties calculated from first principles, on a co-optimized dielectric photonic crystal substrate to simultaneously decrease the dark current by three orders of magnitude at RT and maintain an EQE of \&gt;99\%. The device can potentially be used in avalanche mode and hence can form a basis for single photon detection.}
@@ -508,132 +442,6 @@
       \verb{file}
       \verb C\:\\Users\\User\\Zotero\\storage\\8PYEYZHS\\Rituraj et al. - 2025 - Highly sensitive and efficient 1550 nm photodetector for room temperature operation.pdf;C\:\\Users\\User\\Zotero\\storage\\JG3F4G43\\Highly-sensitive-and-efficient-1550-nm.html
       \endverb
-    \endentry
-    \entry{joseEnhancedTerahertzEmission2019}{article}{}{}
-      \name{author}{18}{}{%
-        {{hash=9a23bb70e30458f378c130d011215397}{%
-           family={Jose},
-           familyi={J\bibinitperiod},
-           given={Ameera},
-           giveni={A\bibinitperiod}}}%
-        {{hash=72f7158eb075ff1a42702b96bfb973c7}{%
-           family={Montecillo},
-           familyi={M\bibinitperiod},
-           given={Anthony},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b3c2a1c5daf7fc5a26f085a773624755}{%
-           family={De\bibnamedelima Los\bibnamedelima Reyes},
-           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={Alexander},
-           giveni={A\bibinitperiod}}}%
-        {{hash=31dc2db5fed57dc6060442864fc708d2}{%
-           family={Bacaoco},
-           familyi={B\bibinitperiod},
-           given={Miguel},
-           giveni={M\bibinitperiod}}}%
-        {{hash=32a3ce5f188ae721e287dab3fb225480}{%
-           family={Lopez},
-           familyi={L\bibinitperiod},
-           given={Joybelle},
-           giveni={J\bibinitperiod}}}%
-        {{hash=e20a73171ce3c632f099d1020bd78fcf}{%
-           family={Cafe},
-           familyi={C\bibinitperiod},
-           given={Arven},
-           giveni={A\bibinitperiod}}}%
-        {{hash=200a8aff3c99d60237c8fb8fe17569c1}{%
-           family={Faustino},
-           familyi={F\bibinitperiod},
-           given={Maria\bibnamedelima Angela},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=5614d3526c428b4418cdf3a7f9365d79}{%
-           family={Husay},
-           familyi={H\bibinitperiod},
-           given={Horace\bibnamedelima Andrew},
-           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=146d70303fdef9028839fb34204ad19f}{%
-           family={Vasquez},
-           familyi={V\bibinitperiod},
-           given={John\bibnamedelima Daniel},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=d216d112746b7661e2c7b9bf9a583de7}{%
-           family={Gonzales},
-           familyi={G\bibinitperiod},
-           given={Karl\bibnamedelima Cedric},
-           giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=14cbc5bbbf423d88879d4d41e7020626}{%
-           family={Catindig},
-           familyi={C\bibinitperiod},
-           given={Gerald\bibnamedelima Angelo},
-           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=8a719500d7ad05d02f31f8238f2590f9}{%
-           family={Afalla},
-           familyi={A\bibinitperiod},
-           given={Jessica\bibnamedelima Pauline},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=8b2d97ec794cea797960b1d7f268c842}{%
-           family={{Mag-usara}},
-           familyi={M\bibinitperiod},
-           given={Valynn\bibnamedelima Katrine},
-           giveni={V\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-        {{hash=02fd0e849ec968614e58d6ebd217d6e6}{%
-           family={Kitahara},
-           familyi={K\bibinitperiod},
-           given={Hideaki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=fa8db1b0a70f0a26e7e92538947d9a73}{%
-           family={Tani},
-           familyi={T\bibinitperiod},
-           given={Masahiko},
-           giveni={M\bibinitperiod}}}%
-        {{hash=7a20fdd6de7f9e74c05e83133245e086}{%
-           family={Somintac},
-           familyi={S\bibinitperiod},
-           given={Armando},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1a14af4becff160968a2256d69ec248a}{%
-           family={Salvador},
-           familyi={S\bibinitperiod},
-           given={Arnel},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c58495443bf6adbd2478828795ff82c5}{%
-           family={Estacio},
-           familyi={E\bibinitperiod},
-           given={Elmer},
-           giveni={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{d5112e3e01978c79af9d830d090b4f77}
-      \strng{fullhash}{1571fe172503d7d56891832358e60ebe}
-      \strng{fullhashraw}{1571fe172503d7d56891832358e60ebe}
-      \strng{bibnamehash}{d5112e3e01978c79af9d830d090b4f77}
-      \strng{authorbibnamehash}{d5112e3e01978c79af9d830d090b4f77}
-      \strng{authornamehash}{d5112e3e01978c79af9d830d090b4f77}
-      \strng{authorfullhash}{1571fe172503d7d56891832358e60ebe}
-      \strng{authorfullhashraw}{1571fe172503d7d56891832358e60ebe}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Enhanced terahertz (THz) radiation was generated from a gallium arsenide thin film integrated on top of porous silicon distributed Bragg reflector (GaAs/PSi DBR). The film's thickness was designed to be less than the penetration depth of the 800\,nm excitation source, while the PSi DBR was centered at the laser wavelength to reflect the transmitted photons at the film-substrate interface. Reflection-geometry THz time-domain spectroscopy measurement revealed enhancement in THz peak to peak amplitude by 1.67 and 5.7 times as compared to the same thickness of GaAs on silicon (GaAs/Si) and bulk semi-insulating (SI) GaAs, respectively. In comparison with the bulk SI-GaAs, both thin film samples showed an order of magnitude improvement in the THz output power. The excitation-wavelength study also revealed a maximum increase near the design wavelength. The enhancement was attributed to the high reflectivity at the film-substrate interface and optical cavity effect in GaAs. These factors contributed to an effective optical confinement within the film's THz generation region.}
-      \field{issn}{0925-3467}
-      \field{journaltitle}{Optical Materials}
-      \field{month}{6}
-      \field{title}{Enhanced Terahertz Emission of a Gallium Arsenide Thin Film on a Porous Silicon Distributed {{Bragg}} Reflector Designed at 800nm Wavelength}
-      \field{urlday}{2}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{92}
-      \field{year}{2019}
-      \field{urldateera}{ce}
-      \field{pages}{335\bibrangedash 340}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1016/j.optmat.2019.04.028
-      \endverb
-      \verb{file}
-      \verb C:\Users\User\Zotero\storage\T34J797Q\S0925346719302587.html
-      \endverb
-      \keyw{Bragg reflectors,Electrochemical etching,Photonic crystals,Semiconductors,Terahertz,Thin films}
     \endentry
     \entry{alfihedDevelopmentsIntegrationApplication2020}{article}{}{}
       \name{author}{3}{}{%
@@ -661,8 +469,8 @@
       \strng{authornamehash}{088937635dc5871afa558f3b7675f9e8}
       \strng{authorfullhash}{35d8df33776b9a98a7b82fdbaf971fd9}
       \strng{authorfullhashraw}{35d8df33776b9a98a7b82fdbaf971fd9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work presents an overview of terahertz (THz) spectroscopy with a focus on its implementation within microfluidic platforms. Such platforms are of great interest because they can enable label-free and reagent-free sensing. However, they must be implemented with thought towards the incorporated materials and structures as they can greatly impact the bandwidth, frequency resolution, signal-to-noise ratio, and dynamic range of the measurements. This review explores such relationships with insight given on the design and material considerations for the effective integration of THz spectroscopy in microfluidic platforms. The review also describes recent work on the application of THz spectroscopy to biomaterial analyses on increasing scales, targeting DNA, proteins, cells, and tissues.}
@@ -1213,8 +1021,8 @@
       \strng{authornamehash}{db3c7b25cb5deaba4e181bf6cd122710}
       \strng{authorfullhash}{418aff51c3fab03205696bf5d5468cfc}
       \strng{authorfullhashraw}{418aff51c3fab03205696bf5d5468cfc}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{GaAs epilayers which are grown by molecular-beam epitaxy under ``normal'' group III--V fluxes but at very low substrate temperatures contain as much as 1\% excess arsenic. Upon annealing these epilayers at a temperature of 600\,{$^\circ$}C, the excess arsenic forms precipitates. We have undertaken a systematic study of the substrate growth temperature dependence of this incorporation of excess arsenic in both GaAs and Al0.3Ga0.7As epilayers. The substrate growth temperature was varied in increments of 25\,{$^\circ$}C from 225 to 375\,{$^\circ$}C after every 0.25 {$\mu$}m of film growth for a GaAs and an Al0.3Ga0.7As epilayer. Both epilayers were grown using a dimer arsenic source and a group V to total group III beam equivalent pressure {$\sim$}20. After growth the films were annealed for 1 h in the As2 flux at a temperature of 600\,{$^\circ$}C. Cross-sectional samples were than prepared by the ion thinning technique and examined by transmission electron microscopy (TEM). Both epilayers contained arsenic precipitates; this is the first observation of arsenic precipitates in an Al0.3Ga0.7As epilayer. The density of the arsenic precipitates in the two epilayers had a strong dependence on substrate growth temperature. Details of the film growth and of the TEM observations are reported.}
@@ -1276,8 +1084,8 @@
       \strng{editornamehash}{c6e3ae379d95f89996bb8c927e810c2a}
       \strng{editorfullhash}{c6e3ae379d95f89996bb8c927e810c2a}
       \strng{editorfullhashraw}{c6e3ae379d95f89996bb8c927e810c2a}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Molecular {{Beam Epitaxy}}}
@@ -1823,6 +1631,72 @@
       \endverb
       \keyw{Electron diffraction,Indium gallium arsenide,Molecular beam epitaxy,Scanning tunnelling microscopy,Surface alloys,Surface reconstructions}
     \endentry
+    \entry{jungTerahertzDifferencefrequencyQuantum2017}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=cb974441214996ca9d745c74546f27fc}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Seungyong},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ed4468bfc860e2739089f70f28d2f7a1}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Jae\bibnamedelima Hyun},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d5940e4d199254b98bb386a04f005d53}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yifan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a837fd981f3076bcec2ff03efddc09d4}{%
+           family={Vijayraghavan},
+           familyi={V\bibinitperiod},
+           given={Karun},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8458b68c788ba36b17fc43d65bd1220a}{%
+           family={Belkin},
+           familyi={B\bibinitperiod},
+           given={Mikhail\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{575c24da894990431e36f8d668659134}
+      \strng{fullhash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \strng{fullhashraw}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \strng{bibnamehash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \strng{authorbibnamehash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \strng{authornamehash}{575c24da894990431e36f8d668659134}
+      \strng{authorfullhash}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \strng{authorfullhashraw}{b0e071cfe4a1b27f36e2bf1f57a5840f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Terahertz quantum cascade laser sources based on intra-cavity frequency mixing are currently the only monolithic electrically pumped semiconductor devices that can operate in the 1--6 THz spectral range at room temperature. The introduction of the Cherenkov waveguide scheme in these devices grown on semi-insulating InP substrates enabled generation of tens of microwatts of average terahertz power output and wide spectral tunability. However, terahertz radiation outcoupling in these sources is still highly inefficient. Here we demonstrate that an application of the III--V-on-silicon hybrid laser concept to terahertz quantum cascade laser sources based on Cherenkov intra-cavity difference-frequency generation dramatically improves their output power and mid-infrared-to-terahertz conversion efficiency. The best-performing device transfer-printed on a float-zone high-resistivity silicon substrate produced 270 {$\mu$}W of peak power output at 3.5 THz at room temperature, a factor of 5 improvement over the best reference devices on a native semi-insulating InP substrate.}
+      \field{issn}{2334-2536}
+      \field{journaltitle}{Optica, OPTICA}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Terahertz Difference-Frequency Quantum Cascade Laser Sources on Silicon}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{38\bibrangedash 43}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1364/OPTICA.4.000038
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\ELBXMDP4\Jung et al. - 2017 - Terahertz difference-frequency quantum cascade laser sources on silicon.pdf
+      \endverb
+      \keyw{Absorption coefficient,Hybrid lasers,Laser sources,Scanning electron microscopy,Semiconductor lasers,Total internal reflection}
+    \endentry
     \entry{liuHighResponsivityEvanescently2023}{article}{}{}
       \name{author}{9}{}{%
         {{hash=a31d84dfbe3dcf1887e61df76b65c682}{%
@@ -1879,8 +1753,8 @@
       \strng{authornamehash}{2f49f30b0764fd15cd393e2bb7b24d44}
       \strng{authorfullhash}{dc5cae566604b4779401775bb5c4235b}
       \strng{authorfullhashraw}{dc5cae566604b4779401775bb5c4235b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{InGaAs/InP waveguide photodiode, one of the most crucial devices in optical modules, has proven to be beneficial for exponential data communication. However, improving responsivity with a high 3~dB bandwidth remains a challenge for various photodetector designs. In this letter, a multi-layers SiO2/SiNx distributed Bragg reflector and a spot-size converter are both employed and improve responsivity by 61\%. An optimized optical matching layer and a spot-size converter combined with the reflector lead to a 0.66 A/W responsivity at 1550~nm wavelength. 3~dB bandwidth of the device can achieve 85~GHz with a 3{$\mu$}m~{\texttimes}~10 {$\mu$}m active area. The responsivity improvement indicates a higher quantum efficiency and signal-to-noise ratio. It could be beneficial for high speed optical communication and other applications.}
@@ -1930,8 +1804,8 @@
       \strng{authornamehash}{0d5ad0b09ef84b278454f4af16a82311}
       \strng{authorfullhash}{8f1abcc4eff6134b96918533d448ad4b}
       \strng{authorfullhashraw}{8f1abcc4eff6134b96918533d448ad4b}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A distributed Bragg reflector (DBR) is a key building block in the formation of semiconductor microcavities and vertical cavity surface emitting lasers (VCSELs). The success in epitaxial GaAs DBR mirrors paved the way for the ubiquitous deployment of III-V VCSELs in communication and mobile applications. However, a similar development of GaN-based blue VCSELs has been hindered by challenges in preparing DBRs that are mass producible. In this article, we provide a review of the history and current status of forming DBRs for GaN VCSELs. In general, the preparation of DBRs requires an optimization of epitaxy/fabrication processes, together with trading off parameters in optical, electrical, and thermal properties. The effort of epitaxial DBRs commenced in the 1990s and has evolved from using AlGaN, AlN, to using lattice-matched AlInN with GaN for DBRs. In parallel, dielectric DBRs have been studied since 2000 and have gone through a few design variations including epitaxial lateral overgrowth (ELO) and vertical external cavity surface emitting lasers (VECSEL). A recent trend is the use of selective etching to incorporate airgap or nanoporous GaN as low-index media in an epitaxial GaN DBR structure. The nanoporous GaN DBR represents an offshoot from the traditional epitaxial approach and may provide the needed flexibility in forming manufacturable GaN VCSELs. The trade-offs and limitations of each approach are also presented.}
@@ -2260,8 +2134,8 @@
       \strng{authornamehash}{435ae27a7021e0fcb12a45997c27896b}
       \strng{authorfullhash}{a1377478785f129c91f6a020f4f3764c}
       \strng{authorfullhashraw}{a1377478785f129c91f6a020f4f3764c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Herein, the fabrication of hybrid InP/Si 1.55??m range photonic-crystal surface-emitting lasers (PCSELs) using micro-transfer printing is reported on. This fabrication technology is expected to have important advantages in manufacturing, performance, and silicon integration, but it relies on a fine-tuned process for selective etching, release, and subsequent printing of active InP membranes on top of a Si photonic-crystal layer. Herein, the appropriate wet etching chemistry and processing methodology for preserved layer and interface integrity are discussed and the technology by optically pumped PCSELs is demonstrated, showing continuous-wave operation at room temperature.}
@@ -2342,8 +2216,8 @@
       \strng{authornamehash}{e7e6b34cd9e896fc93c64f197adfa0bd}
       \strng{authorfullhash}{f683657daa9873e91e675d2a57e06619}
       \strng{authorfullhashraw}{f683657daa9873e91e675d2a57e06619}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The concept of quantum nanolaminates (QNL) postulates the decoupling of band gap and refractive index, which in regular dielectric materials is linked. We will show that the quantization effect can be observed in nanolaminate structures of the material combinations Ta\textsubscript{2}O\textsubscript{5}-SiO\textsubscript{2} and amorphous silicon-SiO\textsubscript{2}, which were deposited by magnetron sputter deposition. These nanolaminates were characterized by a variety of different methods, which confirmed the layer structure in the nanometer range and the shift of the absorption edge to shorter wavelength. Furthermore, the use of the QNL as the high refractive index material in optical interference coatings was successfully demonstrated in anti-reflection and long pass filter coatings.}
