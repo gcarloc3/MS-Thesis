@@ -147,8 +147,8 @@ where $\mathbf{E}$ is the electric field and $\mathbf{F}$ is the force experienc
 	\caption[Schematics of a magnetron sputtering system]{Schematics of a magnetron sputtering system (a) with cathode target (b). The plasma is confined by the magnetic field in a toroidal pattern\cite{songHandbookTerahertzTechnologies2015}.}\label{fig: magnetron_diagram}
 \end{figure}
 \section{Electromagnetic Waves in Dielectric Materials}\label{EM waves}
-The propagation of electromagnetic waves through dielectric materials can be described using the Fresnel equations, which can be derived from the boundary conditions that constrain the electric and magnetic field components arising as a direct result of Maxwell's equations. 
-Suppose incident light approaches a boundary between two dielectric materials with refractive indices $n_1$ and $n_2$ as shown in~\ref{fig: phase}. The first case shows s-polarized light, where the electric field is perpendicular to the plane of incidence, while the second case shows p-polarized light, where the electric field is parallel to the plane of incidence. The incident and reflected angles are equal$\theta_i = \theta_r$, and the transmitted angle is given by Snell's law $n_1\sin \theta_i = n_2 \sin \theta_t$. The boundary conditions require that the components of the electric and magnetic fields be continuous, thus for s-polarized light, the electric fields are given by $E_i + E_r = E_t$ or $1 + r = t$, where $r$ and $t$ are the reflected and transmitted amplitudes and the incident amplitude is normalized to $1$. The y-component of the magnetic field is given by $H_i \cos \theta_i - H_r \cos \theta_r = H_t \cos \theta_t$, which can be rewritten as $n_1 \cos \theta_i (1 - r) = n_2 \cos \theta_t t$ using the relation $H = n E / c$. Solving for $r$ gives 
+The propagation of electromagnetic waves through dielectric materials can be described using the Fresnel equations, which can be derived from the boundary conditions that constrain the electric and magnetic field components arising as a direct result of Max\-well's equations. 
+Suppose incident light approaches a boundary between two dielectric materials with refractive indices $n_1$ and $n_2$ as shown in~\ref{fig: phase}. The first case shows s-polarized light, where the electric field is perpendicular to the plane of incidence, while the second case shows p-polarized light, where the electric field is parallel to the plane of incidence. The incident and reflected angles are equal $\theta_i = \theta_r$, and the transmitted angle is given by Snell's law $n_1\sin \theta_i = n_2 \sin \theta_t$. The boundary conditions require that the components of the electric and magnetic fields be continuous, thus for s-polarized light, the electric fields are given by $E_i + E_r = E_t$ or $1 + r = t$, where $r$ and $t$ are the reflected and transmitted amplitudes and the incident amplitude is normalized to $1$. The y-component of the magnetic field is given by $H_i \cos \theta_i - H_r \cos \theta_r = H_t \cos \theta_t$, which can be rewritten as $n_1 \cos \theta_i (1 - r) = n_2 \cos \theta_t t$ using the relation $H = n E / c$. Solving for $r$ gives 
 \begin{equation} \label{eqn: reflection_s-polarized}
 		r_s = \frac{n_1 \cos \theta_i - n_2 \cos \theta_t}{n_1 \cos \theta_i + n_2 \cos \theta_t}
 \end{equation}
@@ -164,3 +164,31 @@ while solving for $t$ gives
 \begin{equation} \label{eqn: transmission_p-polarized}
 		t_p = \frac{2 n_1 \cos \theta_i}{n_2 \cos \theta_i + n_1 \cos \theta_t}.
 \end{equation}
+\section{Transfer Matrix Method}\label{TMM}
+At the boundary between two dielectric materials, the electric field amplitudes of the incident, reflected, and transmitted waves can be related using a transfer matrix. In the schematic shown in~\ref{fig: phase}, a wave with amplitude $E_1^+$ is moving to the right, and another wave with amplitude $E_1^-$ is moving to the left. For the other side of the boundary, the amplitudes are $E_2^+$ and $E_2^-$. The fields can be characterized using two $2 \times 1$ matrices, one for each side of the boundary, and a $2 \times 2$ matrix as shown:
+\begin{equation} \label{eqn: initial_matrix}
+	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} D_{12} & D_{21} \\ D_{12} & D_{21} \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
+\end{equation}
+The values of the matrix elements $D_{ij}$ can be obtained from inspecting~\ref{fig: phase} . The subscripts $i$ and $j$ refer to the direction of the wave propagation, with $t_{12}$ signifying transmission from medium $1$ to medium $2$, and $r_{12}$ signifying reflection from medium $1$ to medium $2$. The fields are thus given by
+\begin{equation} \label{eqn: initial_matrix_element_1}
+	E_2^+ = t_{12} E_1^+ + r_{21} E_2^-
+\end{equation}
+\begin{equation} \label{eqn: initial_matrix_element_2}
+	E_1^- = r_{12} E_1^+ + t_{21} E_2^-
+\end{equation}
+which can be rearranged to
+\begin{equation} \label{eqn: rearranged_matrix_elements_1}
+	E_1^+ = \frac{E_2^+ - {r_{21}} E_2^-}{t_{12}}
+\end{equation}
+\begin{equation} \label{eqn: rearranged_matrix_elements_2}
+	E_1^- = \frac{r_{12}}{t_{12}} \left( {E_2^+ - r_{21} E_2^-} \right) + t_{21}  E_2^-
+\end{equation}
+Considering that the reflection coefficient is $r = \left( n_1 - n_2 \right) / \left( n_1 + n_2 \right)$ then $r_{12} = - r_{21}$. For the transmission coefficient $t = 2 n_1 / \left( n_1 + n_2 \right)$, and $t_{12} = n_2 t_{21} / n_1$. Substituting these relations into~\ref{eqn: rearranged_matrix_elements_1} and~\ref{eqn: rearranged_matrix_elements_2} with the assumption that $R + T = 1$ yields the matrix equation for the interface $\mathbf{D}$ 
+\begin{equation} \label{eqn: interface_matrix}
+	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \frac{1}{t_{12}} \begin{bmatrix} 1 & r_{12} \\ r_{12} & 1 \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
+\end{equation}
+The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: phase}, where a boundary with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0^+ e^{-j k z}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
+\begin{equation} \label{eqn: propagation_matrix}
+	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} e^{j k d \cos \theta} & 0 \\ 0 & e^{-j k d \cos \theta } \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
+\end{equation}
+where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost layer, the fields are described by the interface matrix $\mathbf{E}_{3L} = \mathbf{D}_{23}\mathbf{D}_{23}$, 
