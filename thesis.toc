@@ -1,6 +1,6 @@
-\contentsline {chapter}{List of Tables}{iii}{section*.3}%
-\contentsline {chapter}{List of Figures}{iv}{section*.5}%
-\contentsline {chapter}{List of Acronyms}{v}{section*.7}%
+\contentsline {chapter}{List of Tables}{iv}{section*.3}%
+\contentsline {chapter}{List of Figures}{v}{section*.5}%
+\contentsline {chapter}{List of Acronyms}{vi}{section*.7}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Significance of the study}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objectives of the study}{2}{section.1.2}%
@@ -10,8 +10,9 @@
 \contentsline {section}{\numberline {2.2}Low temperature grown InGaAs}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Distributed Bragg Reflector}{9}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Electromagnetic Waves in Dielectric Materials}{14}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Methodology}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Growth of a-Si/SiO$_{2}$ DBR via reactive RF magnetron sputtering}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Transfer of InGaAs photoconductive layer to a-Si/SiO$_{2}$ DBR}{15}{section.3.2}%
-\contentsline {section}{\numberline {3.3}THz TDS of InGaAs on a-Si/SiO$_{2}$ DBR}{16}{section.3.3}%
-\contentsline {chapter}{References}{17}{section*.19}%
+\contentsline {section}{\numberline {2.5}Transfer Matrix Method}{15}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Methodology}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Growth of a-Si/SiO$_{2}$ DBR via reactive RF magnetron sputtering}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Transfer of InGaAs photoconductive layer to a-Si/SiO$_{2}$ DBR}{17}{section.3.2}%
+\contentsline {section}{\numberline {3.3}THz TDS of InGaAs on a-Si/SiO$_{2}$ DBR}{18}{section.3.3}%
+\contentsline {chapter}{References}{19}{section*.19}%

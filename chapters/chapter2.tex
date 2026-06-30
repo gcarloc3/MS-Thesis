@@ -187,7 +187,7 @@ Considering that the reflection coefficient is $r = \left( n_1 - n_2 \right) / \
 \begin{equation} \label{eqn: interface_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \frac{1}{t_{12}} \begin{bmatrix} 1 & r_{12} \\ r_{12} & 1 \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}
-The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: phase}, where a boundary with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0^+ e^{-j k z}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
+The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: phase}, where a boundary with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0 e^{-j\left( k_y y + k_z z - \omega t \right)}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
 \begin{equation} \label{eqn: propagation_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} e^{j k d \cos \theta} & 0 \\ 0 & e^{-j k d \cos \theta } \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}

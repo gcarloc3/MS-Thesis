@@ -312,9 +312,9 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT ./thesis.toc
 INPUT ./thesis.toc
 INPUT thesis.toc
-OUTPUT thesis.toc
 INPUT c:/texlive/2025/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
+OUTPUT thesis.toc
 INPUT ./thesis.lot
 INPUT ./thesis.lot
 INPUT thesis.lot
