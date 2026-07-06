@@ -232,4 +232,49 @@ firstplural={TDSs},%
 text={TDS},%
 plural={TDSs},%
 description={time domain spectroscopy},%
-desc
+descriptionplural={time domain spectroscopy},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={time domain spectroscopy},%
+longplural={time domain spectroscopys},%
+short={TDS},%
+shortplural={TDSs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{ARC}%
+{%
+name={\acronymfont {\glsentryshort {ARC}}},%
+sort={ARC},%
+type={acronym},%
+first={ARC},%
+firstplural={ARCs},%
+text={ARC},%
+plural={ARCs},%
+description={anti-reflection coating},%
+descriptionplural={anti-reflection coating},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={anti-reflection coating},%
+longplural={anti-reflection coatings},%
+short={ARC},%
+shortplural={ARCs},%
+counter={page},%
+parent={},%
+%
+}%
+

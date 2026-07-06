@@ -175,7 +175,7 @@ At the boundary between two dielectric materials, the electric field amplitudes 
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} D_{12} & D_{21} \\ D_{12} & D_{21} \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}
 
-The values of the matrix elements $D_{ij}$ can be obtained from inspecting~\ref{fig: propagation}a . The subscripts $i$ and $j$ refer to the direction of the wave propagation, with $t_{12}$ signifying transmission from medium $1$ to medium $2$, and $r_{12}$ signifying reflection from medium $1$ to medium $2$. The fields are thus given by
+The values of the matrix elements $D_{ij}$ can be obtained from inspecting~\ref{fig: propagation}a. The subscripts $i$ and $j$ refer to the direction of the wave propagation, with $t_{12}$ signifying transmission from medium $1$ to medium $2$, and $r_{12}$ signifying reflection from medium $1$ to medium $2$. The fields are thus given by
 \begin{equation} \label{eqn: initial_matrix_element_1}
 	E_2^+ = t_{12} E_1^+ + r_{21} E_2^-
 \end{equation}
@@ -187,13 +187,13 @@ which can be rearranged to
 	E_1^+ = \frac{E_2^+ - {r_{21}} E_2^-}{t_{12}}
 \end{equation}
 \begin{equation} \label{eqn: rearranged_matrix_elements_2}
-	E_1^- = \frac{r_{12}}{t_{12}} \left( {E_2^+ - r_{21} E_2^-} \right) + t_{21}  E_2^-
+	E_1^- = \frac{r_{12}}{t_{12}} \left( {E_2^+ - r_{21} E_2^-} \right) + t_{21}  E_2^-.
 \end{equation}
 Considering that the reflection coefficient is $r = \left( n_1 - n_2 \right) / \left( n_1 + n_2 \right)$ then $r_{12} = - r_{21}$. For the transmission coefficient $t = 2 n_1 / \left( n_1 + n_2 \right)$, and $t_{12} = n_2 t_{21} / n_1$. Substituting these relations into~\ref{eqn: rearranged_matrix_elements_1} and~\ref{eqn: rearranged_matrix_elements_2} with the assumption that $R + T = 1$ yields the matrix equation for the interface $\mathbf{D}$ 
 \begin{equation} \label{eqn: interface_matrix}
-	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \frac{1}{t_{12}} \begin{bmatrix} 1 & r_{12} \\ r_{12} & 1 \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
+	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \frac{1}{t_{12}} \begin{bmatrix} 1 & r_{12} \\ r_{12} & 1 \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}.
 \end{equation}
-The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: phase}b, where a boundary with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0 e^{-j\left( k_y y + k_z z - \omega t \right)}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
+The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: propagation}b, where a layer with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0 e^{-j\left( k_y y + k_z z - \omega t \right)}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
 \begin{equation} \label{eqn: propagation_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} e^{j k d \cos \theta} & 0 \\ 0 & e^{-j k d \cos \theta } \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}
@@ -201,9 +201,9 @@ The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive 
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/propagation.png}
 	\caption[Propagation through different media]{Propagation of waves at an interface 
-	$\left(a\right)$, through a layer with refractive index $n$ and thickness $d$ $\left(b\right)$, and through a multilayer system $\left(c\right)$}\label{fig: propagation}
+	(a), through a layer with refractive index $n$ and thickness $d$ (b), and through a multilayer system (c).}\label{fig: propagation}
 \end{figure}
-where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost boundary as shown in~\ref{fig: phase}, the fields on both sides are related using the interface matrix by $\mathbf{E}_{3R} = \mathbf{D}_{34}\mathbf{E}_{4}$, where $3R$ is the field at the right side of layer $3$. The fields at the left side of layer $3$ are related to the right side by the propagation matrix $\mathbf{E}_{3L} = \mathbf{P}_3\mathbf{E}_{3R}$, which in turn can be related using another interface matrix to the field across the relevant boundary. Extending this to a system of $4$ layers results in the following matrix equation relating the fields at the leftmost region to the rightmost region:
+where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost boundary as shown in~\ref{fig: propagation}c, the fields on both sides are related using the interface matrix by $\mathbf{E}_{3R} = \mathbf{D}_{34}\mathbf{E}_{4}$, where $3R$ is the field at the right side of layer $3$. The fields at the left side of layer $3$ are related to the right side by the propagation matrix $\mathbf{E}_{3L} = \mathbf{P}_3\mathbf{E}_{3R}$, which in turn can be related using another interface matrix to the field across the relevant boundary. This results in the following matrix equation relating the fields at the leftmost region to the rightmost region:
 \begin{equation} \label{eqn: total_matrix}
 	\mathbf{M}=\mathbf{D}_{12}\mathbf{P}_2\mathbf{D}_{23}\mathbf{P}_3\mathbf{D}_{34}
 \end{equation}

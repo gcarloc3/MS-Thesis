@@ -1131,4 +1131,181 @@ Package pdftex.def Info: figures/phase.png  used on input line 80.
 
 [7 <./figures/MBE_growth.png>]
 
-[8 <./figures/bandgap.png
+[8 <./figures/bandgap.png> <./figures/band_struc.png>]
+<figures/absorb.jpg, id=322, 189.6686pt x 177.6236pt>
+File: figures/absorb.jpg Graphic file (type jpg)
+<use figures/absorb.jpg>
+Package pdftex.def Info: figures/absorb.jpg  used on input line 88.
+(pdftex.def)             Requested size: 270.93883pt x 253.74774pt.
+
+
+[9 <./figures/phase.png>]
+
+[10 <./figures/absorb.jpg>]
+<figures/dbr.png, id=347, 828.09375pt x 232.61906pt>
+File: figures/dbr.png Graphic file (type png)
+<use figures/dbr.png>
+Package pdftex.def Info: figures/dbr.png  used on input line 122.
+(pdftex.def)             Requested size: 395.98996pt x 111.24059pt.
+<figures/transmission.png, id=354, 724.95844pt x 448.67625pt>
+File: figures/transmission.png Graphic file (type png)
+<use figures/transmission.png>
+Package pdftex.def Info: figures/transmission.png  used on input line 130.
+(pdftex.def)             Requested size: 333.46758pt x 206.38673pt.
+
+
+[11 <./figures/dbr.png>]
+
+[12 <./figures/transmission.png>]
+<figures/magnetron.png, id=391, 437.9562pt x 205.2468pt>
+File: figures/magnetron.png Graphic file (type png)
+<use figures/magnetron.png>
+Package pdftex.def Info: figures/magnetron.png  used on input line 146.
+(pdftex.def)             Requested size: 333.46758pt x 156.28355pt.
+
+
+[13 <./figures/magnetron.png>]
+<figures/polarization.png, id=403, 1048.91875pt x 335.2525pt>
+File: figures/polarization.png Graphic file (type png)
+<use figures/polarization.png>
+Package pdftex.def Info: figures/polarization.png  used on input line 169.
+(pdftex.def)             Requested size: 354.31049pt x 113.24258pt.
+
+
+[14]
+
+[15 <./figures/polarization.png>]
+<figures/propagation.png, id=425, 1315.91624pt x 409.53pt>
+File: figures/propagation.png Graphic file (type png)
+<use figures/propagation.png>
+Package pdftex.def Info: figures/propagation.png  used on input line 202.
+(pdftex.def)             Requested size: 354.31049pt x 110.26213pt.
+
+
+[16 <./figures/propagation.png>]) (./chapters/chapter3.tex
+
+[17]
+Chapter 3.
+)
+
+[18
+
+]
+
+[19]
+
+[20
+
+]
+
+[21]
+Overfull \hbox (9.36426pt too wide) in paragraph at lines 37--37
+[]\OT1/ptm/m/n/12 O. Sj[]odin, R. Ur-d-hwareshe, I. Koirala, A. Str[]omberg, and M. Ham-mar, ``Nanomem-
+ []
+
+
+
+[22]
+<thesis_appendix.pdf, id=466, 794.97pt x 614.295pt>
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf>
+Package pdftex.def Info: thesis_appendix.pdf  used on input line 39.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+<thesis_appendix.pdf, id=468, page=1, 794.97pt x 614.295pt>
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 1>
+Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 1>
+Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+
+
+[23]
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 1>
+Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 1>
+Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+
+
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 1>
+Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+[24
+
+ <./thesis_appendix.pdf>]
+<thesis_appendix.pdf, id=494, page=2, 794.97pt x 614.295pt>
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 2>
+Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 2>
+Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+
+
+File: thesis_appendix.pdf Graphic file (type pdf)
+<use thesis_appendix.pdf, page 2>
+Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 39.
+(pdftex.def)             Requested size: 598.22752pt x 462.26671pt.
+[25
+
+ <./thesis_appendix.pdf>] (./thesis.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+Package logreq Info: Writing requests to 'thesis.run.xml'.
+\openout1 = `thesis.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 32539 strings out of 473190
+ 658716 string characters out of 5719979
+ 1498587 words of memory out of 5000000
+ 55285 multiletter control sequences out of 15000+600000
+ 576694 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 93i,17n,104p,2471b,2441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{glo:RF} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:a-Si} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:ARC} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:DBR} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:MBE} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:LT} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:TDS} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:PCA} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:THz} has been referenced but does not exist, replaced by a fixed one
+
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on thesis.pdf (31 pages, 2276411 bytes).
+PDF statistics:
+ 649 PDF objects out of 1000 (max. 8388607)
+ 540 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 251 words of extra memory for PDF output out of 10000 (max. 10000000)
+
