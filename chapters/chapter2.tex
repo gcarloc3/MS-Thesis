@@ -164,7 +164,6 @@ while solving for $t$ gives
 \begin{equation} \label{eqn: transmission_p-polarized}
 		t_p = \frac{2 n_1 \cos \theta_i}{n_2 \cos \theta_i + n_1 \cos \theta_t}.
 \end{equation}
-
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/polarization.png}
@@ -203,4 +202,16 @@ The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive 
 	\includegraphics[width=0.85\textwidth]{figures/propagation.png}
 	\caption[Propagation through different media]{Diagram of polarized light at two interfaces. The left image shows the case for s-polarized light, with the electric field pointing into the page. For p-polarized light on the right the magnetic field points outside of the page.}\label{fig: propagation}
 \end{figure}
-where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost layer as shown in~\ref{fig: phase}, the fields are described by the interface matrix $\mathbf{E}_{3L} = \mathbf{D}_{23}\mathbf{D}_{23}$, 
+where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost boundary as shown in~\ref{fig: phase}, the fields on both sides are related using the interface matrix by $\mathbf{E}_{3R} = \mathbf{D}_{34}\mathbf{E}_{4}$, where $3R$ is the field at the right side of layer $3$. The fields at the left side of layer $3$ are related to the right side by the propagation matrix $\mathbf{E}_{3L} = \mathbf{P}_3\mathbf{E}_{3R}$, which in turn can be related using another interface matrix to the field across the relevant boundary. Extending this to a system of $4$ layers results in the following matrix equation relating the fields at the leftmost region to the rightmost region:
+\begin{equation} \label{eqn: total_matrix}
+	\mathbf{M}=\mathbf{D}_{12}\mathbf{P}_2\mathbf{D}_{23}\mathbf{P}_3\mathbf{D}_{34}
+\end{equation}
+such that 
+\begin{equation} \label{eqn: transfer_matrix_fields}
+	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \mathbf{M} \begin{bmatrix} E_4^+ \\ E_4^- \end{bmatrix}= \begin{bmatrix}  M_{11} & M_{12} \\ M_{21} & M_{22} \end{bmatrix} \begin{bmatrix} E_4^+ \\ E_4^- \end{bmatrix}.
+\end{equation}
+This method allows the analysis of any multilayer system using matrix multiplication of the component interface $\mathbf{D}$ and propagation $\mathbf{P}$ matrices. The reflection coefficient $r$ for a multilayer structure is simply
+\begin{equation} \label{eqn: multilayer_reflection_coefficient}
+	r = \frac{M_{21}}{M_{11}}
+\end{equation}
+since $t = 1 / M_{11}$ and $r = M_{21} / M_{11}$.
