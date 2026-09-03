@@ -1,15 +1,31 @@
-
 \chapter{Results and Discussion}
 
 \section{Thicknesses and refractive indices of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_growth}
-Figures \ref{fig: absorb} and \ref{fig: antenna} show the XRR and WLI measurements of various a-Si films grown on glass substrates with varying thicknesses according to the quartz crystal microbalance (QCM) readings. The measured thicknesses of the a-Si film based on XRR and WLI are summarized in Table
+Figures~\ref{fig: thz_substance} and~\ref{fig: thz_subs} show the XRR measurements of various a-Si films grown on glass substrates with varying thicknesses according to the quartz crystal microbalance (QCM) readings. The measured thicknesses of the a-Si film based on XRR are summarized in Table~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in Table~\ref{tab: thickness_SiO2}. Linear regression of the measured thicknesses versus the QCM readings for a-Si as shown in Figure~\ref{fig: thz_subs} yields the equation $y = 167.82x + 2.749$ with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in nanometers and $x$ is the QCM reading in kiloangstroms. Similarly, linear regression of the measured XRR thickness and the QCM values for SiO$_2$ as shown in Figure~\ref{fig: thz_subs} yields the equation $y = 199.49x - 5.4845$ with $R^2 = 0.9937$. 
 
-\begin{table}[]
+\begin{table}[]\label{tab: thickness_a-Si}
 \begin{tabular}{rrrll}
 \multicolumn{1}{l}{QCM} & \multicolumn{1}{l}{XRR} & \multicolumn{1}{l}{WLI} &  &  \\
-0.8 kA                  & 15 nm                   & -                       &  &  \\
-1.6 kA                  & 30 nm                   & -                       &  &  \\
-2.5 kA                  & -                       & 200 nm                  &  & 
+0.8 kA                  & 15 nm                   & *                       &  &  \\
+1.6 kA                  & 30 nm                   & *                       &  &  \\
+2.5 kA                  & *                       & 200 nm                  &  & 
 \end{tabular}
 \end{table}
+
+\begin{table}[]\label{tab: thickness_SiO2}
+\begin{tabular}{rrrll}
+\multicolumn{1}{l}{QCM} & \multicolumn{1}{l}{XRR} & \multicolumn{1}{l}{WLI} &  &  \\
+0.8 kA                  & 15 nm                   & *                       &  &  \\
+1.6 kA                  & 30 nm                   & *                       &  &  \\
+2.5 kA                  & *                       & 200 nm                  &  & 
+\end{tabular}
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/thz_subs.png}
+	\caption[THz spectra of substances]{THz identification of MDMA, methamphetamine, and aspirin through a paper envelope. The substances are differentiated using their THz spectra}\label{fig: thz_subs}
+\end{figure}
+
+The results of the regression analysis indicate that the QCM readings during deposition scale linearly with the actual thicknesses of the films as measured by XRR. The high $R^2$ values suggest that the QCM is a reliable tool for monitoring film thickness during deposition, and the linear relationships can be used to calibrate the QCM readings for future depositions. The lower $R^2$ value in the SiO$_2$ regression is attributed to the variation in the deposition rate during the growth of the SiO$_2$ films, which is caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials. Figures~\ref{fig: thz_subs} and~\ref{fig: thz_subs} show the source materials inside the crucibles for electron beam evaporation, with the a-Si source material being a uniform melt and the SiO$_2$ source material showing localized heating and uneven melting.
 
