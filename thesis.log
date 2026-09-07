@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  7 SEP 2026 02:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.29)  7 SEP 2026 23:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1224,13 +1224,8 @@ Chapter 4.
 ]
 File: figures/thz_subs.png Graphic file (type png)
 <use figures/thz_subs.png>
-Package pdftex.def Info: figures/thz_subs.png  used on input line 40.
+Package pdftex.def Info: figures/thz_subs.png  used on input line 48.
 (pdftex.def)             Requested size: 354.31049pt x 131.77089pt.
-
-Overfull \hbox (72.84163pt too wide) in paragraph at lines 45--46
-\OT1/cmr/m/n/12 36569328000\OML/cmm/m/it/12 e[]$ \OT1/ptm/m/n/12 for the max-ima with $\OML/cmm/m/it/12 R[] \OT1/cmr/m/n/12 = 0\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 9993$ \OT1/ptm/m/n/12 and $\OML/cmm/m/it/12 y \OT1/cmr/m/n/12 = 47\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 724 \OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 26240\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8545\OML/cmm/m/it/12 e[] \OT1/cmr/m/n/12 +
- []
-
 
 
 [21])
@@ -1249,12 +1244,12 @@ Overfull \hbox (9.36426pt too wide) in paragraph at lines 39--39
 
 
 [25]
-<thesis_appendix.pdf, id=514, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=519, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf>
 Package pdftex.def Info: thesis_appendix.pdf  used on input line 41.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<thesis_appendix.pdf, id=516, page=1, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=521, page=1, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 41.
@@ -1283,7 +1278,7 @@ Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 41.
 [27
 
  <./thesis_appendix.pdf>]
-<thesis_appendix.pdf, id=542, page=2, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=547, page=2, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 2>
 Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 41.
@@ -1310,10 +1305,10 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32646 strings out of 473190
- 660519 string characters out of 5719979
- 1498831 words of memory out of 5000000
- 55373 multiletter control sequences out of 15000+600000
+ 32656 strings out of 473190
+ 660675 string characters out of 5719979
+ 1499209 words of memory out of 5000000
+ 55378 multiletter control sequences out of 15000+600000
  576694 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,17n,104p,2471b,2483s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1345,10 +1340,10 @@ pdfTeX warning (dest): name{glo:PCA} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:THz} has been referenced but does not exist, replaced by a fixed one
 
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (34 pages, 2286547 bytes).
+Output written on thesis.pdf (34 pages, 2287104 bytes).
 PDF statistics:
- 713 PDF objects out of 1000 (max. 8388607)
- 600 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
+ 720 PDF objects out of 1000 (max. 8388607)
+ 606 compressed objects within 7 object streams
+ 158 named destinations out of 1000 (max. 500000)
  291 words of extra memory for PDF output out of 10000 (max. 10000000)
 

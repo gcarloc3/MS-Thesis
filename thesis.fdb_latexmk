@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber thesis"] 0 "thesis.bcf" "thesis.bbl" "thesis" 1788719876.26322 -1
+["biber thesis"] 0 "thesis.bcf" "thesis.bbl" "thesis" 1788796730.58544 -1
   "references.bib" 1782314885 163133 ec563b66f47184115c0a6749d9e559a3 ""
-  "thesis.bcf" 1788719875 114279 4beb540ede37348f899c85b6261bd538 "pdflatex"
+  "thesis.bcf" 1788796729 114279 4beb540ede37348f899c85b6261bd538 "pdflatex"
   (generated)
   "thesis.bbl"
   "thesis.blg"
   (rewritten before read)
-["pdflatex"] 1788719862.04925 "g:/My Drive/MS thesis/MS-Thesis/thesis.tex" "thesis.pdf" "thesis" 1788719876.28121 0
+["pdflatex"] 1788796716.23873 "g:/My Drive/MS thesis/MS-Thesis/thesis.tex" "thesis.pdf" "thesis" 1788796730.60136 0
   "abbrevs.tex" 1782752005 462 2032be1a87f0fd78b757174a6e7e0c9e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1743174020 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1743176268 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -176,7 +176,7 @@
   "chapters/chapter1.tex" 1782314885 4230 e27fb5cbc06b41ddefd3acd72a5a4769 ""
   "chapters/chapter2.tex" 1788452432 28841 834f576c175c8ebff59b9a837ab5b68b ""
   "chapters/chapter3.tex" 1788454421 3649 2984f3886bbc6a86ed94ca3dc580be31 ""
-  "chapters/chapter4.tex" 1788719845 4546 6bdfbe65be0c77af1db20308406b0f46 ""
+  "chapters/chapter4.tex" 1788796714 5045 3cc0ed0a8d70a0af25e8b1c77394c0fb ""
   "figures/MBE_growth.png" 1782314885 45232 15f37239c66a17d9b8eb55a2073d5743 ""
   "figures/absorb.jpg" 1782314885 208400 dbbe038847fbc02a14ae1b9928bd9265 ""
   "figures/antenna.jpg" 1782314885 185850 724ce5cab59b58b687795f206d57dbcf ""
@@ -190,17 +190,17 @@
   "figures/thz_subs.png" 1782314885 131880 94e0a58d8ef28eb5f021b7c29ab4a7fb ""
   "figures/thz_tds.png" 1782314885 92443 1164dc347f7eff23316a8dc0f2f31147 ""
   "figures/transmission.png" 1782314885 217080 f3afcf48592dc97245498745720c17cd ""
-  "g:/My Drive/MS thesis/MS-Thesis/thesis.tex" 1788719586 1098 49b5daebf406164ce31ab22d4e93e024 ""
+  "g:/My Drive/MS thesis/MS-Thesis/thesis.tex" 1788719888 1098 49b5daebf406164ce31ab22d4e93e024 ""
   "gatechthesis.cls" 1782314885 13585 74a74b9ba979d0b53c710503a1d0844f ""
   "thesis.acr" 0 -1 0 ""
-  "thesis.aux" 1788719875 33741 a96a11563c94b5c7b9339b35271761e5 "pdflatex"
+  "thesis.aux" 1788796729 34295 fe9b1d1b895b2c88a9ba6d854992803d "pdflatex"
   "thesis.bbl" 1788454104 128875 e646a4e80cbcb821caa4a45cf2e57522 "biber thesis"
-  "thesis.glsdefs" 1788719875 4902 a48731e20e9632ea5bad72beacbbf397 "pdflatex"
-  "thesis.lof" 1788719875 1772 03bbf0834ffff496d46487e4f3dde9a7 "pdflatex"
-  "thesis.lot" 1788719875 268 e4be051c65600107e1d079343344a442 "pdflatex"
-  "thesis.run.xml" 1788719875 2416 29b89d4eb8b2563ecd6aea6022600366 "pdflatex"
-  "thesis.tex" 1788719586 1098 49b5daebf406164ce31ab22d4e93e024 ""
-  "thesis.toc" 1788719875 2020 f2f5a063accb49b39a29ab62e60618c0 "pdflatex"
+  "thesis.glsdefs" 1788796729 4902 a48731e20e9632ea5bad72beacbbf397 "pdflatex"
+  "thesis.lof" 1788796729 1772 0ff042fc450403cd545d296a2dccc5f1 "pdflatex"
+  "thesis.lot" 1788796729 268 85eaf0adaf5923f7c49d99fd04d69d56 "pdflatex"
+  "thesis.run.xml" 1788796729 2416 29b89d4eb8b2563ecd6aea6022600366 "pdflatex"
+  "thesis.tex" 1788719888 1098 49b5daebf406164ce31ab22d4e93e024 ""
+  "thesis.toc" 1788796729 2020 f2f5a063accb49b39a29ab62e60618c0 "pdflatex"
   "thesis_appendix.pdf" 1782314886 73512 630aceebcc4135b0ac39bad3d9427091 ""
   "uplogo.png" 1782314886 321819 40f0384e325a47c2dc14fcda0e0cb0d6 ""
   (generated)

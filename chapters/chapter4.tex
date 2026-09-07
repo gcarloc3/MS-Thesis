@@ -1,6 +1,14 @@
 \chapter{Results and Discussion}
 \section{Thicknesses and densities of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_thicknesses}
-~\ref{fig: thz_substance} and~\ref{fig: thz_subs} show the XRR measurements of various a-Si films grown on glass substrates with varying thicknesses according to the quartz crystal microbalance (QCM) readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can still detect the reflected x-rays generally ranges from \ang{0.3} to \ang{1.5}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\meter} for a-Si and \qty{1.369}{\kilo\meter} for SiO$_2$. Linear regression of the measured thicknesses versus the QCM readings for a-Si as shown in~\ref{fig: thz_subs} yields the equation $y = 167.82x + 2.749$ with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the QCM reading in \unit{\kilo\meter}. Similarly, linear regression of the measured XRR thickness and the QCM values for SiO$_2$ as shown in~\ref{fig: thz_subs} yields the equation $y = 199.49x - 5.4845$ with $R^2 = 0.9937$. 
+~\ref{fig: thz_substance} and~\ref{fig: thz_subs} show the XRR measurements of various a-Si films grown on glass substrates with varying thicknesses according to the quartz crystal microbalance (QCM) readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can still detect the reflected x-rays generally ranges from \ang{0.3} to \ang{1.5}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\meter} for a-Si and \qty{1.369}{\kilo\meter} for SiO$_2$. Linear regression of the measured thicknesses versus the QCM readings for a-Si as shown in~\ref{fig: thz_subs} yields the equation
+\begin{equation} \label{eqn:aSi_thickness} 
+    y = 167.82x + 2.749
+\end{equation}
+with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the QCM reading in \unit{\kilo\meter}. Similarly, linear regression of the measured XRR thickness and the QCM values for SiO$_2$ as shown in~\ref{fig: thz_subs} yields the equation
+\begin{equation} \label{eqn:SiO2_thickness} 
+    y = 199.49x - 5.4845
+\end{equation}
+with $R^2 = 0.9937$. 
 
 \begin{table}[tbp]
 \centering
@@ -42,7 +50,19 @@ The initial comparison of the QCM readings and the measured thicknesses during X
 \end{figure}
 
 \section{Refractive index of a-Si thin films}\label{sec: results_index_Si}
-\ref{fig: thz_subs} shows the UV-Vis transmittance spectra of a\qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the Swanepoel method. The equations of the exponential function fitted to the extrema points listed in \ref{tab: thickness_SiO2} are $y = 78.883769-36568844000e^{-x/78.107899}+36569328000e^{-x/78.107726}$ for the maxima with $R^2 = 0.9993$ and $y = 47.724-26240.8545e^{-x/95.06845}+3853071.68e^{-x/47.41479}$ for the minima with $R^2 = 1$. The refractive index of the a-Si thin film ranges from $3.065$ to $3.089$ in the wavelength range of \qty{1002}{\nano\meter} to \qty{709}{\nano\meter}. The average thickness of the a-Si thin film according to the Swanepoel method is \qty{640}{\nano\meter}.
+\ref{fig: thz_subs} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the Swanepoel method. The equations of the exponential function envelopes fitted to the extrema points listed in \ref{tab: thickness_SiO2} are
+\begin{equation} \label{eqn:aSi_upper_env} 
+    y = 80.612419+1200883000e^{-x/89.819343}-1200749000e^{-x/89.821415}
+\end{equation}
+for the maxima with $R^2 = 0.9969$ and 
+\begin{equation} \label{eqn:aSi_lower_env} 
+    y = 45.9178758+31602801200e^{-x/64.3969697}-31601554900e^{-x/64.3973202}
+\end{equation}
+for the minima with $R^2 = 1$. The equation for the refractive index of the a-Si thin film according to Sellmeier's equation from the data points of the refractive indices obtained from Swanepoel's method is
+\begin{equation} \label{eqn:aSi_sellmeier} 
+    n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}
+\end{equation}
+. The average thickness of the a-Si thin film according to the Swanepoel method is \qty{653}{\nano\meter}.
 
 
 
