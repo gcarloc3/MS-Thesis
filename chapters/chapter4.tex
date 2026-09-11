@@ -60,10 +60,22 @@ for the maxima with $R^2 = 0.9969$ and
 \end{equation}
 for the minima with $R^2 = 1$. The equation for the refractive index of the a-Si thin film according to Sellmeier's equation from the data points of the refractive indices obtained from Swanepoel's method is
 \begin{equation} \label{eqn:aSi_sellmeier} 
-    n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}
+    n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}.
 \end{equation}
-. The average thickness of the a-Si thin film according to the Swanepoel method is \qty{653}{\nano\meter}.
+The average thickness of the a-Si thin film according to the Swanepoel method is \qty{653}{\nano\meter}.
 
-
+The refractive index of the a-Si thin film is comparable to the literature values obtained by Swanepoel and other researchers, with values ranging from $3.0$ to $3.5$ in the infrared range. However, the Sellmeier equation obtained from the data points starts to deviate from the literature values at the wavelengths below \qty{700}{\nano\meter}, which is attributed to the number of data points from Swanepoel's method used to fit the Sellmeier equation. A larger number of data points would likely yield a more accurate Sellmeier equatiion that better fits the literature values across the entire wavelength range\cite{yuMedicalApplicationTerahertz2019}. The a-Si thin film refractive index is much lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.0$ across the relevant wavelengths. This might be due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon.
 
 \section{Refractive index of SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_index_SiO2}
+\ref{fig: thz_subs} shows the raw reflectance spectra of a \qty{600}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate, and \ref{fig: thz_subs} shows the reflectance spectra after deconvolution using a mirror. The extrema points used for the calculation of the refractive index of the film using \ref{eqn: Lorentz} are listed in \ref{tab: thickness_SiO2} together with the corresponding refractive indices and the new wavelengths. \ref{fig: thz_subs} shows the graph of the refractive index after fitting the data points to Sellmeier's equation, which is 
+\begin{equation} \label{eqn:SiO2_sellmeier} 
+    n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}.
+\end{equation}
+with $R^2 = 0.998$. 
+
+The refractive index of the SiO$_2$ thin film is comparable to the literature values obtained from Gao and Marcos, as shown in \ref{fig: phase} The slight increase in refractive index could be attributed to the lack of reactive gas during the deposition process, which can affect the stoichiometry of the SiO$_2$ thin film, leading to a higher refractive index closer to that of Si. The lower density of the SiO$_2$ thin film compared to bulk SiO$_2$ as measured by XRR also corroborates this hypothesis. 
+
+\section{Reflectance of a-Si/SiO\texorpdfstring{$_{2}$}{2} antireflective coatings}\label{sec:results_ARC_reflectance}
+\ref{fig: thz_subs} shows the reflectance spectra of a-Si/SiO$_2$ antireflective coatings with layer thicknesses of \qty{53}{\nano\meter}/\qty{14}{\nano\meter}/\qty{206}{\nano\meter}, \qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter}, and \qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter} for the SiO$_2$/a-Si/SiO$_2$ layers respectively. The reflectance spectra for the first ARC shows a minimum at \qty{660}{\nano\meter}, whereas the second ARC shows a minimum at \qty{710}{\nano\meter}. The simulations for the ARCs using the refractive indices obtained from the previous sections show that the reflectance minima for the first and second ARCs are at \qty{630}{\nano\meter} and \qty{670}{\nano\meter} respectively.
+
+The deviation of the measured reflectance minima from the simulated values can be attributed to the variation in refractive index of the a-Si and SiO$_2$ thin films.

@@ -19,5 +19,6 @@
 \contentsline {chapter}{\numberline {4}Results and Discussion}{20}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Thicknesses and densities of a-Si and SiO$_{2}$ thin films}{20}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{21}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{22}{section.4.3}%
-\contentsline {chapter}{References}{23}{section*.25}%
+\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{23}{section.4.4}%
+\contentsline {chapter}{References}{25}{section*.25}%
