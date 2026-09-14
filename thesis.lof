@@ -1,23 +1,33 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces THz spectra of substances}}{3}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces PCA geometries}}{4}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces THz TDS setup}}{5}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Epitaxial growth}}{7}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Defect states in low temperature GaAs}}{8}{figure.caption.12}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Bandgap versus lattice constant}}{8}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Phase diagram of InGaAs surface according to In concentration}}{9}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Absorption coefficients of PCA substrates}}{10}{figure.caption.15}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Distributed Bragg reflector structure}}{11}{figure.caption.16}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces DBR transmission}}{12}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Schematics of a magnetron sputtering system}}{13}{figure.caption.18}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Polarization at two interfaces}}{15}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Propagation through different media}}{16}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces THz spectra of substances}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces PCA geometries}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces THz TDS setup}}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Epitaxial growth}}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Defect states in low temperature GaAs}}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Bandgap versus lattice constant}}{9}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Phase diagram of InGaAs surface according to In concentration}}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Absorption coefficients of PCA substrates}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Distributed Bragg reflector structure}}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces DBR transmission}}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Schematics of a magnetron sputtering system}}{15}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Polarization at two interfaces}}{16}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Propagation through different media}}{18}{figure.caption.20}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of a magnetron sputtering system}}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of a magnetron sputtering system}}{21}{figure.caption.22}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces XRR measurements of a-Si thin films with varying QCM thicknessses}}{26}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.1}{\ignorespaces XRR measurements of a-Si thin films with varying QCM thicknessses, continued}}{27}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces XRR measurements of SiO$_2$ thin films with varying QCM thicknessses}}{28}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Linear regression of a-Si thicknesses}}{29}{figure.caption.26}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Linear regression of SiO$_2$ thicknesses}}{29}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces XRR measurements of a-Si thin films with varying QCM thicknessses}}{25}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces XRR measurements of a-Si thin films with varying QCM thicknessses, continued}}{26}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces XRR measurements of SiO$_2$ thin films with varying QCM thicknessses}}{27}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Linear regression of a-Si thicknesses}}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Linear regression of SiO$_2$ thicknesses}}{28}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Reflectance of SiO$_2$ thin film}}{29}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Reflectance of SiO$_2$ thin film}}{29}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Reflectance of SiO$_2$ thin film}}{29}{figure.caption.30}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Reflectance of SiO$_2$ thin film}}{30}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Swanepoel method for \qty {600}{\nano \meter } a-Si thin film}}{30}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Refractive index of a-Si thin film}}{32}{figure.caption.36}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Reflectance of SiO$_2$ thin film}}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Refractive index of SiO$_2$ thin film}}{34}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Reflectivity of various ARCs}}{36}{figure.caption.40}%
+\addvspace {10\p@ }

@@ -4,9 +4,19 @@
 % preamble
 \usepackage{pdfpages}
 \usepackage{booktabs}
-\usepackage{siunitx}  
+\usepackage{siunitx}
+\usepackage[section]{placeins}
+
+\makeatletter
+\AtBeginDocument{%
+  \expandafter\renewcommand\expandafter\subsection\expandafter{%
+    \expandafter\@fb@secFB\subsection
+  }%
+}
+\makeatother
+
 \DeclareSIUnit \angstrom {\text{\AA}} 
-\title{Investigation of a-Si/SiO$_2$ distributed Bragg reflectors with InGaAs terahertz emitters}
+\title{Investigation of a-Si/SiO$_2$ antireflective coatings for InGaAs terahertz emitters}
 \author{Gian Carlo B. Carrillo}
 %\vspace*{0.5cm} \\{Nunas Eluzai\\ Index No: 12-CC-1027}}
 	
@@ -36,7 +46,7 @@
     \input{chapters/chapter2}
     \input{chapters/chapter3}
     \input{chapters/chapter4}
-    % \input{chapters/chapter5.tex}
+    \input{chapters/chapter5.tex}
     \makeBibliography{}
     % \input{chapters/appendix.tex}
     \includepdf[pages=-]{thesis_appendix.pdf}

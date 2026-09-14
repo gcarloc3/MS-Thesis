@@ -146,7 +146,7 @@ where $\mathbf{E}$ is the electric field and $\mathbf{F}$ is the force experienc
 	\includegraphics[width=0.8\textwidth]{figures/magnetron.png}
 	\caption[Schematics of a magnetron sputtering system]{Schematics of a magnetron sputtering system (a) with cathode target (b). The plasma is confined by the magnetic field in a toroidal pattern\cite{songHandbookTerahertzTechnologies2015}.}\label{fig: magnetron_diagram}
 \end{figure}
-\section{Electromagnetic Waves in Dielectric Materials}\label{EM waves}
+\section{Electromagnetic Waves in Dielectric Materials}\label{sec: EM waves}
 The propagation of electromagnetic waves through dielectric materials can be described using the Fresnel equations, which can be derived from the boundary conditions that constrain the electric and magnetic field components arising as a direct result of Max\-well's equations. 
 Suppose incident light approaches a boundary between two dielectric materials with refractive indices $n_1$ and $n_2$ as shown in~\ref{fig: polarization}. The first case shows s-polarized light, where the electric field is perpendicular to the plane of incidence, while the second case shows p-polarized light, where the electric field is parallel to the plane of incidence. The incident and reflected angles are equal $\theta_i = \theta_r$, and the transmitted angle is given by Snell's law $n_1\sin \theta_i = n_2 \sin \theta_t$. The boundary conditions require that the components of the electric and magnetic fields be continuous, thus for s-polarized light, the electric fields are given by $E_i + E_r = E_t$ or $1 + r = t$, where $r$ and $t$ are the reflected and transmitted amplitudes and the incident amplitude is normalized to $1$. The y-component of the magnetic field is given by $H_i \cos \theta_i - H_r \cos \theta_r = H_t \cos \theta_t$, which can be rewritten as $n_1 \cos \theta_i (1 - r) = n_2 \cos \theta_t t$ using the relation $H = n E / c$. Solving for $r$ gives 
 \begin{equation} \label{eqn: reflection_s-polarized}
@@ -169,7 +169,7 @@ while solving for $t$ gives
 	\includegraphics[width=0.85\textwidth]{figures/polarization.png}
 	\caption[Polarization at two interfaces]{Diagram of polarized light at two interfaces. The left image shows the case for s-polarized light, with the electric field pointing into the page. For p-polarized light on the right the magnetic field points outside of the page.}\label{fig: polarization}
 \end{figure}
-\section{Transfer Matrix Method}\label{TMM}
+\section{Transfer Matrix Method}\label{sec: TMM}
 At the boundary between two dielectric materials, the electric field amplitudes of the incident, reflected, and transmitted waves can be related using a transfer matrix. In the schematic shown in~\ref{fig: propagation}a, a wave with amplitude $E_1^+$ is moving to the right, and another wave with amplitude $E_1^-$ is moving to the left. For the other side of the boundary, the amplitudes are $E_2^+$ and $E_2^-$. The fields can be characterized using two $2 \times 1$ matrices, one for each side of the boundary, and a $2 \times 2$ interface matrix $\mathbf{D}$ as shown:
 \begin{equation} \label{eqn: initial_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} D_{12} & D_{21} \\ D_{12} & D_{21} \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
@@ -216,4 +216,4 @@ This method allows the analysis of any multilayer system using matrix multiplica
 	r = \frac{M_{21}}{M_{11}}
 \end{equation}
 since $t = 1 / M_{11}$ and $r = M_{21} / M_{11}$.
-\section{Envelope method for refractive index}
+\section{Envelope method for refractive index}\label{sec: swanepoel}

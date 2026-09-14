@@ -103,7 +103,33 @@
 
 ~\ref{fig: a-Si_XRR}  and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si(100) substrates respectively with varying thicknesses according to the quartz crystal microbalance (QCM) readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
 
-Linear regression of the measured thicknesses versus the QCM readings for a-Si as shown in~\ref{fig: linear_fit_xrr_aSi} yields the equation
+\ref{fig: XRR_fit_21}, \ref{fig: XRR_fit_27}, \ref{fig: XRR_fit_103} and \ref{fig: XRR_fit_204} show the simulated curves using the XRR software for the \qty{21.20}{\nano\meter} and \qty{27.50}{\nano\meter} a-Si films on glass substrates and \qty{103.9}{\nano\meter} and \qty{204.7}{\nano\meter} SiO$_2$ films on Si respectively. The calculated surface roughness and densities are summarized in table ref5  
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_18_45_58.png}
+	\caption[Reflectance of SiO$_2$ thin film]{Deconvoluted reflectance spectra of \qty{990}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_21}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_21_27_21.png}
+	\caption[Reflectance of SiO$_2$ thin film]{Deconvoluted reflectance spectra of \qty{990}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_27}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_21_40_26.png}
+	\caption[Reflectance of SiO$_2$ thin film]{Deconvoluted reflectance spectra of \qty{990}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_103}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_22_50_23.png}
+	\caption[Reflectance of SiO$_2$ thin film]{Deconvoluted reflectance spectra of \qty{990}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_204}
+\end{figure}
+
+Linear regression of the measured thicknesses versus the QCM readings for a-Si as shown in~\ref{fig: linear_fit_xrr_aSi} yields the equation with $R^2 = 0.9941$:
 
 \begin{equation} \label{eqn:aSi_thickness} 
     y = 168.03x + 3.0403
@@ -114,10 +140,6 @@ with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\mete
 \begin{equation} \label{eqn:SiO2_thickness} 
     y = 198.52x - 4.5056
 \end{equation}
-
-with $R^2 = 0.9941$. 
-
-ref1, ref2, ref3 and ref4 show the simulated curves using the XRR software for the \qty{21.20}{\nano\meter} and \qty{27.50}{\nano\meter} a-Si films on glass substrates and \qty{103.9}{\nano\meter} and \qty{204.7}{\nano\meter} respectively. The estimated roughness and densities are summarized in table ref5  
 
 \begin{table}[tbp]
 \centering
@@ -133,7 +155,7 @@ QCM (\unit{\kilo\angstrom})   & Direct (\unit{\nano\meter})  & Fourier (\unit{\n
 1.520 & 259.840 & 259.20 \\
 \bottomrule   
 \end{tabular}
-\caption{a-Si thickness}\label{tab: thickness_a-Si}
+\caption{a-Si thicknesses measured using the quartz crystal microbalance, direct fringe calculation and Fourier method from the XRR spectra}\label{tab: thickness_a-Si}
 \end{table}
 
 \begin{table}[tbp]
@@ -148,41 +170,113 @@ QCM (\unit{\kilo\angstrom})   & Direct (\unit{\nano\meter})  & Fourier (\unit{\n
 1.369 & 272.3   & 270.1   \\
 \bottomrule
 \end{tabular}
-\caption{SiO$_2$ thickness}\label{tab: thickness_SiO2}
+\caption{SiO$_2$ thicknesses measured using the quartz crystal microbalance, direct fringe calculation and Fourier method from the XRR spectra}\label{tab: thickness_SiO2}
 \end{table}
 
-The initial comparison of the QCM readings and the measured thicknesses during XRR indicate that the QCM readings during deposition generally underestimate the actual thicknesses of the films. This is supported by the fitting results, which indicate that the densities of the films are much lower than the values used for the QCM input as shown in \ref{tab: QCM input}. However, the results of the regression analysis indicate that the QCM readings scale linearly with the actual thicknesses of the films as measured by XRR\@. The high $R^2$ values suggest that the QCM is a reliable tool for monitoring film thickness during deposition as long as the linear relationship is considered, and that the linear relationships obtained in this study can be used to calibrate the QCM readings for future depositions. The lower $R^2$ value in the regression for SiO$_2$ is attributed to the variation in the deposition rate during the growth of the SiO$_2$ films, which is caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials. \ref{fig: linear_fit_xrr_aSi} and~\ref{fig: linear_fit_xrr_aSi} show the source materials inside the crucibles for electron beam evaporation, with the a-Si source material melting uniformly while the SiO$_2$ source material shows localized heating and uneven melting. This may translate into a larger variation in density of the evaporated thin film.
+The initial comparison of the QCM readings and the measured thicknesses during XRR indicate that the QCM readings during deposition generally underestimate the actual thicknesses of the films. This underestimation is likely due to the mismatch in densities used as input for the QCM as shown in \ref{tab: QCM input} and the actual densities of the evaporated film as shown in the curve fitting to the XRR data. However, the results of the regression analysis indicate that the QCM readings scale linearly with the actual thicknesses of the films as measured by XRR\@. The high $R^2$ values suggest that the QCM is a reliable tool for monitoring film thickness during deposition as long as the linear relationship is considered, and that the linear relationships obtained in this study can be used to calibrate the QCM readings for future depositions. The lower $R^2$ value in the regression for SiO$_2$ is attributed to the variation in the deposition rate during the growth of the SiO$_2$ films, which is caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials.
 
-
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/swanelpoel_aSi.png}
+	\caption[Swanepoel method for \qty{600}{\nano\meter} a-Si thin film]{The transmission curves for the \qty{600}{\nano\meter} a-Si thin film and the glass substrate together with the upper and lower envelopes for Swanepoel's method}\label{fig: swanelpoel_aSi}
+\end{figure}
 
 \section{Refractive index of a-Si thin films}\label{sec: results_index_Si}
-~\ref{fig: linear_fit_xrr_aSi} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the Swanepoel method. The equations of the exponential function envelopes fitted to the extrema points listed in~\ref{tab: thickness_SiO2} are
+\ref{fig: swanelpoel_aSi} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the Swanepoel method as described in \ref{sec: swanepoel}. The equations of the exponential functions fitted to the extrema points listed in \ref{tab: swanepoel_aSi} are
 \begin{equation} \label{eqn:aSi_upper_env} 
-    y = 80.612419+\num{1.200883e9}e^{-x/89.819343}-\num{1.200749e9}e^{-x/89.821415}
+    y = 80.612419+\num{1.200883e9}e^{-x/89.819343}-\num{12.00749e9}e^{-x/89.821415}
 \end{equation}
-for the maxima with $R^2 = 0.9977$ and 
+for the upper envelope with $R^2 = 0.9969$ and 
 \begin{equation} \label{eqn:aSi_lower_env} 
-    y = 45.9178758+\num{3.16028012e10}e^{-x/64.3969697}-\num{3.16015549e10}e^{-x/64.3973202}
+    y = 45.9178758+\num{3.6028012e10}e^{-x/64.3969697}-\num{3.16015549e10}e^{-x/64.3973202}
 \end{equation}
-for the minima with $R^2 = 0.9789$. The equation for the refractive index of the a-Si thin film according to Sellmeier's equation from the data points of the refractive indices obtained from Swanepoel's method is
+for the lower envelope with $R^2 = 0.9977$. The equation for the refractive index of the a-Si thin film according to Sellmeier's equation fitted to the data points of the refractive indices obtained from Swanepoel's method is
 \begin{equation} \label{eqn:aSi_sellmeier} 
     n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}.
 \end{equation}
-with  $R^2 = 0.9789$.
-The average thickness of the a-Si thin film according to the Swanepoel method is \qty{653}{\nano\meter}.
+and the graph of the resulting refractive index versus wavelength is shown in \ref{fig: index_aSi}. The average thickness of the a-Si thin film according to the Swanepoel method is \qty{653}{\nano\meter}.
 
-The refractive index of the a-Si thin film is comparable to the literature values obtained by Swanepoel and other researchers, with values ranging from $3.0$ to $3.5$ in the infrared range. However, the refractive index calculated from the Sellmeier equation obtained from the data points is not monotonically decreasing with increasing wavelength. This behavior is unlikely to be anomalous dispersion and instead is attributed to the few number of data points from Swanepoel's method used to fit the Sellmeier equation. A larger number of data points would likely yield a more accurate Sellmeier equatiion that better fits the literature values across the entire wavelength range\cite{yuMedicalApplicationTerahertz2019}. The a-Si thin film refractive index is much lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.0$ across the relevant wavelengths. This is likely to be caused to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon.
+\begin{table}[tbp]
+\centering
+\begin{tabular}{llllllllllll}
+\toprule
+$\lambda$ (\unit{\nano\meter}) & $T_{film} $ & $T_{sub}$ & $T_{M} $    & $T_{m}  $   & $n_{s}  $   &$ N $     &$ n_{1}$ & $d_{1}$(\unit{\nano\meter})       & $m$        & $d_{2}$(\unit{\nano\meter})      & $n_{2} $      \\
+\midrule
+\multicolumn{12}{l}{maxima}                                                                 \\
+1002 & 76.9 & 86.3 & 78.1 & 45.7 & 1.62 & 4.76 & 3.04 & 698.1 & 3.47 & 659.4 & 3.07 \\
+782  & 65.3 & 88.2 & 62.9 & 41.4 & 1.61 & 4.45 & 2.93 & 422.4 & 4.28 & 666.8 & 3.00 \\
+655  & 33.5 & 89.5 & 34.3 & 26.7 & 1.61 & 5.34 & 3.23 & 564.0 & 5.64 & 608.1 & 3.01 \\
+590  & 11.3 & 89.7 & 13.3 & 11.3 & 1.61 & 6.00 & 3.43 &       &      &       &      \\
+\midrule
+\multicolumn{12}{l}{minima}                                                                 \\
+871  & 44.1 & 86.9 & 72.3 & 44.5 & 1.61 & 4.59 & 2.98 & 737.9 & 3.91 & 657.6 & 3.00 \\
+709  & 36.1 & 89.6 & 49.0 & 35.2 & 1.61 & 4.38 & 2.91 & 426.7 & 4.68 & 670.8 & 2.99 \\
+613  & 16.4 & 89.6 & 21.5 & 17.7 & 1.61 & 5.34 & 3.23 & 281.5 &      &       &      \\
+571  & 7.4  & 89.6 & 7.6  & 6.6  & 1.61 & 8.18 & 4.02 &       &      &       &      \\
+\midrule
+       &       &           &       &       &      &      & $\bar{d}$ & 569.8 &      & 652.53 &  \\
+\bottomrule
+\end{tabular}
+\caption{Relevant values for Swanepoel's method of the a-Si thin film}\label{tab: swanepoel_aSi}
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/index_aSi.png}
+	\caption[Refractive index of a-Si thin film]{Refractive index of a-Si thin film from \qtyrange{500}{1100}{\nano\meter} }\label{fig: index_aSi}
+\end{figure}
+
+The refractive index of the a-Si thin film is comparable to the literature values obtained by Swanepoel for a-Si, with values ranging from $3.0$ to $3.2$ across the relevant wavelengths. However, the refractive index does not decrease monotonically with increasing wavelength as expected for the material. This deviation from the expected behavior is unlikely to be anomalous dispersion and instead is probably caused by the few number of data points from Swanepoel's method used to fit the Sellmeier equation. This is supported by the difference in calculated thickness for the film using Swanepoel's method and the extrapolation using \ref{eqn:aSi_thickness}. A larger number of oscillations and data points would likely yield a more accurate Sellmeier equatiion that would exhibit the proper dispersion behavior across the wavelength range\cite{heavensOpticalPropertiesThin1960}. Furthermore, the a-Si thin film refractive index is much lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.0$ across the range of wavelengths\cite{fluggeHandbuchPhysikRontgenstrahlen1957}. This is likely due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon, and supports the previous finding in \ref{sec: results_thicknesses}.
 
 \section{Refractive index of SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_index_SiO2}
-\ref{fig: linear_fit_xrr_aSi} shows the raw reflectance spectra of a \qty{600}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate, and \ref{fig: linear_fit_xrr_aSi} shows the reflectance spectra after deconvolution using a mirror. The extrema points used for the calculation of the refractive index of the film using \ref{eqn: Lorentz} are listed in \ref{tab: thickness_SiO2} together with the corresponding refractive indices and the new wavelengths. \ref{fig: linear_fit_xrr_aSi} shows the graph of the refractive index after fitting the data points to Sellmeier's equation, which is 
+\ref{fig: intensity_SiO2} shows the reflectance spectra of a \qty{990}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate after deconvolution using a mirror. The extrema points used for the calculation of the refractive index of the film using \ref{eqn: Lorentz} are listed in \ref{tab: oscillation_SiO2} together with the corresponding refractive indices and the new wavelengths. \ref{fig: index_SiO2} shows the graph of the refractive index after fitting the data points to Sellmeier's equation, which is 
 \begin{equation} \label{eqn:SiO2_sellmeier} 
     n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}.
 \end{equation}
 with $R^2 = 0.998$. 
 
-The refractive index of the SiO$_2$ thin film is comparable to the literature values obtained from Gao and Marcos, as shown in \ref{fig: phase} The slight increase in refractive index could be attributed to the lack of reactive gas during the deposition process, which can affect the stoichiometry of the SiO$_2$ thin film, leading to a higher refractive index closer to that of Si. The lower density of the SiO$_2$ thin film compared to bulk SiO$_2$ as measured by XRR also corroborates this hypothesis. 
+\begin{table}[tbp]
+\centering
+\begin{tabular}{llllll}
+\toprule
+$\lambda_0$ (\unit{\nano\meter}) & R     & $\lambda_1$ (\unit{\nano\meter})   & $n_{1}$  & $\lambda_2$ (\unit{\nano\meter})   &  $n_{2}$      \\
+\midrule
+\multicolumn{6}{l}{minima}                  \\
+530.0 & 0.052 & 587.5 & 1.50 & 676.3 & 1.50 \\
+645.0 & 0.040 & 733.8 & 1.50 &       &      \\
+822.5 & 0.043 &       &      &       &      \\
+\midrule
+\multicolumn{6}{l}{maxima}                  \\
+577.5 & 0.154 & 648.8 & 1.47 & 765.0 & 1.48 \\
+720.0 & 0.140 & 836.3 & 1.48 &       &      \\
+952.5 & 0.216 &       &      &       &      \\
+\bottomrule
+\end{tabular}
+\caption{Refractive indices and wavelengths for the SiO$_2$ thin film}\label{tab: oscillation_SiO2}
+\end{table}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/intensity_SiO2.png}
+	\caption[Reflectance of SiO$_2$ thin film]{Deconvoluted reflectance spectra of \qty{990}{\nano\meter} SiO$_2$ thin film}\label{fig: intensity_SiO2}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/index_SiO2.png}
+	\caption[Refractive index of SiO$_2$ thin film]{Refractive index of the SiO$_2$ film compared to Gao and Miyazaki}\label{fig: index_SiO2}
+\end{figure}
+
+The refractive index of the SiO$_2$ thin film is comparable to the literature values obtained from Gao\cite{liuOptimalGrowthConditions2022}. The slight increase in refractive index versus the literature values could be attributed to the stoichiometry of the SiO$_2$ thin film caused by a lack of reactive gas during the deposition process, leading to a higher refractive index closer to that of Si. Miyazaki et al. deposited SiO$_{1.74}$ thin films and found that the refractive index at \qty{633}{\nano\meter} was $1.50$, which is higher than the refractive index. The lower density of the SiO$_2$ thin film compared to bulk SiO$_2$ as measured by XRR previously may be caused by the increased porosity of the film or the decreased ratio of O versus Si.
 
 \section{Reflectance of a-Si/SiO\texorpdfstring{$_{2}$}{2} antireflective coatings}\label{sec:results_ARC_reflectance}
-\ref{fig: linear_fit_xrr_aSi} shows the reflectance spectra of a-Si/SiO$_2$ antireflective coatings with layer thicknesses of \qty{53}{\nano\meter}/\qty{14}{\nano\meter}/\qty{206}{\nano\meter}, \qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter}, and \qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter} for the SiO$_2$/a-Si/SiO$_2$ layers respectively. The reflectance spectra for the first ARC shows a minimum at \qty{660}{\nano\meter}, whereas the second ARC shows a minimum at \qty{710}{\nano\meter}. The simulations for the ARCs using the refractive indices obtained from the previous sections show that the reflectance minima for the first and second ARCs are at \qty{630}{\nano\meter} and \qty{670}{\nano\meter} respectively.
 
-The deviation of the measured reflectance minima from the simulated values can be attributed to the variation in refractive index of the a-Si and SiO$_2$ thin films.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/reflectivity_arc.png}
+	\caption[Reflectivity of various ARCs]{Reflectivities of ARCs with varying layer thicknesses simulated using the transfer matrix method and measured experimentally. The reflectivity of a bare Si wafer is included in the graph}\label{fig: reflectivity_ARC}
+\end{figure}
+
+\ref{fig: reflectivity_ARC} shows the reflectance spectra of a-Si/SiO$_2$ antireflective coatings with layer thicknesses of \qty{53}{\nano\meter}/\qty{14}{\nano\meter}/\qty{206}{\nano\meter}, \qty{48}{\nano\meter}/\qty{19}{\nano\meter}/\qty{208}{\nano\meter}, and \qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter} for the SiO$_2$/a-Si/SiO$_2$ layers respectively using the refractive indices obtained in the previous sections. The simulated reflectance spectra for the first ARC shows a value less than \qty{1}{\percent} around \qty{630}{\nano\meter}, whereas the simulation of the second ARC shows a minimum at \qty{660}{\nano\meter}. The measured reflectance spectra for the ARCs show that the minimum value around \qty{4}{\percent} for the first ARC at \qty{660}{\nano\meter} and a minimum value of \qty{2.5}{\percent} for the second ARC at \qty{720}{\nano\meter}. The blank Si wafer exhibits a reflectivity ranging from \qty{50}{\percent} to \qty{75}{\percent} across the wavelength range of \qtyrange{450}{1000}{nm}.
+
+The layers deposited using electron beam deposition demonstrated a reduced value of reflectance compared to the bare wafer, proving their effectiveness as antireflective coatings. The mismatch in the minimum values obtained experimentally versus the simulation is due to the limitation of the experimental setup, which measures the reflectance of the sample relative to the mirror. More accurate reflectivity values would be obtained from absolute measurements which consider the total amount of light incident and reflected from the sample. The deviation of wavelengths at which the measured reflectance exhibit the minima from the simulated values can be attributed to the inaccuracy in measuring the refractive index of the thin films which were previously deposited, especially for a-Si. 

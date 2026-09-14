@@ -1753,6 +1753,7 @@
       \strng{authornamehash}{2f49f30b0764fd15cd393e2bb7b24d44}
       \strng{authorfullhash}{dc5cae566604b4779401775bb5c4235b}
       \strng{authorfullhashraw}{dc5cae566604b4779401775bb5c4235b}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -2362,6 +2363,150 @@
       \verb C\:\\Users\\User\\Zotero\\storage\\HSGKTZPI\\2003 - Gas Properties.pdf;C\:\\Users\\User\\Zotero\\storage\\7A49JQUK\\0471467162.html
       \endverb
       \keyw{Boyle's law,Dalton's law,mean free path,particle flux}
+    \endentry
+    \entry{heavensOpticalPropertiesThin1960}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=cdcbdd85dbc35b37c538599cc3674cb2}{%
+           family={Heavens},
+           familyi={H\bibinitperiod},
+           given={O.\bibnamedelimi S.},
+           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{fullhash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{fullhashraw}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{bibnamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{authorbibnamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{authornamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{authorfullhash}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \strng{authorfullhashraw}{cdcbdd85dbc35b37c538599cc3674cb2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The optical behaviour of a surface carrying a transition layer is discussed, as a problem in scattering. The results are given of the application of electromagnetic theory to the case of a single parallel-sided film. Methods are given for extending this treatment to the case of multiple parallel-sided layers. Both analytical and graphical solutions are considered. Features governing the design of certain multilayer systems are given. A survey is made of the many methods now available for the determination of the thickness and optical constants of materials in the form of thin films. The range, accuracy and conditions of application of the various methods are summarized. A selection of the results obtained on a range of metallic and dielectric films is made and the basis of interpretation of these results is given. It is shown that the apparently anomalous variations of the optical constants of metal films with film thickness can be attributed to the granular nature of such films. Although less spectacular variations are observed in the properties of dielectric films, it is seen that for some materials the optical behaviour suggests the presence of marked inhomogeneity and anisotropy. Films formed chemically and electrolytically are briefly mentioned. Recent methods of controlling the thickness of films during deposition are given, together with a selection of the more important applications of thin films in optics. These include anti-reflecting and high reflecting systems, narrow-band, wide-band and cut-on multilayer filters, the use of thin films in polarizing systems and the application of thin films in heat-absorbing systems.}
+      \field{issn}{0034-4885}
+      \field{journaltitle}{Rep. Prog. Phys.}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Optical Properties of Thin Films}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{1960}
+      \field{urldateera}{ce}
+      \field{pages}{1}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0034-4885/23/1/301
+      \endverb
+    \endentry
+    \entry{fluggeHandbuchPhysikRontgenstrahlen1957}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=90d1fa99baa0209da64ad60c6bbd9ef8}{%
+           family={Flügge},
+           familyi={F\bibinitperiod},
+           given={Siegfried},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{fullhash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{fullhashraw}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{bibnamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{authorbibnamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{authornamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{authorfullhash}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \strng{authorfullhashraw}{90d1fa99baa0209da64ad60c6bbd9ef8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{english}
+      \field{shorttitle}{Handbuch Der {{Physik}}}
+      \field{title}{Handbuch Der {{Physik}}: {{Röntgenstrahlen}}; {{X-rays}}}
+      \field{year}{1957}
+    \endentry
+    \entry{liuOptimalGrowthConditions2022}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4c3e067db3e202ac81feba089842de1e}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Wei-Sheng},
+           giveni={W\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=a7f1a28b6a008c1ec9fd99ff5471c6ea}{%
+           family={Gururajan},
+           familyi={G\bibinitperiod},
+           given={Balaji},
+           giveni={B\bibinitperiod}}}%
+        {{hash=5e86baec3dc57f983a44ee03bbd8bae8}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Sui-Hua},
+           giveni={S\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=8c52a082d15fdb7112ee5bb83010ee66}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Li-Cheng},
+           giveni={L\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=a35ec02cf1c52048b396c54056983800}{%
+           family={Chi},
+           familyi={C\bibinitperiod},
+           given={Chung-Kai},
+           giveni={C\bibinithyphendelim K\bibinitperiod}}}%
+        {{hash=93d78298500e6aecb813dcb5a51bd052}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Yu-Lun},
+           giveni={Y\bibinithyphendelim L\bibinitperiod}}}%
+        {{hash=989cc3a512ef4d4ab32d97151305ace0}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={Hsing-Chun},
+           giveni={H\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{77a4cfa899bb09f893de3f88f9d8b15d}
+      \strng{fullhash}{ba04832142cbf53ae6fae240f69fd3be}
+      \strng{fullhashraw}{ba04832142cbf53ae6fae240f69fd3be}
+      \strng{bibnamehash}{77a4cfa899bb09f893de3f88f9d8b15d}
+      \strng{authorbibnamehash}{77a4cfa899bb09f893de3f88f9d8b15d}
+      \strng{authornamehash}{77a4cfa899bb09f893de3f88f9d8b15d}
+      \strng{authorfullhash}{ba04832142cbf53ae6fae240f69fd3be}
+      \strng{authorfullhashraw}{ba04832142cbf53ae6fae240f69fd3be}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Aluminum nitride (AlN) thin-film materials possess a wide energy gap; thus, they are suitable for use in various optoelectronic devices. In this study, AlN thin films were deposited using radio frequency magnetron sputtering with an Al sputtering target and N2 as the reactive gas. The N2 working gas flow rate was varied among 20, 30, and 40 sccm to optimize the AlN thin film growth. The optimal AlN thin film was produced with 40 sccm N2 flow at 500 W under 100\% N2 gas and at 600 {$^\circ$}C. The films were studied using X-ray diffraction and had (002) phase orientation. X-ray photoelectron spectroscopy was used to determine the atomic content of the optimal film to be Al, 32\%; N, 52\%; and O, 12\% at 100 nm beneath the surface of the thin film. The film was also investigated through atomic force microscopy and had a root mean square roughness of 2.57 nm and a hardness of 76.21 GPa. Finally, in situ continual sputtering was used to produce a gallium nitride (GaN) layer on Si with the AlN thin film as a buffer layer. The AlN thin films investigated in this study have excellent material properties, and the proposed process could be a less expensive method of growing high-quality GaN thin films for various applications in GaN-based power transistors and Si integrated circuits.}
+      \field{issn}{2072-666X}
+      \field{journaltitle}{Micromachines}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Optimal {{Growth Conditions}} for {{Forming}} C-{{Axis}} (002) {{Aluminum Nitride Thin Films}} as a {{Buffer Layer}} for {{Hexagonal Gallium Nitride Thin Films Produced}} with {{In Situ Continual Radio Frequency Sputtering}}}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{1546}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/mi13091546
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\WH7M2FJT\Liu et al. - 2022 - Optimal Growth Conditions for Forming c-Axis (002).pdf
+      \endverb
+      \keyw{aluminum nitride,hardness measurement,reactive sputtering,X-ray diffraction,X-ray photoelectron spectroscopy}
     \endentry
   \enddatalist
 \endrefsection
