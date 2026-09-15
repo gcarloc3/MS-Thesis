@@ -19,61 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{baconPhotoconductiveEmittersPulsed2021}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=245af568cdd9f2e55e965270e8101471}{%
-           family={Bacon},
-           familyi={B\bibinitperiod},
-           given={David\bibnamedelima R},
-           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=ec3550d1ed22fbc1148560b7a19befb8}{%
-           family={Madéo},
-           familyi={M\bibinitperiod},
-           given={Julien},
-           giveni={J\bibinitperiod}}}%
-        {{hash=70f6543c81d7e7401ee246fddc8f2382}{%
-           family={Dani},
-           familyi={D\bibinitperiod},
-           given={Keshav\bibnamedelima M},
-           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
-      }
-      \strng{namehash}{47d8d1357ccbed70344a22a8c3b85222}
-      \strng{fullhash}{1632888db721c8288e8d11ba408f2e1a}
-      \strng{fullhashraw}{1632888db721c8288e8d11ba408f2e1a}
-      \strng{bibnamehash}{1632888db721c8288e8d11ba408f2e1a}
-      \strng{authorbibnamehash}{1632888db721c8288e8d11ba408f2e1a}
-      \strng{authornamehash}{47d8d1357ccbed70344a22a8c3b85222}
-      \strng{authorfullhash}{1632888db721c8288e8d11ba408f2e1a}
-      \strng{authorfullhashraw}{1632888db721c8288e8d11ba408f2e1a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Conceived over 30 years ago, photoconductive (PC) emitters have proved essential in the development and spread of terahertz technology. Since then, not only have they been used extensively in a wide range of spectroscopic and imaging applications, they have also undergone significant improvements in performance, leading to their use for broadband or non-linear spectroscopy. In this review article, we provide an overview of the literature, highlighting the key milestones in the progression of the PC emitter. We also investigate the future of PC technology and review the existing challenges.}
-      \field{issn}{2040-8986}
-      \field{journaltitle}{J. Opt.}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{number}{6}
-      \field{title}{Photoconductive Emitters for Pulsed Terahertz Generation}
-      \field{urlday}{2}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{23}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \field{pages}{064001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/2040-8986/abf6ba
-      \endverb
-      \verb{file}
-      \verb C:\Users\User\Zotero\storage\AEKXGRCX\Bacon et al. - 2021 - Photoconductive emitters for pulsed terahertz gene.pdf
-      \endverb
-    \endentry
     \entry{yuMedicalApplicationTerahertz2019}{article}{}{}
       \name{author}{9}{}{%
         {{hash=72f7267bcbd45fb398fd901ee119d434}{%
@@ -133,8 +78,8 @@
       \strng{authornamehash}{2a38292f0935fd7ad2d00966a1923c87}
       \strng{authorfullhash}{56012abc10fdb37b3caa8558d05edd2f}
       \strng{authorfullhashraw}{56012abc10fdb37b3caa8558d05edd2f}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Terahertz (THz = 1012 Hz) spectroscopy has shown great potential in biomedical research due to its unique features, such as the non-invasive and label-free identification of living cells and medical imaging. In this review, we summarized the advantages and progresses achieved in THz spectroscopy technology for blood cell detection, cancer cell characterization, bacterial identification and biological tissue discrimination, further introducing THz imaging systems and its progress in tissue imaging. We also highlighted the biological effects of THz radiation during its biological applications and the existing challenges and strategies to accelerate future clinical applications. The future prospects for THz spectroscopy will focus on developing rapid, label-free, and convenient biosensors for point-of-care tests and THz in vivo imaging.}
@@ -159,6 +104,82 @@
       \verb{file}
       \verb C:\Users\User\Zotero\storage\GUI8TIW3\Yu et al. - 2019 - The medical application of terahertz technology in.pdf
       \endverb
+    \endentry
+    \entry{dohiApplicationTerahertzPulse2016}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=436e98e4cb320941d7bd5bd2832a4f1b}{%
+           family={Dohi},
+           familyi={D\bibinitperiod},
+           given={Masafumi},
+           giveni={M\bibinitperiod}}}%
+        {{hash=058a2cf127ce2b2d7ba46453e2a35193}{%
+           family={Momose},
+           familyi={M\bibinitperiod},
+           given={Wataru},
+           giveni={W\bibinitperiod}}}%
+        {{hash=17e24c3f9e84fcb149a7627b1d93a67d}{%
+           family={Yoshino},
+           familyi={Y\bibinitperiod},
+           given={Hiroyuki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=69c0b7f290bd204be906d38b41b9a0e7}{%
+           family={Hara},
+           familyi={H\bibinitperiod},
+           given={Yuko},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1399d012abd29220867f32d953531f9b}{%
+           family={Yamashita},
+           familyi={Y\bibinitperiod},
+           given={Kazunari},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c146640962a295248e56ca511db8c3c3}{%
+           family={Hakomori},
+           familyi={H\bibinitperiod},
+           given={Tadashi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=43eb378ce1f960d40d3b4f4b30f6cb05}{%
+           family={Sato},
+           familyi={S\bibinitperiod},
+           given={Shusaku},
+           giveni={S\bibinitperiod}}}%
+        {{hash=77ca69e53649007f0745331a581882c6}{%
+           family={Terada},
+           familyi={T\bibinitperiod},
+           given={Katsuhide},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{50ff9a8be51509063148e8c0741bf96f}
+      \strng{fullhash}{6c5ecdbb4482855aaf0ad4909fb87dd9}
+      \strng{fullhashraw}{6c5ecdbb4482855aaf0ad4909fb87dd9}
+      \strng{bibnamehash}{50ff9a8be51509063148e8c0741bf96f}
+      \strng{authorbibnamehash}{50ff9a8be51509063148e8c0741bf96f}
+      \strng{authornamehash}{50ff9a8be51509063148e8c0741bf96f}
+      \strng{authorfullhash}{6c5ecdbb4482855aaf0ad4909fb87dd9}
+      \strng{authorfullhashraw}{6c5ecdbb4482855aaf0ad4909fb87dd9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Film-coated tablets (FCTs) are a popular solid dosage form in pharmaceutical industry. Manufacturing conditions during the film-coating process affect the properties of the film layer, which might result in critical quality problems. Here, we analyzed the properties of the film layer using a non-destructive approach with terahertz pulsed imaging (TPI). Hydrophilic tablets that become distended upon water absorption were used as core tablets and coated with film under different manufacturing conditions. TPI-derived parameters such as film thickness (FT), film surface reflectance (FSR), and interface density difference (IDD) between the film layer and core tablet were affected by manufacturing conditions and influenced critical quality attributes of FCTs. Relative standard deviation of FSR within tablets correlated well with surface roughness. Tensile strength could be predicted in a non-destructive manner using the multivariate regression equation to estimate the core tablet density by film layer density and IDD. The absolute value of IDD (Lateral) correlated with the risk of cracking on the lateral film layer when stored in a high-humidity environment. Further, in-process control was proposed for this value during the film-coating process, which will enable a feedback control system to be applied to process parameters and reduced risk of cracking without a stability test.}
+      \field{issn}{0731-7085}
+      \field{journaltitle}{Journal of Pharmaceutical and Biomedical Analysis}
+      \field{month}{2}
+      \field{title}{Application of Terahertz Pulse Imaging as {{PAT}} Tool for Non-Destructive Evaluation of Film-Coated Tablets under Different Manufacturing Conditions}
+      \field{urlday}{2}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{119}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{104\bibrangedash 113}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jpba.2015.11.046
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\C35JA8ZQ\S073170851530265X.html
+      \endverb
+      \keyw{Crack defect,Film-coated tablet,Process analytical technology,Surface roughness,Tensile strength,Terahertz pulsed imaging}
     \endentry
     \entry{petrovApplicationTerahertzPulse2016}{article}{}{}
       \name{author}{5}{}{%
@@ -222,82 +243,6 @@
       \endverb
       \keyw{Holographic optical components,Holography,Image reconstruction,Image resolution,Inverse diffraction problem,noise,nondestructive testing,Optical pulses,phase retrieval,terahertz holography,terahertz imaging,terahertz radiation,Time-domain analysis}
     \endentry
-    \entry{dohiApplicationTerahertzPulse2016}{article}{}{}
-      \name{author}{8}{}{%
-        {{hash=436e98e4cb320941d7bd5bd2832a4f1b}{%
-           family={Dohi},
-           familyi={D\bibinitperiod},
-           given={Masafumi},
-           giveni={M\bibinitperiod}}}%
-        {{hash=058a2cf127ce2b2d7ba46453e2a35193}{%
-           family={Momose},
-           familyi={M\bibinitperiod},
-           given={Wataru},
-           giveni={W\bibinitperiod}}}%
-        {{hash=17e24c3f9e84fcb149a7627b1d93a67d}{%
-           family={Yoshino},
-           familyi={Y\bibinitperiod},
-           given={Hiroyuki},
-           giveni={H\bibinitperiod}}}%
-        {{hash=69c0b7f290bd204be906d38b41b9a0e7}{%
-           family={Hara},
-           familyi={H\bibinitperiod},
-           given={Yuko},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=1399d012abd29220867f32d953531f9b}{%
-           family={Yamashita},
-           familyi={Y\bibinitperiod},
-           given={Kazunari},
-           giveni={K\bibinitperiod}}}%
-        {{hash=c146640962a295248e56ca511db8c3c3}{%
-           family={Hakomori},
-           familyi={H\bibinitperiod},
-           given={Tadashi},
-           giveni={T\bibinitperiod}}}%
-        {{hash=43eb378ce1f960d40d3b4f4b30f6cb05}{%
-           family={Sato},
-           familyi={S\bibinitperiod},
-           given={Shusaku},
-           giveni={S\bibinitperiod}}}%
-        {{hash=77ca69e53649007f0745331a581882c6}{%
-           family={Terada},
-           familyi={T\bibinitperiod},
-           given={Katsuhide},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{50ff9a8be51509063148e8c0741bf96f}
-      \strng{fullhash}{6c5ecdbb4482855aaf0ad4909fb87dd9}
-      \strng{fullhashraw}{6c5ecdbb4482855aaf0ad4909fb87dd9}
-      \strng{bibnamehash}{50ff9a8be51509063148e8c0741bf96f}
-      \strng{authorbibnamehash}{50ff9a8be51509063148e8c0741bf96f}
-      \strng{authornamehash}{50ff9a8be51509063148e8c0741bf96f}
-      \strng{authorfullhash}{6c5ecdbb4482855aaf0ad4909fb87dd9}
-      \strng{authorfullhashraw}{6c5ecdbb4482855aaf0ad4909fb87dd9}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Film-coated tablets (FCTs) are a popular solid dosage form in pharmaceutical industry. Manufacturing conditions during the film-coating process affect the properties of the film layer, which might result in critical quality problems. Here, we analyzed the properties of the film layer using a non-destructive approach with terahertz pulsed imaging (TPI). Hydrophilic tablets that become distended upon water absorption were used as core tablets and coated with film under different manufacturing conditions. TPI-derived parameters such as film thickness (FT), film surface reflectance (FSR), and interface density difference (IDD) between the film layer and core tablet were affected by manufacturing conditions and influenced critical quality attributes of FCTs. Relative standard deviation of FSR within tablets correlated well with surface roughness. Tensile strength could be predicted in a non-destructive manner using the multivariate regression equation to estimate the core tablet density by film layer density and IDD. The absolute value of IDD (Lateral) correlated with the risk of cracking on the lateral film layer when stored in a high-humidity environment. Further, in-process control was proposed for this value during the film-coating process, which will enable a feedback control system to be applied to process parameters and reduced risk of cracking without a stability test.}
-      \field{issn}{0731-7085}
-      \field{journaltitle}{Journal of Pharmaceutical and Biomedical Analysis}
-      \field{month}{2}
-      \field{title}{Application of Terahertz Pulse Imaging as {{PAT}} Tool for Non-Destructive Evaluation of Film-Coated Tablets under Different Manufacturing Conditions}
-      \field{urlday}{2}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{119}
-      \field{year}{2016}
-      \field{urldateera}{ce}
-      \field{pages}{104\bibrangedash 113}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1016/j.jpba.2015.11.046
-      \endverb
-      \verb{file}
-      \verb C:\Users\User\Zotero\storage\C35JA8ZQ\S073170851530265X.html
-      \endverb
-      \keyw{Crack defect,Film-coated tablet,Process analytical technology,Surface roughness,Tensile strength,Terahertz pulsed imaging}
-    \endentry
     \entry{songHandbookTerahertzTechnologies2015}{book}{}{}
       \name{author}{2}{}{%
         {{hash=0e3b8de982a78197e0d616b4e76bba80}{%
@@ -322,8 +267,8 @@
       \strng{authornamehash}{6d6d04e651efd89caa4b828315f1d1e0}
       \strng{authorfullhash}{6d6d04e651efd89caa4b828315f1d1e0}
       \strng{authorfullhashraw}{6d6d04e651efd89caa4b828315f1d1e0}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Terahertz waves, which lie in the frequency range of 0.1-10 THz, have long been investigated in a few limited fields, such as astronomy, because of a lack of devices for their generation and detection. Several technical breakthroughs made over the last couple of decades now allow us to radiate and detect terahertz waves more easily, which has trigg}
@@ -359,8 +304,8 @@
       \strng{authornamehash}{c16463c4897eee2364ac3ab8ef6dbeb3}
       \strng{authorfullhash}{c16463c4897eee2364ac3ab8ef6dbeb3}
       \strng{authorfullhashraw}{c16463c4897eee2364ac3ab8ef6dbeb3}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Photoconductive antennas (PCAs) have been extensively utilized for the generation and detection of both pulsed broadband and single frequency continuous wave terahertz (THz) band radiation. These devices form the basis of many THz imaging and spectroscopy systems, which have demonstrated promising applications in various industries and research fields. The development of THz PCA technology through the last 30 years is reviewed. The key modalities of improving device performance are identified, and literature is reviewed to summarize the progress made in these areas. The goal of this review is to provide a collection of all relevant literature to bring researchers up to date on the current state and remaining challenges of THz PCA technology.}
@@ -418,8 +363,8 @@
       \strng{authornamehash}{c08bd6e33429c0e2e42bc7d4919064bd}
       \strng{authorfullhash}{68678df5fa9da2d7dd92d1ae207768e0}
       \strng{authorfullhashraw}{68678df5fa9da2d7dd92d1ae207768e0}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Photonic quantum technologies such as effective quantum communication require room temperature (RT) operating single- or few-photon sensors with high external quantum efficiency (EQE) at 1550~nm wavelength. The leading class of devices in this segment is avalanche photodetectors operating particularly in the Geiger mode. However, for superior performance, a trade-off has to be made between temperature of operation, device thickness, and EQE. Two-dimensional (2D) materials can be used to reduce the absorber thickness and thus dark current, leading to an increase in the operating temperature, but they suffer from low EQE. We use specifically stacked bilayer hexagonal BAs, with material properties calculated from first principles, on a co-optimized dielectric photonic crystal substrate to simultaneously decrease the dark current by three orders of magnitude at RT and maintain an EQE of \&gt;99\%. The device can potentially be used in avalanche mode and hence can form a basis for single photon detection.}
@@ -469,8 +414,8 @@
       \strng{authornamehash}{088937635dc5871afa558f3b7675f9e8}
       \strng{authorfullhash}{35d8df33776b9a98a7b82fdbaf971fd9}
       \strng{authorfullhashraw}{35d8df33776b9a98a7b82fdbaf971fd9}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work presents an overview of terahertz (THz) spectroscopy with a focus on its implementation within microfluidic platforms. Such platforms are of great interest because they can enable label-free and reagent-free sensing. However, they must be implemented with thought towards the incorporated materials and structures as they can greatly impact the bandwidth, frequency resolution, signal-to-noise ratio, and dynamic range of the measurements. This review explores such relationships with insight given on the design and material considerations for the effective integration of THz spectroscopy in microfluidic platforms. The review also describes recent work on the application of THz spectroscopy to biomaterial analyses on increasing scales, targeting DNA, proteins, cells, and tissues.}
@@ -528,8 +473,8 @@
       \strng{authornamehash}{f5339ba99dbe5c56e5205bbdf61ce070}
       \strng{authorfullhash}{4059e32b1eecb206917e0fb84b9e05a4}
       \strng{authorfullhashraw}{4059e32b1eecb206917e0fb84b9e05a4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The absence of non-destructive inspection techniques for illicit drugs hidden in mail envelopes has resulted in such drugs being smuggled across international borders freely. We have developed a novel basic technology for terahertz imaging, which allows detection and identification of drugs concealed in envelopes, by introducing the component spatial pattern analysis. The spatial distributions of the targets are obtained from terahertz multispectral transillumination images, using absorption spectra measured with a tunable terahertz-wave source. The samples we used were methamphetamine and MDMA, two of the most widely consumed illegal drugs in Japan, and aspirin as a reference.}
@@ -1854,8 +1799,8 @@
       \strng{authornamehash}{fc04502af1f571b3de1c5a26af4da931}
       \strng{authorfullhash}{fc04502af1f571b3de1c5a26af4da931}
       \strng{authorfullhashraw}{fc04502af1f571b3de1c5a26af4da931}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-13-523630-7}
@@ -2269,8 +2214,8 @@
       \strng{authornamehash}{5f75df253bbcbb7ea77d8f2472a0fc92}
       \strng{authorfullhash}{8f9e8d1d9b20f1a2bc2fc603eb82f8f2}
       \strng{authorfullhashraw}{8f9e8d1d9b20f1a2bc2fc603eb82f8f2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Amorphous Si/SiO2 superlattices with 100--525 periods and a 2--3 nm periodicity were deposited by radio frequency magnetron sputtering onto silicon and quartz substrates. All samples exhibited visible photoluminescence (PL) at room temperature and the PL peak wavelength shifted towards shorter wavelengths with decreasing Si layer thickness. For 425 and 525 period superlattices there was a strong modulation of the PL intensity and optical transmittance versus wavelength resulting from optical interference within the superlattice. The PL intensity increased dramatically after annealing the superlattices in air at 1100\,{$^\circ$}C.}

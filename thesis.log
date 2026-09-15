@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.26)  14 SEP 2026 19:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.6.26)  15 SEP 2026 18:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1081,7 +1081,7 @@ No file thesis.acr.
 
 ]) (./chapters/chapter1.tex
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
@@ -1089,9 +1089,9 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 
-]) (./chapters/chapter2.tex [2] [3]
+] [2]) (./chapters/chapter2.tex [3]
 Chapter 2.
-<figures/thz_subs.png, id=252, 437.2335pt x 162.6075pt>
+<figures/thz_subs.png, id=261, 437.2335pt x 162.6075pt>
 File: figures/thz_subs.png Graphic file (type png)
 <use figures/thz_subs.png>
 Package pdftex.def Info: figures/thz_subs.png  used on input line 7.
@@ -1099,200 +1099,206 @@ Package pdftex.def Info: figures/thz_subs.png  used on input line 7.
 [4
 
  <./figures/thz_subs.png>]
-<figures/antenna.jpg, id=272, 1013.58675pt x 205.9695pt>
+<figures/antenna.jpg, id=281, 1013.58675pt x 205.9695pt>
 File: figures/antenna.jpg Graphic file (type jpg)
 <use figures/antenna.jpg>
 Package pdftex.def Info: figures/antenna.jpg  used on input line 14.
 (pdftex.def)             Requested size: 395.98996pt x 80.4692pt.
  [5 <./figures/antenna.jpg>]
-<figures/thz_tds.png, id=297, 432.11438pt x 311.66437pt>
+<figures/thz_tds.png, id=307, 432.11438pt x 311.66437pt>
 File: figures/thz_tds.png Graphic file (type png)
 <use figures/thz_tds.png>
 Package pdftex.def Info: figures/thz_tds.png  used on input line 44.
 (pdftex.def)             Requested size: 333.46758pt x 240.52444pt.
  [6 <./figures/thz_tds.png>]
-<figures/MBE_growth.png, id=323, 363.759pt x 245.11575pt>
+<figures/MBE_growth.png, id=332, 363.759pt x 245.11575pt>
 File: figures/MBE_growth.png Graphic file (type png)
 <use figures/MBE_growth.png>
 Package pdftex.def Info: figures/MBE_growth.png  used on input line 56.
 (pdftex.def)             Requested size: 291.78174pt x 196.61647pt.
  [7]
-<figures/bandgap.png, id=345, 387.69844pt x 301.8778pt>
+<figures/bandgap.png, id=354, 387.69844pt x 301.8778pt>
 File: figures/bandgap.png Graphic file (type png)
 <use figures/bandgap.png>
 Package pdftex.def Info: figures/bandgap.png  used on input line 64.
 (pdftex.def)             Requested size: 250.10226pt x 194.74423pt.
-<figures/band_struc.png, id=350, 479.54156pt x 342.5297pt>
+<figures/band_struc.png, id=359, 479.54156pt x 342.5297pt>
 File: figures/band_struc.png Graphic file (type png)
 <use figures/band_struc.png>
 Package pdftex.def Info: figures/band_struc.png  used on input line 72.
 (pdftex.def)             Requested size: 375.14705pt x 267.96652pt.
-<figures/phase.png, id=355, 233.07076pt x 162.6075pt>
+<figures/phase.png, id=364, 233.07076pt x 162.6075pt>
 File: figures/phase.png Graphic file (type png)
 <use figures/phase.png>
 Package pdftex.def Info: figures/phase.png  used on input line 80.
 (pdftex.def)             Requested size: 333.46758pt x 232.65846pt.
  [8 <./figures/MBE_growth.png>] [9 <./figures/bandgap.png> <./figures/band_struc.png>]
-<figures/absorb.jpg, id=376, 189.6686pt x 177.6236pt>
+<figures/absorb.jpg, id=385, 189.6686pt x 177.6236pt>
 File: figures/absorb.jpg Graphic file (type jpg)
 <use figures/absorb.jpg>
 Package pdftex.def Info: figures/absorb.jpg  used on input line 88.
 (pdftex.def)             Requested size: 270.93883pt x 253.74774pt.
  [10 <./figures/phase.png>] [11 <./figures/absorb.jpg>]
-<figures/dbr.png, id=399, 828.09375pt x 232.61906pt>
+<figures/dbr.png, id=408, 828.09375pt x 232.61906pt>
 File: figures/dbr.png Graphic file (type png)
 <use figures/dbr.png>
 Package pdftex.def Info: figures/dbr.png  used on input line 122.
 (pdftex.def)             Requested size: 395.98996pt x 111.24059pt.
-<figures/transmission.png, id=406, 724.95844pt x 448.67625pt>
+<figures/transmission.png, id=415, 724.95844pt x 448.67625pt>
 File: figures/transmission.png Graphic file (type png)
 <use figures/transmission.png>
 Package pdftex.def Info: figures/transmission.png  used on input line 130.
 (pdftex.def)             Requested size: 333.46758pt x 206.38673pt.
  [12] [13 <./figures/dbr.png> <./figures/transmission.png>] [14]
-<figures/magnetron.png, id=451, 437.9562pt x 205.2468pt>
+<figures/magnetron.png, id=461, 437.9562pt x 205.2468pt>
 File: figures/magnetron.png Graphic file (type png)
 <use figures/magnetron.png>
 Package pdftex.def Info: figures/magnetron.png  used on input line 146.
 (pdftex.def)             Requested size: 333.46758pt x 156.28355pt.
  [15 <./figures/magnetron.png>]
-<figures/polarization.png, id=462, 1048.91875pt x 335.2525pt>
+<figures/polarization.png, id=471, 1048.91875pt x 335.2525pt>
 File: figures/polarization.png Graphic file (type png)
 <use figures/polarization.png>
 Package pdftex.def Info: figures/polarization.png  used on input line 169.
 (pdftex.def)             Requested size: 354.31049pt x 113.24258pt.
  [16 <./figures/polarization.png>] [17]
-<figures/propagation.png, id=487, 1315.91624pt x 409.53pt>
+<figures/propagation.png, id=496, 1315.91624pt x 409.53pt>
 File: figures/propagation.png Graphic file (type png)
 <use figures/propagation.png>
 Package pdftex.def Info: figures/propagation.png  used on input line 202.
 (pdftex.def)             Requested size: 354.31049pt x 110.26213pt.
  [18 <./figures/propagation.png>]) (./chapters/chapter3.tex [19]
 Chapter 3.
-File: figures/magnetron.png Graphic file (type png)
-<use figures/magnetron.png>
-Package pdftex.def Info: figures/magnetron.png  used on input line 21.
-(pdftex.def)             Requested size: 333.46758pt x 156.28355pt.
+
+Overfull \hbox (0.40254pt too wide) in paragraph at lines 7--8
+\OT1/ptm/m/n/12 sured us-ing [][][]x-ray re-flec-tiv-ity (XRR)[][] with a Malvern Pan-a-lyt-i-cal Empyrean x-ray diffrac-
+ []
+
 [20
 
-]) (./chapters/chapter4.tex [21] [22]
+]
+File: figures/magnetron.png Graphic file (type png)
+<use figures/magnetron.png>
+Package pdftex.def Info: figures/magnetron.png  used on input line 27.
+(pdftex.def)             Requested size: 333.46758pt x 156.28355pt.
+) (./chapters/chapter4.tex [21]
 Chapter 4.
-<figures/35.png, id=523, 2675.4354pt x 1115.8488pt>
+<figures/35.png, id=531, 2675.4354pt x 1115.8488pt>
 File: figures/35.png Graphic file (type png)
 <use figures/35.png>
 Package pdftex.def Info: figures/35.png  used on input line 7.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/69.png, id=524, 2675.4354pt x 1115.8488pt>
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/69.png, id=532, 2675.4354pt x 1115.8488pt>
 File: figures/69.png Graphic file (type png)
 <use figures/69.png>
 Package pdftex.def Info: figures/69.png  used on input line 14.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/104.png, id=525, 2675.4354pt x 1115.8488pt>
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/104.png, id=533, 2675.4354pt x 1115.8488pt>
 File: figures/104.png Graphic file (type png)
 <use figures/104.png>
 Package pdftex.def Info: figures/104.png  used on input line 21.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/138.png, id=526, 2675.4354pt x 1115.8488pt>
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/138.png, id=536, 2675.4354pt x 1115.8488pt>
 File: figures/138.png Graphic file (type png)
 <use figures/138.png>
-Package pdftex.def Info: figures/138.png  used on input line 28.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/1270.png, id=527, 2675.4354pt x 1115.8488pt>
+Package pdftex.def Info: figures/138.png  used on input line 35.
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/1270.png, id=537, 2675.4354pt x 1115.8488pt>
 File: figures/1270.png Graphic file (type png)
 <use figures/1270.png>
-Package pdftex.def Info: figures/1270.png  used on input line 41.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/1520.png, id=528, 2675.4354pt x 1115.8488pt>
+Package pdftex.def Info: figures/1270.png  used on input line 42.
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/1520.png, id=538, 2675.4354pt x 1115.8488pt>
 File: figures/1520.png Graphic file (type png)
 <use figures/1520.png>
-Package pdftex.def Info: figures/1520.png  used on input line 48.
-(pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/525_SiO2.png, id=529, 2675.4354pt x 1115.8488pt>
+Package pdftex.def Info: figures/1520.png  used on input line 49.
+(pdftex.def)             Requested size: 416.83289pt x 173.84015pt.
+<figures/525_SiO2.png, id=541, 2675.4354pt x 1115.8488pt>
 File: figures/525_SiO2.png Graphic file (type png)
 <use figures/525_SiO2.png>
-Package pdftex.def Info: figures/525_SiO2.png  used on input line 60.
+Package pdftex.def Info: figures/525_SiO2.png  used on input line 61.
 (pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/884_SiO2.png, id=530, 2675.4354pt x 1115.8488pt>
+<figures/884_SiO2.png, id=542, 2675.4354pt x 1115.8488pt>
 File: figures/884_SiO2.png Graphic file (type png)
 <use figures/884_SiO2.png>
-Package pdftex.def Info: figures/884_SiO2.png  used on input line 67.
+Package pdftex.def Info: figures/884_SiO2.png  used on input line 68.
 (pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/1050_SiO2.png, id=531, 2675.4354pt x 1115.8488pt>
+<figures/1050_SiO2.png, id=543, 2675.4354pt x 1115.8488pt>
 File: figures/1050_SiO2.png Graphic file (type png)
 <use figures/1050_SiO2.png>
-Package pdftex.def Info: figures/1050_SiO2.png  used on input line 74.
+Package pdftex.def Info: figures/1050_SiO2.png  used on input line 75.
 (pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/1369_SiO2.png, id=532, 2675.4354pt x 1115.8488pt>
+<figures/1369_SiO2.png, id=544, 2675.4354pt x 1115.8488pt>
 File: figures/1369_SiO2.png Graphic file (type png)
 <use figures/1369_SiO2.png>
-Package pdftex.def Info: figures/1369_SiO2.png  used on input line 81.
+Package pdftex.def Info: figures/1369_SiO2.png  used on input line 82.
 (pdftex.def)             Requested size: 356.38855pt x 148.62396pt.
-<figures/linear_fit_xrr_aSi.png, id=533, 774.7344pt x 593.0958pt>
+<figures/linear_fit_xrr_aSi.png, id=547, 774.7344pt x 593.0958pt>
 File: figures/linear_fit_xrr_aSi.png Graphic file (type png)
 <use figures/linear_fit_xrr_aSi.png>
-Package pdftex.def Info: figures/linear_fit_xrr_aSi.png  used on input line 92.
+Package pdftex.def Info: figures/linear_fit_xrr_aSi.png  used on input line 93.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
-<figures/linear_fit_xrr_SiO2.png, id=534, 774.7344pt x 593.0958pt>
+<figures/linear_fit_xrr_SiO2.png, id=550, 774.7344pt x 593.0958pt>
 File: figures/linear_fit_xrr_SiO2.png Graphic file (type png)
 <use figures/linear_fit_xrr_SiO2.png>
-Package pdftex.def Info: figures/linear_fit_xrr_SiO2.png  used on input line 99.
+Package pdftex.def Info: figures/linear_fit_xrr_SiO2.png  used on input line 100.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
-<figures/ReportPlot08_Sep_2026_18_45_58.png, id=543, 803.0pt x 401.5pt>
+<figures/ReportPlot08_Sep_2026_18_45_58.png, id=569, 803.0pt x 401.5pt>
 File: figures/ReportPlot08_Sep_2026_18_45_58.png Graphic file (type png)
 <use figures/ReportPlot08_Sep_2026_18_45_58.png>
-Package pdftex.def Info: figures/ReportPlot08_Sep_2026_18_45_58.png  used on input line 110.
+Package pdftex.def Info: figures/ReportPlot08_Sep_2026_18_45_58.png  used on input line 158.
 (pdftex.def)             Requested size: 354.31049pt x 177.15677pt.
-<figures/ReportPlot08_Sep_2026_21_27_21.png, id=544, 803.0pt x 401.5pt>
+<figures/ReportPlot08_Sep_2026_21_27_21.png, id=570, 803.0pt x 401.5pt>
 File: figures/ReportPlot08_Sep_2026_21_27_21.png Graphic file (type png)
 <use figures/ReportPlot08_Sep_2026_21_27_21.png>
-Package pdftex.def Info: figures/ReportPlot08_Sep_2026_21_27_21.png  used on input line 116.
+Package pdftex.def Info: figures/ReportPlot08_Sep_2026_21_27_21.png  used on input line 164.
 (pdftex.def)             Requested size: 354.31049pt x 177.15677pt.
-<figures/ReportPlot08_Sep_2026_21_40_26.png, id=545, 803.0pt x 401.5pt>
+<figures/ReportPlot08_Sep_2026_21_40_26.png, id=571, 803.0pt x 401.5pt>
 File: figures/ReportPlot08_Sep_2026_21_40_26.png Graphic file (type png)
 <use figures/ReportPlot08_Sep_2026_21_40_26.png>
-Package pdftex.def Info: figures/ReportPlot08_Sep_2026_21_40_26.png  used on input line 122.
+Package pdftex.def Info: figures/ReportPlot08_Sep_2026_21_40_26.png  used on input line 170.
 (pdftex.def)             Requested size: 354.31049pt x 177.15677pt.
-<figures/ReportPlot08_Sep_2026_22_50_23.png, id=546, 803.0pt x 401.5pt>
+<figures/ReportPlot08_Sep_2026_22_50_23.png, id=572, 803.0pt x 401.5pt>
 File: figures/ReportPlot08_Sep_2026_22_50_23.png Graphic file (type png)
 <use figures/ReportPlot08_Sep_2026_22_50_23.png>
-Package pdftex.def Info: figures/ReportPlot08_Sep_2026_22_50_23.png  used on input line 128.
+Package pdftex.def Info: figures/ReportPlot08_Sep_2026_22_50_23.png  used on input line 176.
 (pdftex.def)             Requested size: 354.31049pt x 177.15677pt.
-[23
+[22
 
-]
-<figures/swanelpoel_aSi.png, id=556, 774.7344pt x 593.0958pt>
+] [23]
+<figures/swanelpoel_aSi.png, id=597, 774.7344pt x 593.0958pt>
 File: figures/swanelpoel_aSi.png Graphic file (type png)
 <use figures/swanelpoel_aSi.png>
-Package pdftex.def Info: figures/swanelpoel_aSi.png  used on input line 180.
+Package pdftex.def Info: figures/swanelpoel_aSi.png  used on input line 198.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
- [24] [25 <./figures/35.png (PNG copy)> <./figures/69.png (PNG copy)> <./figures/104.png (PNG copy)> <./figures/138.png (PNG copy)>] [26 <./figures/1270.png (PNG copy)> <./figures/1520.png (PNG copy)>] [27 <./figures/525_SiO2.png (PNG copy)> <./figures/884_SiO2.png (PNG copy)> <./figures/1050_SiO2.png (PNG copy)> <./figures/1369_SiO2.png (PNG copy)>] [28 <./figures/linear_fit_xrr_aSi.png (PNG copy)> <./figures/linear_fit_xrr_SiO2.png (PNG copy)>] [29 <./figures/ReportPlot08_Sep_2026_18_45_58.png (PNG copy)> <./figures/ReportPlot08_Sep_2026_21_27_21.png (PNG copy)> <./figures/ReportPlot08_Sep_2026_21_40_26.png (PNG copy)>] [30 <./figures/ReportPlot08_Sep_2026_22_50_23.png (PNG copy)> <./figures/swanelpoel_aSi.png (PNG copy)>]
-Overfull \hbox (22.11246pt too wide) in paragraph at lines 201--220
+ [24] [25 <./figures/35.png (PNG copy)> <./figures/69.png (PNG copy)> <./figures/104.png (PNG copy)>] [26 <./figures/138.png (PNG copy)> <./figures/1270.png (PNG copy)> <./figures/1520.png (PNG copy)>] [27 <./figures/525_SiO2.png (PNG copy)> <./figures/884_SiO2.png (PNG copy)> <./figures/1050_SiO2.png (PNG copy)> <./figures/1369_SiO2.png (PNG copy)>] [28 <./figures/linear_fit_xrr_aSi.png (PNG copy)> <./figures/linear_fit_xrr_SiO2.png (PNG copy)>] [29 <./figures/ReportPlot08_Sep_2026_18_45_58.png (PNG copy)> <./figures/ReportPlot08_Sep_2026_21_27_21.png (PNG copy)> <./figures/ReportPlot08_Sep_2026_21_40_26.png (PNG copy)>] [30 <./figures/ReportPlot08_Sep_2026_22_50_23.png (PNG copy)> <./figures/swanelpoel_aSi.png (PNG copy)>]
+Overfull \hbox (28.11246pt too wide) in paragraph at lines 219--238
  [][] 
  []
 
-<figures/index_aSi.png, id=592, 774.7344pt x 593.0958pt>
+<figures/index_aSi.png, id=632, 774.7344pt x 593.0958pt>
 File: figures/index_aSi.png Graphic file (type png)
 <use figures/index_aSi.png>
-Package pdftex.def Info: figures/index_aSi.png  used on input line 225.
+Package pdftex.def Info: figures/index_aSi.png  used on input line 243.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
 [31
 
 ] [32 <./figures/index_aSi.png (PNG copy)>]
-<figures/intensity_SiO2.png, id=613, 774.7344pt x 593.0958pt>
+<figures/intensity_SiO2.png, id=653, 774.7344pt x 593.0958pt>
 File: figures/intensity_SiO2.png Graphic file (type png)
 <use figures/intensity_SiO2.png>
-Package pdftex.def Info: figures/intensity_SiO2.png  used on input line 260.
+Package pdftex.def Info: figures/intensity_SiO2.png  used on input line 278.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
-<figures/index_SiO2.png, id=614, 774.7344pt x 593.0958pt>
+<figures/index_SiO2.png, id=654, 774.7344pt x 593.0958pt>
 File: figures/index_SiO2.png Graphic file (type png)
 <use figures/index_SiO2.png>
-Package pdftex.def Info: figures/index_SiO2.png  used on input line 266.
+Package pdftex.def Info: figures/index_SiO2.png  used on input line 284.
 (pdftex.def)             Requested size: 354.31049pt x 271.24364pt.
  [33] [34 <./figures/intensity_SiO2.png (PNG copy)> <./figures/index_SiO2.png (PNG copy)>]
-<figures/reflectivity_arc.png, id=628, 774.7344pt x 592.8549pt>
+<figures/reflectivity_arc.png, id=668, 774.7344pt x 592.8549pt>
 File: figures/reflectivity_arc.png Graphic file (type png)
 <use figures/reflectivity_arc.png>
-Package pdftex.def Info: figures/reflectivity_arc.png  used on input line 276.
+Package pdftex.def Info: figures/reflectivity_arc.png  used on input line 294.
 (pdftex.def)             Requested size: 354.31049pt x 271.13347pt.
 ) (./chapters/chapter5.tex [35] [36 <./figures/reflectivity_arc.png (PNG copy)>]
 Chapter 5.
@@ -1306,12 +1312,12 @@ Overfull \hbox (9.36426pt too wide) in paragraph at lines 50--50
  []
 
 [40]
-<thesis_appendix.pdf, id=656, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=698, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf>
 Package pdftex.def Info: thesis_appendix.pdf  used on input line 52.
 (pdftex.def)             Requested size: 794.96806pt x 614.29349pt.
-<thesis_appendix.pdf, id=658, page=1, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=700, page=1, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 1>
 Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 52.
@@ -1336,7 +1342,7 @@ Package pdftex.def Info: thesis_appendix.pdf , page1 used on input line 52.
  [42
 
  <./thesis_appendix.pdf>]
-<thesis_appendix.pdf, id=685, page=2, 794.97pt x 614.295pt>
+<thesis_appendix.pdf, id=727, page=2, 794.97pt x 614.295pt>
 File: thesis_appendix.pdf Graphic file (type pdf)
 <use thesis_appendix.pdf, page 2>
 Package pdftex.def Info: thesis_appendix.pdf , page2 used on input line 52.
@@ -1361,45 +1367,51 @@ Package logreq Info: Writing requests to 'thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33480 strings out of 467525
- 692210 string characters out of 5418982
- 1541028 words of memory out of 5000000
- 61813 multiletter control sequences out of 15000+600000
+ 33572 strings out of 467525
+ 693318 string characters out of 5418982
+ 1542206 words of memory out of 5000000
+ 61902 multiletter control sequences out of 15000+600000
  648611 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  93i,17n,103p,2599b,2513s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+pdfTeX warning (dest): name{glo:TMM} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:XRR} has been referenced but does not exist, replaced by a fixed one
+
+
 pdfTeX warning (dest): name{glo:RF} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{glo:ARC} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:a-Si} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:DBR} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:ARC} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:MBE} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:LT} has been referenced but does not exist, replaced by a fixed one
-
-
 pdfTeX warning (dest): name{glo:TDS} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:THz} has been referenced but does not exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{glo:LT} has been referenced but does not exist, replaced by a fixed one
 
 
 pdfTeX warning (dest): name{glo:PCA} has been referenced but does not exist, replaced by a fixed one
 
 
-pdfTeX warning (dest): name{glo:THz} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{glo:QCM} has been referenced but does not exist, replaced by a fixed one
 
 </usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis.pdf (50 pages, 5782688 bytes).
+Output written on thesis.pdf (50 pages, 5785733 bytes).
 PDF statistics:
- 873 PDF objects out of 1000 (max. 8388607)
- 721 compressed objects within 8 object streams
- 196 named destinations out of 1000 (max. 500000)
+ 916 PDF objects out of 1000 (max. 8388607)
+ 757 compressed objects within 8 object streams
+ 199 named destinations out of 1000 (max. 500000)
  412 words of extra memory for PDF output out of 10000 (max. 10000000)
 

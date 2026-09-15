@@ -26,6 +26,34 @@ parent={},%
 %
 }%
 
+\glsdefs@newdocentry{ARC}%
+{%
+name={\acronymfont {\glsentryshort {ARC}}},%
+sort={ARC},%
+type={acronym},%
+first={ARC},%
+firstplural={ARCs},%
+text={ARC},%
+plural={ARCs},%
+description={antireflective coating},%
+descriptionplural={antireflective coating},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={antireflective coating},%
+longplural={antireflective coatings},%
+short={ARC},%
+shortplural={ARCs},%
+counter={page},%
+parent={},%
+%
+}%
+
 \glsdefs@newdocentry{DBR}%
 {%
 name={\acronymfont {\glsentryshort {DBR}}},%
@@ -133,6 +161,34 @@ long={photoconductive antenna},%
 longplural={photoconductive antennas},%
 short={PCA},%
 shortplural={PCAs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{QCM}%
+{%
+name={\acronymfont {\glsentryshort {QCM}}},%
+sort={QCM},%
+type={acronym},%
+first={QCM},%
+firstplural={QCMs},%
+text={QCM},%
+plural={QCMs},%
+description={quartz crystal microbalance},%
+descriptionplural={quartz crystal microbalance},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={quartz crystal microbalance},%
+longplural={quartz crystal microbalances},%
+short={QCM},%
+shortplural={QCMs},%
 counter={page},%
 parent={},%
 %
@@ -250,17 +306,17 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{ARC}%
+\glsdefs@newdocentry{TMM}%
 {%
-name={\acronymfont {\glsentryshort {ARC}}},%
-sort={ARC},%
+name={\acronymfont {\glsentryshort {TMM}}},%
+sort={TMM},%
 type={acronym},%
-first={ARC},%
-firstplural={ARCs},%
-text={ARC},%
-plural={ARCs},%
-description={anti-reflection coating},%
-descriptionplural={anti-reflection coating},%
+first={TMM},%
+firstplural={TMMs},%
+text={TMM},%
+plural={TMMs},%
+description={transfer matrix method},%
+descriptionplural={transfer matrix method},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -269,10 +325,38 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={anti-reflection coating},%
-longplural={anti-reflection coatings},%
-short={ARC},%
-shortplural={ARCs},%
+long={transfer matrix method},%
+longplural={transfer matrix methods},%
+short={TMM},%
+shortplural={TMMs},%
+counter={page},%
+parent={},%
+%
+}%
+
+\glsdefs@newdocentry{XRR}%
+{%
+name={\acronymfont {\glsentryshort {XRR}}},%
+sort={XRR},%
+type={acronym},%
+first={XRR},%
+firstplural={XRRs},%
+text={XRR},%
+plural={XRRs},%
+description={x-ray reflectivity},%
+descriptionplural={x-ray reflectivity},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={x-ray reflectivity},%
+longplural={x-ray reflectivitys},%
+short={XRR},%
+shortplural={XRRs},%
 counter={page},%
 parent={},%
 %
