@@ -37,7 +37,7 @@ and using a $1$D Drude-Lorentz model, the electron velocity by
 
 where $\eta$ is the absorption efficiency, $P_{\text{pulse}}(t)$ the ultrashort laser pulse power considered over time,  $\tau_c$, $\tau_c$, and $m^*$ the carrier lifetime, momentum relaxation time, electron effective mass respectively, and $E$ the local electric field\cite{songHandbookTerahertzTechnologies2015}.
 
-A photoconductive antenna is also used to detect THz radiation, with the incoming THz pulse focused together with a femtosecond pulse split from the same source at the gap of the antenna. As the femtosecond probe pulse arrives at the gap, carriers are excited and then accelerated proportionally by the electric field provided by the incoming THz pulse\cite{burfordReviewTerahertzPhotoconductive2017}. The difference of the probe pulse and the THz pulse provides a measurement in the time domain for the transient of the THz pulse. A schematic of a complete THz TDS system with emitter and detector is shown in~\ref{fig: thz_tds}.
+A photoconductive antenna is also used to detect THz radiation, with the incoming THz pulse focused together with a femtosecond pulse split from the same source at the gap of the antenna. As the femtosecond probe pulse arrives at the gap, carriers are excited and then accelerated proportionally by the electric field provided by the incoming THz pulse\cite{burfordReviewTerahertzPhotoconductive2017}. The difference of the probe pulse and the THz pulse provides a measurement in the time domain for the transient of the THz pulse. A schematic of a complete THz TDS system with emitter and detector is shown in~\ref{fig: thz_tds}. Some of the photoconductive materials used for THz TDS systems include \gls{LT} grown GaAs and InGaAs\cite{gregoryHighResistivityAnnealed2003, metzgerStructuralElectricalProperties1993, mellochLowTemperatureGrownIIIV1995}. LT-GaAs is grown via molecular beam epitaxy at $\qtyrange{200}{300}{\degreeCelsius}$ instead of the usual growth temperature around $\qty{600}{\degreeCelsius}$\cite{mahalingamSubstrateTemperatureDependence1991}..
 
 \begin{figure}
 	\centering
@@ -45,107 +45,6 @@ A photoconductive antenna is also used to detect THz radiation, with the incomin
 	\caption[THz TDS setup]{Schematic of a THz TDS setup with a femtosecond laser and two photoconductive antennas\cite{songHandbookTerahertzTechnologies2015}}\label{fig: thz_tds}
 \end{figure}
 
-\section{Low temperature grown InGaAs}\label{sec: InGaAs}
-From the previously discussed equations, the performance of the THz TDS system depends on multiple factors such as the properties of the femtosecond laser pulse and the quality of the photoconductive material. Modification of the photoconductive material is done to achieve short electron-hole recombination times, high carrier mobilities, and high breakdown electric fields, which all contribute to an increase in the intensity of generated THz radiation\cite{piaoCarrierDynamicsTerahertz2000}.
-
-Some of the photoconductive materials used for THz TDS systems include \gls{LT} grown GaAs and InGaAs\cite{gregoryHighResistivityAnnealed2003, metzgerStructuralElectricalProperties1993, mellochLowTemperatureGrownIIIV1995}. LT-GaAs is grown via molecular beam epitaxy at $\qtyrange{200}{300}{\degreeCelsius}$ instead of the usual growth temperature around $\qty{600}{\degreeCelsius}$\cite{mahalingamSubstrateTemperatureDependence1991}. The growth of GaAs and related compounds at relatively low temperatures and slower rates in molecular beam epitaxy compared to other epitaxial techniques result in mechanisms which are dominated by surface kinetics and surface chemistry\cite{larkins2MolecularBeam1995}.\ \gls{MBE} growth can be divided into two stages: the initial stage involving processes such as the chemisorption of molecules, their migration across the surface, and bond formation; and the subsequent stage which involves thermodynamic interaction and redistribution in the surface regions to form the crystal\cite{larkins2MolecularBeam1995}.
-The molecular beam which supplies the material is produced by evaporation or sublimation of high-purity solid sources at elevated temperatures in ultra-high vacuum, allowing the molecules to reach the substrate without interacting. When the molecules arrive at the substrate, they are chemisorbed to the surface and can migrate to energetically favorable step edges or nucleated islands and form bonds, gather at contaminations to form defects or agglomerate with similar species, or desorb from the surface as shown in~\ref{fig: surface}\cite{choMorphologyEpitaxialGrowth1970, pimpinelliDepositionGrowthDesorption1998}. The thermodynamic interaction and redistribution of the layers close to the surface to form the final crystal configuration has been observed during the growth process of InGaAs using Auger electron and x-ray photoemission spectroscopy\cite{houzaySurfaceSegregationThirdcolumn1989, moisonSurfaceSegregationIII1991}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\textwidth]{figures/MBE_growth.png}
-	\caption[Epitaxial growth]{Kinetics of epitaxial growth observed using an electron beam. Molecules can form islands, migrate to step edges, or desorb from the surface.\cite{larkins2MolecularBeam1995}}\label{fig: surface}
-\end{figure}
-
-The low growth temperature coupled with excess arsenic during the process creates a non-stoichiometric material with a high concentration of point defects in the form of As antisites As$_{Ga}$ close to the center of the bandgap as shown in~\ref{fig: bandgap}~\cite{vashisthaComprehensiveStudyUltrafast2021}. The As$_{Ga}$ point defects can be found in the neutral As$_{Ga}^{0}$ and charged As$_{Ga}^{+}$ states, with reported concentrations of $\qty{1e20}{\per\cubic\centi\metre}$ and $\qty{1e10}{\per\cubic\centi\metre}$ respectively at a growth temperature of $\qty{200}{\degreeCelsius}$\cite{kaminskaStructuralPropertiesAsrich1989}. Close to the valence band, acceptor vacancies V$_{Ga}$ form at equal concentration to As$_{Ga}^{+}$. As$_{Ga}^{+}$ acts as an electron trap, and together with the other mid-bandgap states serve as a ready source of electrons that can be easily promoted to the conduction band, which results in a much larger carrier concentration in the conduction band compared to ordinary material which relies solely on band-to-band transitions\cite{ benjaminTailoringLowtemperatureMBEgrown1996}. Despite the high defect concentration of LT-GaAs, the material has been reported to have high carrier mobility of around $\qty{200}{\centi\meter\squared\per\volt\second}$\cite{benjaminTailoringLowtemperatureMBEgrown1996}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{figures/bandgap.png}
-	\caption[Defect states in low temperature GaAs]{Energy level diagram of the defect states in LT-GaAs\cite{benjaminTailoringLowtemperatureMBEgrown1996}}\label{fig: bandgap}
-\end{figure}
-
-The partial substitution of Ga atoms by In in the GaAs structure results in the ternary alloy In$_x$Ga$_{1-x}$As. Controlling the bandgap and consequently absorption wavelength for InGaAs is done by changing the mole fractions of In and Ga as shown in~\ref{fig: mole_frac}~\cite{zhangBandStructureEngineering2016}. The ratios of In and Ga are easily controlled by changing the fluxes of the corresponding sources during epitaxial growth.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.9\textwidth]{figures/band_struc.png}
-	\caption[Bandgap versus lattice constant]{Bandgap versus lattice constant for various III-V compounds\cite{zhangBandStructureEngineering2016}}\label{fig: mole_frac}
-\end{figure}
-
- A phase diagram for the surface reconstruction of In$_x$Ga$_{(1-x)}$As as a function of In composition on GaAs$(100)$ and InAs$(100)$ substrates is shown in~\ref{fig: phase}\cite{boneSurfaceReconstructionsInGaAs2006}. The gaps in the phase diagram indicate locations where the morphology of the surface is no longer uniform and flat enough to obtain data from scanning tunneling microscopy (STM) and reflective high energy electron diffraction (RHEED).
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/phase.png}
-	\caption[Phase diagram of InGaAs surface according to In concentration]{Phase diagram for the surface reconstruction of In$_x$Ga$_{(1-x)}$As using RHEED}\label{fig: phase}
-\end{figure}
-
-For InGaAs on GaAs$(100)$ the system is compressively strained and becomes progressively rougher as the In fraction increases, while InGaAs grown on InAs$(100)$ is tensile strained, thus the choice of substrate is also important during epitaxy. Based on~\ref{fig: mole_frac} InP is the most suitable substrate lattice matched to InGaAs operating at $\qty{1.55}{\micro\meter}$, however InP is highly absorbing for THz radiation and has a relatively high refractive index which hinders efficient emission of THz radiation as shown in~\ref{fig: absorb}\cite{jungTerahertzDifferencefrequencyQuantum2017}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.65\textwidth]{figures/absorb.jpg}
-	\caption[Absorption coefficients of PCA substrates]{Refractive index and absorption coefficient of semi-insulating InP and float zone high resistivity Si in the THz range\cite{songHandbookTerahertzTechnologies2015}}\label{fig: absorb}
-\end{figure}
-
-\section{Distributed Bragg Reflector}\label{sec: dbr}
-
-Increasing the absorption of the photoconductive material can be done by reflecting unabsorbed light from the laser back into the material by means of a distributed Bragg reflector\cite{liuHighResponsivityEvanescently2023}. A DBR is composed of a stack of alternating layers of materials having different refractive indices. When an electromagnetic wave propagates across the boundary of two materials with differing refractive indices, partial reflection of the field occurs if the refractive index of the succeeding material is greater than that of the material before it. If the thickness of each layer is set to a quarter of the wavelength of interest, the reflection from each successive interface is shifted by half the wavelength and the collection of all reflected components interfere constructively\cite{zhangDistributedBraggReflectors2019}.
-
-An explanation of the distributed Bragg reflector can be obtained from the wave equation as given by 
-\begin{equation}\label{eqn:wave_eqn}
-	\frac{d^2 E}{dz^2} + \left\{ \frac{\omega^2}{c^2} [n_0 + n_1 \cos(2\beta_m z)] + j \frac{\omega}{c} [-n_0 i \gamma_0 + \gamma_1 \cos(2\beta_m z + \theta)] \right\} E = 0
-\end{equation}
-
-where the involved terms are $\beta_0 = \frac{\omega}{c} n_0$ the phase constant of the unperturbed mode, $g_0 = \gamma_0 / 2$ the field coefficient, $g_1 = \gamma_1 / 2$ the perturbation in the field coefficient, $\kappa = \frac{\omega}{c} \cdot \frac{n_1}{2} + j \frac{g_1}{2}$ the coupling coefficient, and $2\beta_m = \frac{2\pi}{\Lambda}$ where $\Lambda$ is the mechanical periodicity $\lambda_B / 2n_0$. By using some approximations,\ref{eqn:wave_eqn} can be reduced to the matrix equation
-\begin{equation}\label{eqn:matrix}
-	\begin{bmatrix} f'' \\ r'' \end{bmatrix} - p^2 \begin{bmatrix} f \\ r \end{bmatrix} = 0 \\
-\end{equation}
-where $p^2 = \kappa^2 + {(g_0 - j\delta)}^2$. Returning to the example of the propagating electromagnetic wave $E_+$ at $z=-L/2$, if the medium through which it propagates is periodic as shown in~\ref{fig: dbr_structure}, then a reverse wave $r$ is generated which contributes to the reflected wave $E_-$ at the same boundary. A portion of the propagating wave may reach the right boundary of the periodic structure at $z=L/2$ and turn into a transmitted wave $E_t$. There is no reverse wave at the right boundary since the medium beyond does not have the properties to reflect the wave. When the field gain coefficient $g_0 = 0$ (and also for $g_1$), the coupling coefficient $\kappa$ is a real number, and\ref{eqn:matrix} simplifies to the equation 
-
-\begin{equation}\label{eqn:dbr}
-	{(pL)}^2 = {(\kappa L)}^2 - {(\delta L)}^2.
-\end{equation}
-
-The power transmission and reflection coefficients at the band center are given by
-\begin{equation}
-    \label{eqn:coefficients} 
-    \begin{split}
-    R &= |S_{11}|^2 \approx {[1 - 2e^{-2\kappa L}]}^2 \\
-    T &= |S_{12}|^2 \approx 4e^{-2\kappa L}
-    \end{split}.
-\end{equation}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.95\textwidth]{figures/dbr.png}
-	\caption[Distributed Bragg reflector structure]{Geometry of a distributed Bragg reflector medium with a source of electromagnetic waves located on the left. The amplitude of $\mathbf{E}$ decreases as it propagates through the structure\cite{verdeyenLaserElectronics2nd1994}.}\label{fig: dbr_structure}
-\end{figure}
-
-The region at $- \kappa L < [\delta L = (\beta_0 - \beta_m)L] < \kappa L $ is known as the stop band of the DBR, since the wavelengths which satisfy this condition are heavily attenuated while propagating through the structure, as shown in the power transmission graph in~\ref{fig: transmission}. The amplitudes of the propagating electric field decrease exponentially as shown in~\ref{fig: dbr_structure}. Some of the methods used to simulate the operation of DBRs include finite element analysis~\cite{elafandyStudyApplicationBirefringent2021} and the transfer matrix method\cite{sharhanTransferMatrixMathematical2020}.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/transmission.png}
-	\caption[DBR transmission]{Relative power transmission of a DBR versus the detuning parameter $\delta L/\pi$ for various coupling coefficient $\kappa L$ values~\cite{songHandbookTerahertzTechnologies2015}}\label{fig: transmission}
-\end{figure}
-
-There are multiple material pairs that can be chosen for the DBR\@ A commonly used material pair is AlAs/GaAs, which can be grown via MBE\cite{oguraGaAsAlxGa1xAsMultilayer1983}. Other material systems which have been grown epitaxially for vertical cavity surface emitting lasers based on InP substrates operating at $\qty{1.55}{\micro\meter}$ include InGaAsP/InP, AlGaAsSb/AlAsSb, and AlInGaAs/AlInAs, but they require a high number of mirror periods to achieve saturation and the cost of such a growth process would be impractical\cite{karimWaferbonded155mmVertical2001}. A DBR made of Si/SiO$_{2}$ is more economical to fabricate, with processes ranging from sputtering to electron beam deposition, but the challenge would now be the transfer of the film from its original growth substrate to the fabricated stack. A transfer process that would preserve the integrity of the film becomes necessary. HCl is known as a selective etchant for InP while leaving InGaAs intact and has been used to isolate InGaAs from sacrificial InP layers with the resulting thin films maintaining an acceptable level of surface roughness and quality\cite{sjodinNanomembraneEtchingRelease2024}.
-
-RF magnetron sputtering has been used to deposit a-Si and SiO$_{2}$ layers for different applications such as nanolaminate structures\cite{thonyQuantizedNanolaminatesInvestigation2024}, superlattices\cite{sullivanPhotoluminescenceAmorphousSi1996}, and DBRs for VCSELs\cite{lappDepositionCharacterizationDielectric}. Sputtering utilizes collisions between energized particles of the working gas and the atoms on the cathode target to supply the material to be deposited. Sputtering is done at vacuum pressures to reduce unwanted collisions between gas particles~\cite{ohanlonGasProperties2003}.The working gas is commonly argon due to its inertness and availability. 
-
-In DC diode sputtering a discharge voltage $V_{D}$ is applied to ionize the working gas, as shown in~\ref{fig: magnetron_diagram}a. The applied $V_{D}$ must be greater than the breakdown voltage $V_{B}$ of the gas, in order to ionize the electrons from the gas particles and create plasma via an avalanche effect. DC diode sputtering works well when the target is conductive and metallic, but when the target is insulating due to its inherent properties or impurities then an interfering charge begins to build up. This build-up is avoided by the use of an AC voltage cycled at extremely high or \gls{RF}. DC sputtering is also limited by the lifespan of the electrons in the vicinity of the target. Adding a static magnetic field $\mathbf{B}$ to confine the ions as shown in~\ref{fig: magnetron_diagram}b solves this problem, as it is easier to accelerate a charged ion $q$ with velocity $\mathbf{v}$ according to the Lorentz equation:
-\begin{equation} \label{eqn: Lorentz}
-		\textbf F=q(\textbf E+\textbf v \times\textbf B)
-\end{equation}
-where $\mathbf{E}$ is the electric field and $\mathbf{F}$ is the force experienced by the particle. Compound films can be formed when a reactive gas such as O$_2$ is included with the working gas, as a chemical reaction between the reactive gas and sputtered atoms can occur mostly at the surface of the substrate. The whole process is thus called reactive radio frequency magnetron sputtering.
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{figures/magnetron.png}
-	\caption[Schematics of a magnetron sputtering system]{Schematics of a magnetron sputtering system (a) with cathode target (b). The plasma is confined by the magnetic field in a toroidal pattern\cite{songHandbookTerahertzTechnologies2015}.}\label{fig: magnetron_diagram}
-\end{figure}
 \section{Electromagnetic Waves in Dielectric Materials}\label{sec: EM waves}
 The propagation of electromagnetic waves through dielectric materials can be described using the Fresnel equations, which can be derived from the boundary conditions that constrain the electric and magnetic field components arising as a direct result of Max\-well's equations. 
 Suppose incident light approaches a boundary between two dielectric materials with refractive indices $n_1$ and $n_2$ as shown in~\ref{fig: polarization}. The first case shows s-polarized light, where the electric field is perpendicular to the plane of incidence, while the second case shows p-polarized light, where the electric field is parallel to the plane of incidence. The incident and reflected angles are equal $\theta_i = \theta_r$, and the transmitted angle is given by Snell's law $n_1\sin \theta_i = n_2 \sin \theta_t$. The boundary conditions require that the components of the electric and magnetic fields be continuous, thus for s-polarized light, the electric fields are given by $E_i + E_r = E_t$ or $1 + r = t$, where $r$ and $t$ are the reflected and transmitted amplitudes and the incident amplitude is normalized to $1$. The y-component of the magnetic field is given by $H_i \cos \theta_i - H_r \cos \theta_r = H_t \cos \theta_t$, which can be rewritten as $n_1 \cos \theta_i (1 - r) = n_2 \cos \theta_t t$ using the relation $H = n E / c$. Solving for $r$ gives 
@@ -164,18 +63,58 @@ while solving for $t$ gives
 \begin{equation} \label{eqn: transmission_p-polarized}
 		t_p = \frac{2 n_1 \cos \theta_i}{n_2 \cos \theta_i + n_1 \cos \theta_t}.
 \end{equation}
+
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/polarization.png}
 	\caption[Polarization at two interfaces]{Diagram of polarized light at two interfaces. The left image shows the case for s-polarized light, with the electric field pointing into the page. For p-polarized light on the right the magnetic field points outside of the page.}\label{fig: polarization}
 \end{figure}
+
+At normal incidence the reflectance $R$ evaluates to 
+\begin{equation} \label{eqn: reflectance_sqd}
+		R=r_12^2={\left| {\frac{n_1-n_2}{n_1+n_2}} \right|}^2.
+\end{equation}
+For an uncoated glass substrate ($n_{\text{glass}} \approx 1.5$) in air ($n_{\text{air}} \approx 1.0$), approximately $4\%$ of incident light power is reflected per interface (Keshavarz Hedayati Elbahri, 2016; Raut et al., 2011). For high-index semiconductor materials like silicon or GaAs ($n_{\text{Si}} \approx 3.7$ at \qty{780}{\nano\meter}), reflection losses exceed $30\%$ (Keshavarz Hedayati Elbahri, 2016).
+
+Consider a single dielectric film of thickness $d_2$ and refractive index $n_2$ deposited between an ambient medium $n_1$ (air) and a substrate $n_3$, where $n_1 < n_2 < n_3$ as shown in~\ref{fig: propagation}. The reflectance of the structure at normal incidence would be given by
+\begin{equation} \label{eqn: reflectance_film}
+		R=\frac{r^2_{12}+r^2_{23}+2r_{12}r_{23}\cos(2\delta_2)}{1+r^2_{12}+r^2_{23}+2r_{12}r_{23}\cos(2\delta_2)}
+\end{equation}
+where $\delta_2=k_2d_2={2\pi n_2 d_2}/{\lambda}$ is the phase difference between the reflected light at the interfaces of the dielectric film. The $2r_{12}r_{23}\cos(2\delta_2)$ term oscillates, and at $\cos(2\delta_2)=\pm 1$ or when $2\delta_2$ is an integer multiple of $2\pi$, interference of the reflected waves occur and the reflectance is at an extremum. The wavelength at the extremum is 
+\begin{equation} \label{eqn: extremum}
+		\lambda=\frac{2n_2d_2}{m}
+\end{equation}
+where $m$ is the number of cycles from one extremum to another. The refractive index of the thin film can be calculated if the thickness is known
+\begin{equation} \label{eqn: index_extrema}
+		n_2=\frac{m\lambda_1\lambda_m}{2d_2(\lambda_m-\lambda_1)}.
+\end{equation}
+and the new $\lambda$ is the average of the two wavelengths $\lambda=(\lambda_m+\lambda_1)/2$.
+
+The mechanism of classical thin-film \gls{ARC}s relies on destructive wave interference (Raut et al., 2011).  Two necessary conditions must be satisfied simultaneously to achieve zero reflectance ($R = 0$) at a specific target wavelength $\lambda_t$. The first condition is that the optical path difference between the partial wave reflected from the top interface ($r_1$) and the partial wave reflected from the substrate interface ($r_2$) must result in a $\pi$ phase shift ($180^\circ$ out of phase). The physical film thickness $d$ must satisfy:
+\begin{equation} \label{eqn: film_thickness}
+		d = \frac{\lambda_t}{4 n_2}.
+\end{equation}
+
+Since both reflection events occur at interfaces transitioning from a lower to a higher refractive index ($n_1 < n_2$ and $n_2 < n_3$), both undergo an phase change upon reflection. The round-trip optical path within the coating $2 n_2 d_2 = {\lambda_t}/{2}$ introduces a net phase change of $\pi$, ensuring destructive interference.
+
+The second condition for zero reflectance is that the intensities of the two reflected waves must be identical $\vert{}r_1\vert{} = \vert{}r_2\vert{}$. Equalizing the Fresnel reflection coefficients yields:
+\begin{equation} \label{eqn: index_single}
+		\frac{n_2 - n_1}{n_2 + n_1} = \frac{n_3 - n_2}{n_3 + n_2} \implies n_2 = \sqrt{n_1 n_3}.
+\end{equation}
+
+For a glass substrate ($n_3 = 1.5$) in air ($n_1 = 1.0$), the ideal coating index is $n_2 \approx 1.22$ (Keshavarz Hedayati Elbahri, 2016). However, finding natural bulk dielectric materials with $n \approx 1.22$ is difficult; magnesium fluoride ($\text{MgF}_2$, $n \approx 1.38$) is usually employed as an alternative (Keshavarz Hedayati Elbahri, 2016). Single-layer \gls{ARC}s suffer from multiple limitations. First, destructive interference is exact only at the design wavelength $\lambda_0$. At adjacent wavelengths the reflection increases rapidly. Another limitation of single-layer \gls{ARC}s is that off-normal angles of incidence alter both the internal propagation path length and the polarization-dependent reflection coefficients, shifting the minimum reflection dip away from $\lambda_t$.
+
+To achieve broadband and wide-angle antireflection, multi-layer dielectric stacks comprising alternating high-index and low-index thin films are used (Astrauskytė et al., 2023). Multi-layer structures introduce multiple internal reflection pathways that result in broader and more easily tailored destructive interference minima across the relevant spectrum. The design of multi-layer \gls{ARC}s is usually performed computationally with the transfer matrix method\cite{sharhanTransferMatrixMathematical2020}.
+
 \section{Transfer Matrix Method}\label{sec: TMM}
 At the boundary between two dielectric materials, the electric field amplitudes of the incident, reflected, and transmitted waves can be related using a transfer matrix. In the schematic shown in~\ref{fig: propagation}a, a wave with amplitude $E_1^+$ is moving to the right, and another wave with amplitude $E_1^-$ is moving to the left. For the other side of the boundary, the amplitudes are $E_2^+$ and $E_2^-$. The fields can be characterized using two $2 \times 1$ matrices, one for each side of the boundary, and a $2 \times 2$ interface matrix $\mathbf{D}$ as shown:
+
 \begin{equation} \label{eqn: initial_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} D_{12} & D_{21} \\ D_{12} & D_{21} \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}
 
 The values of the matrix elements $D_{ij}$ can be obtained from inspecting~\ref{fig: propagation}a. The subscripts $i$ and $j$ refer to the direction of the wave propagation, with $t_{12}$ signifying transmission from medium $1$ to medium $2$, and $r_{12}$ signifying reflection from medium $1$ to medium $2$. The fields are thus given by
+
 \begin{equation} \label{eqn: initial_matrix_element_1}
 	E_2^+ = t_{12} E_1^+ + r_{21} E_2^-
 \end{equation}
@@ -189,31 +128,72 @@ which can be rearranged to
 \begin{equation} \label{eqn: rearranged_matrix_elements_2}
 	E_1^- = \frac{r_{12}}{t_{12}} \left( {E_2^+ - r_{21} E_2^-} \right) + t_{21}  E_2^-.
 \end{equation}
+
 Considering that the reflection coefficient is $r = \left( n_1 - n_2 \right) / \left( n_1 + n_2 \right)$ then $r_{12} = - r_{21}$. For the transmission coefficient $t = 2 n_1 / \left( n_1 + n_2 \right)$, and $t_{12} = n_2 t_{21} / n_1$. Substituting these relations into~\ref{eqn: rearranged_matrix_elements_1} and~\ref{eqn: rearranged_matrix_elements_2} with the assumption that $R + T = 1$ yields the matrix equation for the interface $\mathbf{D}$ 
+
 \begin{equation} \label{eqn: interface_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \frac{1}{t_{12}} \begin{bmatrix} 1 & r_{12} \\ r_{12} & 1 \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}.
 \end{equation}
+
 The propagation matrix $\mathbf{P}$ for a layer of thickness $d$ and refractive index $n$ can be obtained by considering the geometry of the waves in~\ref{fig: propagation}b, where a layer with refractive index $n$ and thickness $d$ has been inserted between the two waves. The wave moving to the right varies as $E^+ = E_0 e^{-j\left( k_y y + k_z z - \omega t \right)}$, and the difference between the two waves at the left and right boundaries is given by $E_2^+ = E_1^+ e^{j k z\cos \theta}$ with the reverse given by $E_2^- = E_1^- e^{-j k z \cos \theta}$. The propagation matrix is thus given by
+
 \begin{equation} \label{eqn: propagation_matrix}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \begin{bmatrix} e^{j k d \cos \theta} & 0 \\ 0 & e^{-j k d \cos \theta } \end{bmatrix} \begin{bmatrix} E_2^+ \\ E_2^- \end{bmatrix}
 \end{equation}
+
 \begin{figure}
 	\centering
-	\includegraphics[width=0.85\textwidth]{figures/propagation.png}
+	\includegraphics[width=1\textwidth]{figures/propagation.png}
 	\caption[Propagation through different media]{Propagation of waves at an interface 
 	(a), through a layer with refractive index $n$ and thickness $d$ (b), and through a multilayer system (c).}\label{fig: propagation}
 \end{figure}
 where $k = 2 \pi n / \lambda$ is the wavenumber in the medium. This analysis can be extended to a two layer system by multiplying the interface and propagation matrices while considering the order of the layers. Starting from the rightmost boundary as shown in~\ref{fig: propagation}c, the fields on both sides are related using the interface matrix by $\mathbf{E}_{3R} = \mathbf{D}_{34}\mathbf{E}_{4}$, where $3R$ is the field at the right side of layer $3$. The fields at the left side of layer $3$ are related to the right side by the propagation matrix $\mathbf{E}_{3L} = \mathbf{P}_3\mathbf{E}_{3R}$, which in turn can be related using another interface matrix to the field across the relevant boundary. This results in the following matrix equation relating the fields at the leftmost region to the rightmost region:
+
 \begin{equation} \label{eqn: total_matrix}
 	\mathbf{M}=\mathbf{D}_{12}\mathbf{P}_2\mathbf{D}_{23}\mathbf{P}_3\mathbf{D}_{34}
 \end{equation}
 such that 
+
 \begin{equation} \label{eqn: transfer_matrix_fields}
 	\begin{bmatrix} E_1^+ \\ E_1^- \end{bmatrix} = \mathbf{M} \begin{bmatrix} E_4^+ \\ E_4^- \end{bmatrix}= \begin{bmatrix}  M_{11} & M_{12} \\ M_{21} & M_{22} \end{bmatrix} \begin{bmatrix} E_4^+ \\ E_4^- \end{bmatrix}.
 \end{equation}
+
 This method allows the analysis of any multilayer system using matrix multiplication of the component interface $\mathbf{D}$ and propagation $\mathbf{P}$ matrices. The reflection coefficient $r$ for a multilayer structure is simply
+
 \begin{equation} \label{eqn: multilayer_reflection_coefficient}
 	r = \frac{M_{21}}{M_{11}}
 \end{equation}
 since $t = 1 / M_{11}$ and $r = M_{21} / M_{11}$.
+
+\section{Electron beam physical vapor deposition of a-Si and SiO\texorpdfstring{$_{2}$}{2}}
+Silicon and its native oxide SiO$_2$ are the most common materials used in the semiconductor industry. Thin films of Si and SiO$_2$ are used in microelectronics, photonics, and photovoltaic applications. These thin films are grown using methods ranging from physical vapor deposition, chemical vapor deposition, to thermal oxidation. Electron beam physical vapor deposition (EBPVD) or e-beam evaporation is one commonly utilized technique for depositing high-purity Si and SiO$_2$ films due to its high deposition rate, precise thickness control, and capability to vaporize high-melting-point materials.
+
+SiO$_2$ is widely utilized due to its wide bandgap ($\approx 8.9\text{ eV}$), low refractive index ($n \approx 1.45 - 1.46$ in the visible spectrum), high chemical stability, and low dielectric loss for optical coatings (Macleod, 2010). While thermal oxidation can produce high-quality native SiO$_2$ from Si, it requires high temperatures ($>$\qty{300}{\celsius}) and is restricted to silicon substrates. Electron beam evaporation enables low-temperature deposition ($<$\qty{300}{\celsius}) on different substrates including polymers, glass, and compound semiconductors such as GaAs (Schiller et al., 1982). However, e-beam evaporating silica presents unique physical challenges—specifically dissociation during evaporation, sub-stoichiometry SiO$_2$, porosity, and intrinsic film stress (Ritter, 1972).
+
+In e-beam evaporation, a high-energy electron beam ($6 - 10\text{ kV}$) is magnetically steered onto a high-purity target contained in a water-cooled copper crucible. The electron generation mechanism relies on Richardson-Dushman thermionic emission from a heated filament (typically tungsten):
+
+\begin{equation} \label{eqn: thermionic_emission}
+	J = A T^2 \exp\left( -\frac{\Phi}{k_B T} \right)
+\end{equation}
+
+where $J$ is the emission current density \unit{\ampere\per\square\meter}, $A \approx 1.2 \times 10^6$ \unit{\ampere\per\square\meter\square\kelvin} is the Richardson constant.$\Phi$ is the work function of the filament material \unit{\electronvolt}.$k_B$ is the Boltzmann constant and $T$ is the absolute temperature in \unit{\kelvin}. Emitted electrons are accelerated toward an anode using a high potential difference. The beam trajectory is controlled via the Lorentz force:
+
+\begin{equation} \label{eqn: Lorentz}
+		\textbf F=e(\textbf E+\textbf v \times\textbf B)
+\end{equation}
+
+In a uniform transverse magnetic field $\mathbf{B}$, electrons follow a circular path. This bending caused by the magnetic field allows the electron gun to remain shielded from direct line-of-sight deposition from the source while enabling frequent sweeping across the crucible to maintain uniform evaporation from the source as shown in~\ref{fig: polarization}. As the electron beam strikes the source, local temperatures at the beam spot may exceed $1700^\circ\text{C}$, causing melting and evaporation for Si or direct sublimation in the case of SiO$_2$ (Schiller et al., 1982). Unlike pure Si, SiO$_2$ does not evaporate purely as intact SiO$_2$ molecules. Thermal dissociation may occur at the surface of the source, yielding a mixture of gaseous species (Ritter, 1972):
+\begin{equation} \label{eqn: sio_evap}
+	\text{SiO}_2\,\text{(s)} \longrightarrow \text{SiO}\,\text{(g)} + \frac{1}{2}\text{O}_2\,\text{(g)}
+\end{equation}
+\begin{equation} \label{eqn: si_evap}
+	\text{SiO}_2\,\text{(s)} \longrightarrow \text{Si}\,\text{(g)} + \text{O}_2\,\text{(g)}
+\end{equation}
+
+Unassisted e-beam evaporation of SiO$_2$ in high vacuum typically yields sub-stoichiometric films of SiO$_x$ where $x < 2.0$. Sub-stoichiometry impacts film performance by introducing sub-oxide states ($\text{Si}^{1+}$, $\text{Si}^{2+}$, $\text{Si}^{3+}$) and oxygen vacancies, leading to an increased optical absorption and increased refractive index. To ensure fully stoichiometric SiO$_2$, reactive e-beam evaporation can be performed by introducing oxygen gas into the chamber.
+
+According to the structure zone model, the growth of the films proceed in three general steps (Thornton). The first step occurs when the vaporized molecules are transported towards the substrate, the second when they are adsorbed onto the surface of the substrate or growing film, their diffusion across the surface, and any chemical reactions that may involve their incorporation into the film or removal via thermal desorption or sputtering. The third step involves the movement of the molecules to their final locations via bulk diffusion and solid state reactions. 
+
+Movchan and Demchishin classified film growth into distinct zones, with the morphology of the films depending strongly on the normalized homologous temperature $T_h = {T_{\text{sub}}}/{T_m}$ where $T_{\text{sub}}$ is the substrate temperature and $T_m$ is the melting point of the material in \unit{\kelvin}. At low temperatures ($T_h < 0.3$) surface diffusion is low,  and molecules essentially stick where they arrive, producing porous, tapered columnar structures. This is considered as Zone 1. At Zone 2 ($T_h < 0.5$) the temperatures are high enough to allow the surface diffusion fluxes to dominate over the arrival fluxes, but still low enough such that the bulk diffusion rates remain orders of magnitude less than the surface diffusion rates. When the temperature is high enough, bulk diffusion will dominate over all other processes and fully dense grains form. This is considered as Zone 3. The morphology of the films also has an effect on the refractive index, with porous films generally having a lower index compared to the bulk.
+
 \section{Envelope method for refractive index}\label{sec: swanepoel}
