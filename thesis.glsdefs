@@ -54,34 +54,6 @@ parent={},%
 %
 }%
 
-\glsdefs@newdocentry{DBR}%
-{%
-name={\acronymfont {\glsentryshort {DBR}}},%
-sort={DBR},%
-type={acronym},%
-first={DBR},%
-firstplural={DBRs},%
-text={DBR},%
-plural={DBRs},%
-description={distributed Bragg reflector},%
-descriptionplural={distributed Bragg reflector},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={distributed Bragg reflector},%
-longplural={distributed Bragg reflectors},%
-short={DBR},%
-shortplural={DBRs},%
-counter={page},%
-parent={},%
-%
-}%
-
 \glsdefs@newdocentry{LT}%
 {%
 name={\acronymfont {\glsentryshort {LT}}},%
@@ -189,34 +161,6 @@ long={quartz crystal microbalance},%
 longplural={quartz crystal microbalances},%
 short={QCM},%
 shortplural={QCMs},%
-counter={page},%
-parent={},%
-%
-}%
-
-\glsdefs@newdocentry{RF}%
-{%
-name={\acronymfont {\glsentryshort {RF}}},%
-sort={RF},%
-type={acronym},%
-first={RF},%
-firstplural={RFs},%
-text={RF},%
-plural={RFs},%
-description={radio frequency},%
-descriptionplural={radio frequency},%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={radio frequency},%
-longplural={radio frequencys},%
-short={RF},%
-shortplural={RFs},%
 counter={page},%
 parent={},%
 %

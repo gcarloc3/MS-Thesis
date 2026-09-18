@@ -1,14 +1,127 @@
 
 % The environment used here (theappendices) is a wrapper for the basic appendices environment which changes the appearance of the title page and the structure and appearance of the appendices in the table of contents and PDF bookmarks. The original functionality can be restored by simply removing the 'the' from the \begin{} and \end{} statements below.
 
-\begin{theappendices}
+\begin{appendices}
 
 
 
-% \chapter{Gantt chart}
-% A telescope and a spectrometer were used to analyze the sun. Many other instruments were used.
+\chapter{Transfer Matrix Method python code}
+\begin{lstlisting}[language=Python, breaklines=true, breakatwhitespace=true]
 
+# TMM for 9-layers - MJ Hurben Dec 2024
+# Modified for 1550 nm and 780 nm optimized SiO2/Si ARC - GCC 2026
+import numpy as np
+import matplotlib.pyplot as plt
+d2r = np.pi / 180  # Degrees to radians factor
+na=1               # Index of air
+n_layers=3         # Number of layers
+
+# Define matrices of refractive index n and thickness d, modify functions and arrays as needed
+
+# try to use complex refractive index n(wl)+k(wl)j for formula?
+
+def ns(wl): # Define ns as a function of wl based on index of substrate material Si from 430 nm
+    return 4.0333E-12*wl**4 - 1.7984E-08*wl**3 + 2.9993E-05*wl**2 - 2.2437E-02*wl + 9.9702
+            
+#    return -8.974E-15*wl**5 + 5.299E-11*wl**4 - 1.228E-07*wl**3 + 1.398E-04*wl**2 - 7.857E-02*wl + 2.103E+01 # In52Ga48As
+
+def n1(wl): # Define n1 as a function of wl based on refractive index of 1st layer material SiO2
+    return np.sqrt(20201856809.3-22607182010.85*wl**2/ (wl**2-0.1063836985797) +2405325203.746*wl**2/ (wl**2-0.9998803009815))
+
+def n2(wl):  # Define n2 as a function of wl a-Si from 430 nm
+    return np.sqrt(14.84529+(7067090000000)*wl**2/ (wl**2-(-2124490000000000000)) +(-10.41841)*wl**2/ (wl**2-(-190469.027)))
+
+def refractive_index_array(wl): # Add corresponding variables and links to functions for each layer
+    n_s = ns(wl)
+    n1_val = n1(wl)
+    n2_val = n2(wl)
+    return np.array([na, na, na, na, na, na, n1_val, n2_val, n1_val, n_s])   # If < 9 layers, use na as index of 'missing' layers
+
+
+d=np.array([1,1,1,1,1,1,206,14,53,1000]) # d-Matrix values are in nm; initial air layers and final glass layer arbitrary
+
+def PS(nva,dva,wl): # Phase Shift calculation
+
+    def M(nA,nB): # Transfer matrix for interface
+        r=(nA-nB)/(nA+nB)
+        t=1+r
+        d=1/t
+        offd=r/t    
+        m=np.array([[d,offd],[offd,d]])
+        return m
+
+    def P(L,n):  # Transfer matrix for propagation
+        L=L*n*2*np.pi
+        v=complex(np.cos(L),-np.sin(L))
+        p=np.array([[v,0],[0,v.conjugate()]])
+        return p
+   
+    W=M(nva[8],nva[9]) # Interface of last layer and glass
+    for i in range(8,-1,-1):
+        W=np.matmul(P(dva[i]/wl,nva[i]),W)
+        if i>0:
+            W=np.matmul(M(nva[i-1],nva[i]),W)
+        else:
+            W=np.matmul(M(na,nva[0]),W)  # Interface of glass and first layer
+        r=W[1,0]/W[0,0]    
+    return r
+
+
+d_sweep=np.array([1,1,1,1,1,1,206,14,53,1000])   # Matrix for thickness sweep
+d_optimal=np.array([1,1,1,1,1,1,206,14,53,1000])
+
+for layer in range(int(9-n_layers),9):   # Rough sweep (100 nm range 5 nm step) for best thickness
+    original_val=d_sweep[layer]
+    base_reflectance= abs(PS(refractive_index_array(1550),d_sweep,1550))**2 +abs(PS(refractive_index_array(780),d_sweep,780))**2
+    for sweep_size in range(-50,55,5):
+        d_sweep[layer]=original_val+sweep_size
+        r_init_1550= PS(refractive_index_array(1550),d_sweep,1550)
+        r_init_780= PS(refractive_index_array(780),d_sweep,780)
+        if (abs(r_init_1550)**2+abs(r_init_780)**2) <base_reflectance:   # try reducing sum of base_reflectance at 1550 and 780? 
+            d_optimal[layer]=d_sweep[layer]
+            base_reflectance = (abs(r_init_1550)**2+abs(r_init_780)**2)
+    d_sweep[layer]=d_optimal[layer]
+
+for layer in range(int(9-n_layers),9):   # Fine sweep (10 nm range 1 nm step) for best thickness
+    original_val=d_sweep[layer]
+    base_reflectance = abs(PS(refractive_index_array(1550),d_sweep,1550))**2+ abs(PS(refractive_index_array(780),d_sweep,780))**2
+    for sweep_size in range(-5,6):
+        d_sweep[layer]=original_val+sweep_size
+        r_init_1550 = PS(refractive_index_array(1550),d_sweep,1550)
+        r_init_780 = PS(refractive_index_array(780),d_sweep,780)
+        if (abs(r_init_1550)**2+abs(r_init_780)**2) <base_reflectance:   # try reducing sum of base_reflectance at 1550 and 780?
+            d_optimal[layer]=d_sweep[layer]
+            base_reflectance = (abs(r_init_1550)**2+abs(r_init_780)**2)
+    d_sweep[layer]=d_optimal[layer]
+
+wls=[] # Array of wavelengths
+T=[] # Array of T values
+R=[] # Array of R values  
+R_opt=[] # Array of optimized R values
+       
+for wl in range(430,1700,2):
+    n=refractive_index_array(wl)
+    r=PS(n,d,wl)               # reflectance of initial values
+    r_opt=PS(n,d_optimal,wl)   # reflectance of optimized values
+    wls.append(wl)
+    R.append(abs(r)**2)
+    R_opt.append(abs(r_opt)**2)
+#     T.append(1-abs(r)**2)
+   
+print(d_optimal)
+export_array = np.column_stack((wls, R, R_opt))
+np.savetxt("tmm.csv", export_array, delimiter=",")
+
+plt.grid(True)    
+plt.plot(wls, R, label="Initial")
+plt.plot(wls, R_opt, label="optimized")
+plt.xlim(430, 1700)
+plt.ylim(0.00,1)
+plt.xlabel('Wavelength (nm)')
+plt.ylabel('Reflectance R')
+plt.legend(loc="upper right")
+\end{lstlisting}
 % \chapter{Data Processing}
 % Data was processed before being added to this document.
 
-\end{theappendices}
+\end{appendices}

@@ -76,7 +76,13 @@ At normal incidence the reflectance $R$ evaluates to
 \end{equation}
 For an uncoated glass substrate ($n_{\text{glass}} \approx 1.5$) in air ($n_{\text{air}} \approx 1.0$), approximately $4\%$ of incident light power is reflected per interface (Keshavarz Hedayati Elbahri, 2016; Raut et al., 2011). For high-index semiconductor materials like silicon or GaAs ($n_{\text{Si}} \approx 3.7$ at \qty{780}{\nano\meter}), reflection losses exceed $30\%$ (Keshavarz Hedayati Elbahri, 2016).
 
-Consider a single dielectric film of thickness $d_2$ and refractive index $n_2$ deposited between an ambient medium $n_1$ (air) and a substrate $n_3$, where $n_1 < n_2 < n_3$ as shown in~\ref{fig: propagation}. The reflectance of the structure at normal incidence would be given by
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\textwidth]{figures/single_film.png}
+	\caption[Single film on substrate]{Diagram of light with normal incidence on a single film and substrate.}\label{fig: normal}
+\end{figure}
+
+Consider a single dielectric film of thickness $d_2$ and refractive index $n_2$ deposited between an ambient medium $n_1$ (air) and a substrate $n_3$, where $n_1 < n_2 < n_3$ as shown in~\ref{fig: normal}. The reflectance of the structure at normal incidence would be given by
 \begin{equation} \label{eqn: reflectance_film}
 		R=\frac{r^2_{12}+r^2_{23}+2r_{12}r_{23}\cos(2\delta_2)}{1+r^2_{12}+r^2_{23}+2r_{12}r_{23}\cos(2\delta_2)}
 \end{equation}
@@ -102,7 +108,7 @@ The second condition for zero reflectance is that the intensities of the two ref
 		\frac{n_2 - n_1}{n_2 + n_1} = \frac{n_3 - n_2}{n_3 + n_2} \implies n_2 = \sqrt{n_1 n_3}.
 \end{equation}
 
-For a glass substrate ($n_3 = 1.5$) in air ($n_1 = 1.0$), the ideal coating index is $n_2 \approx 1.22$ (Keshavarz Hedayati Elbahri, 2016). However, finding natural bulk dielectric materials with $n \approx 1.22$ is difficult; magnesium fluoride ($\text{MgF}_2$, $n \approx 1.38$) is usually employed as an alternative (Keshavarz Hedayati Elbahri, 2016). Single-layer \gls{ARC}s suffer from multiple limitations. First, destructive interference is exact only at the design wavelength $\lambda_0$. At adjacent wavelengths the reflection increases rapidly. Another limitation of single-layer \gls{ARC}s is that off-normal angles of incidence alter both the internal propagation path length and the polarization-dependent reflection coefficients, shifting the minimum reflection dip away from $\lambda_t$.
+For a glass substrate ($n_3 = 1.5$) in air ($n_1 = 1.0$), the ideal coating index is $n_2 \approx 1.22$ (Keshavarz Hedayati Elbahri, 2016). However, finding natural bulk dielectric materials with $n \approx 1.22$ is difficult; magnesium fluoride ($\text{MgF}_2$, $n \approx 1.38$) is usually employed as an alternative (Keshavarz Hedayati Elbahri, 2016). Single-layer \gls{ARC}s suffer from multiple limitations. First, destructive interference is exact only at the design wavelength $\lambda_t$, with the reflection increasing rapidly as the wavelength gets further away. Another limitation of single-layer \gls{ARC}s is that off-normal angles of incidence alter both the internal propagation path length and the polarization-dependent reflection coefficients, shifting the minimum reflection away from $\lambda_t$.
 
 To achieve broadband and wide-angle antireflection, multi-layer dielectric stacks comprising alternating high-index and low-index thin films are used (Astrauskytė et al., 2023). Multi-layer structures introduce multiple internal reflection pathways that result in broader and more easily tailored destructive interference minima across the relevant spectrum. The design of multi-layer \gls{ARC}s is usually performed computationally with the transfer matrix method\cite{sharhanTransferMatrixMathematical2020}.
 
@@ -168,15 +174,15 @@ since $t = 1 / M_{11}$ and $r = M_{21} / M_{11}$.
 \section{Electron beam physical vapor deposition of a-Si and SiO\texorpdfstring{$_{2}$}{2}}
 Silicon and its native oxide SiO$_2$ are the most common materials used in the semiconductor industry. Thin films of Si and SiO$_2$ are used in microelectronics, photonics, and photovoltaic applications. These thin films are grown using methods ranging from physical vapor deposition, chemical vapor deposition, to thermal oxidation. Electron beam physical vapor deposition (EBPVD) or e-beam evaporation is one commonly utilized technique for depositing high-purity Si and SiO$_2$ films due to its high deposition rate, precise thickness control, and capability to vaporize high-melting-point materials.
 
-SiO$_2$ is widely utilized due to its wide bandgap ($\approx 8.9\text{ eV}$), low refractive index ($n \approx 1.45 - 1.46$ in the visible spectrum), high chemical stability, and low dielectric loss for optical coatings (Macleod, 2010). While thermal oxidation can produce high-quality native SiO$_2$ from Si, it requires high temperatures ($>$\qty{300}{\celsius}) and is restricted to silicon substrates. Electron beam evaporation enables low-temperature deposition ($<$\qty{300}{\celsius}) on different substrates including polymers, glass, and compound semiconductors such as GaAs (Schiller et al., 1982). However, e-beam evaporating silica presents unique physical challenges—specifically dissociation during evaporation, sub-stoichiometry SiO$_2$, porosity, and intrinsic film stress (Ritter, 1972).
+SiO$_2$ is widely utilized due to its wide bandgap of \qty{8.9}{\electronvolt}, low refractive index of $n \approx 1.45 - 1.46$ in the visible spectrum, high chemical stability, and low dielectric loss for optical coatings (Macleod, 2010). While thermal oxidation can produce high-quality native SiO$_2$ from Si, it requires temperatures $>$\qty{900}{\celsius} and is restricted to silicon substrates. Electron beam evaporation enables low-temperature deposition $<$\qty{300}{\celsius} on different substrates including polymers, glass, and compound semiconductors such as GaAs (Schiller et al., 1982). However, e-beam evaporation of SiO$_2$ presents unique physical challenges including dissociation during evaporation, sub-stoichiometry SiO$_2$, porosity, and intrinsic film stress (Ritter, 1972).
 
-In e-beam evaporation, a high-energy electron beam ($6 - 10\text{ kV}$) is magnetically steered onto a high-purity target contained in a water-cooled copper crucible. The electron generation mechanism relies on Richardson-Dushman thermionic emission from a heated filament (typically tungsten):
+In e-beam evaporation, a high-energy electron beam is magnetically steered onto a high-purity target contained in a water-cooled crucible. The electron generation is caused by Richardson-Dushman thermionic emission from a heated filament which is typically tungsten:
 
 \begin{equation} \label{eqn: thermionic_emission}
 	J = A T^2 \exp\left( -\frac{\Phi}{k_B T} \right)
 \end{equation}
 
-where $J$ is the emission current density \unit{\ampere\per\square\meter}, $A \approx 1.2 \times 10^6$ \unit{\ampere\per\square\meter\square\kelvin} is the Richardson constant.$\Phi$ is the work function of the filament material \unit{\electronvolt}.$k_B$ is the Boltzmann constant and $T$ is the absolute temperature in \unit{\kelvin}. Emitted electrons are accelerated toward an anode using a high potential difference. The beam trajectory is controlled via the Lorentz force:
+where $J$ is the emission current density \unit{\ampere\per\square\meter}, $A \approx 1.2 \times 10^6$ \unit{\ampere\per\square\meter\square\kelvin} is the Richardson constant, $\Phi$ is the work function of the filament material in \unit{\electronvolt}, $k_B$ is the Boltzmann constant, and $T$ is the absolute temperature in \unit{\kelvin}. Emitted electrons are accelerated toward an anode using a high potential difference and the beam trajectory is controlled via the Lorentz force:
 
 \begin{equation} \label{eqn: Lorentz}
 		\textbf F=e(\textbf E+\textbf v \times\textbf B)
@@ -190,10 +196,107 @@ In a uniform transverse magnetic field $\mathbf{B}$, electrons follow a circular
 	\text{SiO}_2\,\text{(s)} \longrightarrow \text{Si}\,\text{(g)} + \text{O}_2\,\text{(g)}
 \end{equation}
 
-Unassisted e-beam evaporation of SiO$_2$ in high vacuum typically yields sub-stoichiometric films of SiO$_x$ where $x < 2.0$. Sub-stoichiometry impacts film performance by introducing sub-oxide states ($\text{Si}^{1+}$, $\text{Si}^{2+}$, $\text{Si}^{3+}$) and oxygen vacancies, leading to an increased optical absorption and increased refractive index. To ensure fully stoichiometric SiO$_2$, reactive e-beam evaporation can be performed by introducing oxygen gas into the chamber.
+Non-reactive e-beam evaporation of SiO$_2$ in high vacuum typically yields films of SiO$_x$ with lower stoichiometric values $x < 2.0$. A lower stoichiometry impacts film performance by introducing sub-oxide states ($\text{Si}^{1+}$, $\text{Si}^{2+}$, $\text{Si}^{3+}$) and oxygen vacancies, leading to an increased optical absorption and increased refractive index. To ensure fully stoichiometric SiO$_2$, reactive e-beam evaporation can be performed by introducing oxygen gas into the chamber.
 
 According to the structure zone model, the growth of the films proceed in three general steps (Thornton). The first step occurs when the vaporized molecules are transported towards the substrate, the second when they are adsorbed onto the surface of the substrate or growing film, their diffusion across the surface, and any chemical reactions that may involve their incorporation into the film or removal via thermal desorption or sputtering. The third step involves the movement of the molecules to their final locations via bulk diffusion and solid state reactions. 
 
-Movchan and Demchishin classified film growth into distinct zones, with the morphology of the films depending strongly on the normalized homologous temperature $T_h = {T_{\text{sub}}}/{T_m}$ where $T_{\text{sub}}$ is the substrate temperature and $T_m$ is the melting point of the material in \unit{\kelvin}. At low temperatures ($T_h < 0.3$) surface diffusion is low,  and molecules essentially stick where they arrive, producing porous, tapered columnar structures. This is considered as Zone 1. At Zone 2 ($T_h < 0.5$) the temperatures are high enough to allow the surface diffusion fluxes to dominate over the arrival fluxes, but still low enough such that the bulk diffusion rates remain orders of magnitude less than the surface diffusion rates. When the temperature is high enough, bulk diffusion will dominate over all other processes and fully dense grains form. This is considered as Zone 3. The morphology of the films also has an effect on the refractive index, with porous films generally having a lower index compared to the bulk.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\textwidth]{figures/movchan.png}
+	\caption[Structure zone model]{Structure zone diagram introduced by Movchan and Demchishin from study of vacuum evaporated metals and oxides.}\label{fig: movchan}
+\end{figure}
+
+Movchan and Demchishin classified film growth into distinct zones, with the morphology of the films depending on the normalized homologous temperature $T_h = {T_{\text{sub}}}/{T_m}$ where $T_{\text{sub}}$ is the substrate temperature and $T_m$ is the melting point of the material in \unit{\kelvin} as shown in~\ref{fig: movchan}. At low temperatures ($T_h < 0.3$) surface diffusion is low,  and molecules essentially stick where they arrive, producing porous, tapered columnar structures. This is considered as Zone 1. At Zone 2 ($T_h < 0.5$) the temperatures are high enough to allow the surface diffusion fluxes to dominate over the arrival fluxes, but still low enough such that the bulk diffusion rates remain orders of magnitude less than the surface diffusion rates. When the temperature is high enough, bulk diffusion will dominate over all other processes and the formation is characterized by fully dense grains. This is considered as Zone 3. The morphology of the films also has an effect on the refractive index, with porous films generally having a lower index compared to the bulk.
 
 \section{Envelope method for refractive index}\label{sec: swanepoel}
+Accurate characterization of the optical properties of weakly absorbing thin films deposited on transparent substrates is crucial for integrated optical devices (Macleod, 2010). Building upon earlier interference envelope concepts developed by Manifacier et al. (1976), R. Swanepoel formulated a method which relies solely on the upper ($T_M$) and lower ($T_m$) continuous envelope curves fitted to the fringe extrema of a single normal-incidence transmission spectrum $T(\lambda)$ as shown in~\ref{fig: swanepoel_env}. 
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{figures/swanepoel_env.png}
+	\caption[Envelope method as described by Swanepoel]{Envelope method as described by Swanepoel for a \qty{1}{\micro\meter} film of a-Si:H on a finite glass substrate with transmittance $T_s$.}\label{fig: swanepoel_env}
+\end{figure}
+Consider a homogeneous thin dielectric film of uniform physical thickness $d$, complex refractive index $\tilde{n} = n - ik$, deposited on a transparent, thick substrate of index $s$ surrounded by air ($n_0 = 1$) as shown in~\ref{fig: normal}. In the weakly absorbing region ($k^2 \ll n^2$), internal multiple reflections give rise to alternating constructive and destructive interference fringes in the transmission spectrum $T(\lambda)$. 
+
+The optical transmittance $T$ at normal incidence, accounting for incoherent reflections at the rear substrate boundary, is given by (Swanepoel, 1983):
+\begin{equation} \label{eqn: transmission_swanepoel}
+	T = \frac{A x}{B - C x \cos(\phi) + D x^2}
+\end{equation}
+where:$x = \exp(-\alpha d)$ is the absorptance term, and $\alpha = {4\pi k}/{\lambda}$ is the absorption coefficient, $\phi = {4\pi n d}/{\lambda}$ is the phase shift per round trip in the film. The system constants $A$, $B$, $C$, and $D$ depend strictly on $n$ and $s$:
+\[A = 16 n^2 s\]
+\[B = {(n + 1)}^3 (n + s^2)\]
+\[C = 2 (n^2 - 1) (n^2 - s^2)\]
+\[D = {(n - 1)}^3 (n - s^2)\]
+where $s=1/T_s+\sqrt{1/T_s-1}$ is the refractive index of the substrate and $T_s$ the transmittance of the substrate. The transmission spectrum exhibits local maxima $T_M$ when at conditions of constructive interference $\cos(\phi) = +1$ and local minima $T_m$ when $\cos(\phi) = -1$ or destructive interference. Continuous envelope curves $T_M(\lambda)$ and $T_m(\lambda)$ across the spectrum can be created using various functions, such as the McClain algorithm, parabolic or exponential interpolation (Ballester et al.). 
+
+For exponential interpolation, the envelope follows the following mathematical expression:
+\begin{equation} \label{eqn: swanepoel_exp}
+	f^{exp}(\lambda, T_0, T_1, T_2, \Lambda_1, \Lambda_2)=T_0+T_1e^{-\lambda/\Lambda_1}+T_2e^{-\lambda/\Lambda_2}
+\end{equation}
+where the optimal parameters $(\lambda, T_0, T_1, T_2, \Lambda_1, \Lambda_2)$ are obtained by solving a nonlinear-least squares fitting problem. Although this method is less precise than other algorithms, it has the benefit of being more appropriate for transmission spectra with a limited number of oscillations and tangent points, which often occurs for ultra-thin films. Common interpolations typically require at least four tangent points for a reliable estimation of each envelope. 
+
+By setting $\cos(\phi) = \pm 1$ in the fundamental transmittance equation, an explicit equation for the refractive index $n$ at any continuous wavelength $\lambda$ in the transparent/weakly absorbing regime ($x \approx 1$) can be derived (Swanepoel, 1983):
+\begin{equation} \label{eqn: swanepoel_index}
+	n = {\left[ N + \sqrt{N^2 - s^2} \right]}^{1/2}
+\end{equation}
+where
+\begin{equation} \label{eqn: swanepoel_N}
+	N = 2 s \left( \frac{T_M - T_m}{T_M T_m} \right) + \frac{s^2 + 1}{2}
+\end{equation}
+From the interference condition, the fundamental equation for fringe order $m$ is:
+\begin{equation} \label{eqn: swanepoel_fringe_order}
+	2 n d = m \lambda
+\end{equation}
+where $m$ is an integer for maxima ($T_M$) and a half-integer for minima ($T_m$). If $n_{a}$ and $n_{b}$ are the calculated refractive indices at two adjacent extrema wavelengths $\lambda_a$ and $\lambda_b$ then thickness can be determined:
+\begin{equation} \label{eqn: swanepoel_thickness}
+	d = \frac{\lambda_a \lambda_b}{2 (\lambda_a n_b - \lambda_b n_a)}
+\end{equation}
+
+Taking the average over multiple adjacent fringe pairs yields a more accurate value for physical thickness $d$ (Swanepoel, 1983; Marquez et al., 1992). Once an initial value of $d$ is obtained, exact integer and half-integer values of $m_0$ are determined by evaluating~\ref{eqn: swanepoel_fringe_order}. Fitting these rounded integers back into~\ref{eqn: swanepoel_fringe_order} gives more refined values of $n$ and $d$ for the extrema. The resulting values of $n(\lambda)$ can be fitted to Sellmeier's equation to obtain a continuous function of $n$ with the wavelength:
+\begin{equation} \label{eqn: sellmeier}
+	n^2(\lambda) = 1 + \frac{B_1 \lambda^2}{\lambda^2 - C_1} + \frac{B_2 \lambda^2}{\lambda^2 - C_2} 
+\end{equation}
+
+
+\section{X-ray reflectivity}\label{sec: xrr}
+As multi-layer optical stacks require nanometer precision, non-destructive surface characterization techniques are essential (Parratt, 1954; Holy et al., 1999). X-ray reflectometry (XRR) is a non-destructive optical characterization technique widely employed to determine the structural properties of thin films and multi-layer heterostructures with nanometer resolution. By measuring the speculatively reflected intensity of X-rays as a function of incident angle, XRR provides absolute determinations of film thickness $d$, electron density $\rho_e$, and interface or surface roughness $\sigma$. 
+For hard X-rays $\lambda \approx 0.05 - 0.2\text{ nm}$, the optical refractive index $n$ of condensed matter is slightly less than unity:
+\begin{equation} \label{eqn: xrr_index}
+	n = 1 - \delta - i\beta
+\end{equation}
+where $\delta$ represents the dispersion term, which governs phase velocity and wave deflection and $\beta$ represents the absorption term, which governs wave attenuation.
+
+In terms of microscopic atomic parameters, $\delta$ and $\beta$ are directly linked to the bulk properties of the material (Parratt, 1954; Holy et al., 1999):
+\begin{equation} \label{eqn: xrr_delta}
+	\delta = \frac{r_e \lambda^2}{2\pi} \rho_e = \frac{r_e \lambda^2 N_A}{2\pi} \sum_j \frac{\rho_m (f_j^0 + f_j')}{M_j}
+\end{equation}
+\begin{equation} \label{eqn: xrr_beta}
+	\beta = \frac{\mu \lambda}{4\pi} = \frac{r_e \lambda^2 N_A}{2\pi} \sum_j \frac{\rho_m f_j''}{M_j}
+\end{equation}
+where $r_e = {e^2}/{4\pi\varepsilon_0 m_e c^2} \approx 2.818 \times 10^{-15}\text{ m}$ is the classical electron radius, $\rho_e$ is the electron density of the material, $N_A$ is Avogadro's number, $\rho_m$ is the mass density, and $M_j$ is the atomic molar mass,  ($f_j^0 + f_j' + i f_j''$) represents the complex atomic scattering factor, and $\mu$ is the linear x-ray attenuation coefficient. Because $\delta$ is positive and typically on the order of $10^{-6}$ to $10^{-5}$, the real part of $n$ ($1 - \delta$) is less than $1.0$. Consequently, vacuum or air behaves as an optically denser medium than any solid or liquid in the X-ray regime.
+
+Because $n < 1$, X-rays impinging on a material surface from air/vacuum ($n_0 \approx 1$) undergo total external reflection when the incident grazing angle $\theta$ is below a critical angle $\theta_c$. Applying Snell's Law ($\cos\theta_c = n = 1 - \delta$):
+\begin{equation} \label{eqn: xrr_snell}
+	\cos\theta_c = 1 - \delta
+\end{equation}
+Using the Taylor expansion $\cos\theta_c \approx 1 - {\theta_c^2}/{2}$ for small angles:
+\begin{equation} \label{eqn: xrr_taylor}
+	\theta_c \approx \sqrt{2\delta} = \lambda \sqrt{\frac{r_e \rho_e}{\pi}}
+\end{equation}
+At angles $\theta \le \theta_c$, $100\%$ of the incident X-ray intensity is reflected ($R = 1$), and the electromagnetic wave inside the material decays exponentially as an evanescent wave with a penetration depth of only a few nanometers. Above $\theta_c$, the reflectivity drops sharply, decaying as $\theta^{-4}$ according to Fresnel's law (Parratt, 1954).
+
+When an X-ray beam strikes a thin film deposited on a substrate of different electron density, waves reflect from both the top interface of air and film and the bottom interface of the film and substrate. Constructive and destructive interference between these coherent wave paths produces periodic oscillations in reflectivity known as Kiessig fringes (Kiessig, 1931). The fringe spacing $\Delta\theta$ is inversely proportional to the film thickness $d$:
+\begin{equation} \label{eqn: xrr_kiessig}
+	d \approx \frac{\lambda}{2 \Delta\theta}.
+\end{equation}
+
+Real surfaces exhibit physical roughness ($\sigma$) and interdiffusion across boundaries. Roughness scatters X-rays non-specularly, dampening the reflected amplitude.The reduction in specular reflectivity due to root-mean-square (RMS) roughness $\sigma$ is modeled using the Nevot-Croce factor (Nevot Croce, 1980), which modifies the ideal Fresnel reflection coefficient $r_{j, j+1}$:
+\begin{equation} \label{eqn: xrr_roughness}
+	r_{j, j+1}^{\text{rough}} = r_{j, j+1}^{\text{ideal}} \exp\left( -2 k_{z, j} k_{z, j+1} \sigma_{j, j+1}^2 \right)
+\end{equation}
+where $k_{z, j} = {2\pi n_j \sin\theta_j}/{\lambda} $ is the $z$-component of the wave vector in layer $j$. Increased roughness causes a faster drop-off in total reflectivity and dampens Kiessig fringe amplitudes. The effect of the three parameters on the XRR intensity is shown in~\ref{fig: xrr}.
+\begin{figure}
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/xrr.png}
+	\caption[X-ray reflectivity]{Effects of thickness, surface roughness and difference in density on the XRR intensity}\label{fig: xrr}
+\end{figure}

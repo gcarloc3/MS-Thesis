@@ -2,6 +2,7 @@
 \documentclass[12pt]{gatechthesis}
 
 % preamble
+\usepackage{listings}
 \usepackage{pdfpages}
 \usepackage{booktabs}
 \usepackage{siunitx}
@@ -48,8 +49,8 @@
     \input{chapters/chapter4}
     \input{chapters/chapter5.tex}
     \makeBibliography{}
-    % \input{chapters/appendix.tex}
-    \includepdf[pages=-]{thesis_appendix.pdf}
+    \input{chapters/appendix.tex}
+    %\includepdf[pages=-]{thesis_appendix.pdf}
 \end{thesisbody}
 
 \end{document}
