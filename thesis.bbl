@@ -243,6 +243,153 @@
       \endverb
       \keyw{Holographic optical components,Holography,Image reconstruction,Image resolution,Inverse diffraction problem,noise,nondestructive testing,Optical pulses,phase retrieval,terahertz holography,terahertz imaging,terahertz radiation,Time-domain analysis}
     \endentry
+    \entry{songReviewIntenseTerahertz2026}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=ad2a48774258ec478d573fd475cf8a9d}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Liwei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=e35dd8180098061423d82a2d8bf55ab1}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xiaojun},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8da3308712a917f8ddd6491d0a9814e8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod}}}%
+        {{hash=d5964cdb32cff0dadf4d554848417990}{%
+           family={Leng},
+           familyi={L\bibinitperiod},
+           given={Yuxin},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=7ff4fff239b91058adba9142a3ab161d}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b8b81b4e36daeb9e62d7c2cc006b0c4d}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ruxin},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{1594dc59ae492ca2cf4ca11d9ba7e4a1}
+      \strng{fullhash}{38257c2b85a9272d939af2942f271b3e}
+      \strng{fullhashraw}{38257c2b85a9272d939af2942f271b3e}
+      \strng{bibnamehash}{38257c2b85a9272d939af2942f271b3e}
+      \strng{authorbibnamehash}{38257c2b85a9272d939af2942f271b3e}
+      \strng{authornamehash}{1594dc59ae492ca2cf4ca11d9ba7e4a1}
+      \strng{authorfullhash}{38257c2b85a9272d939af2942f271b3e}
+      \strng{authorfullhashraw}{38257c2b85a9272d939af2942f271b3e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Terahertz (THz) radiation, which occupies a crucial region between electronics and photonics, has become a transformative tool in strong-field physics, ultrafast spectroscopy, and materials control. This review offers a comprehensive survey of cutting-edge advances in THz generation via optical frequency downconversion and its emerging applications. We delve into the principles and significant progress underlying various THz sources, including optical rectification in lithium niobate and organic crystals, optical different frequency generation, intense laser-induced electron radiation, spintronic THz emission, and quantum cascade lasers (QCLs). The review also highlights the profound impact of these intense THz sources in material manipulation, such as polarization control, phonon polariton excitation, and nonlinear phononics, and in revolutionizing electron dynamics through compact acceleration. Furthermore, we cover advances in THz QCL frequency combs and their role in high-precision dual-comb spectroscopy. Finally, we discuss remaining challenges and future directions, offering a roadmap for the development of next-generation high-field THz technologies and their applications in fundamental research and critical applications.}
+      \field{issn}{1931-9401}
+      \field{journaltitle}{Appl. Phys. Rev.}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Review of Intense Terahertz Generation and Its Emerging Applications}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{13}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{021302}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/5.0306279
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\GD8LAK33\\Song et al. - 2026 - Review of intense terahertz generation and its emerging applications.pdf;C\:\\Users\\User\\Zotero\\storage\\TLREFIBN\\5.html
+      \endverb
+    \endentry
+    \entry{yangSimpleReliableOptical2019}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=fe920e945a6d8874d464d610dfa3fd12}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Xue},
+           giveni={X\bibinitperiod}}}%
+        {{hash=37c33c7df76e61c10d5c9733b85915d1}{%
+           family={Su},
+           familyi={S\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+        {{hash=c21a3f186f1cb48b8b64637d6fb1a020}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yaxiong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=021a6dc6d44f5d15684a713afed90ae2}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Hongfei},
+           giveni={H\bibinitperiod}}}%
+        {{hash=0e5cd24c4d23d309b1c045bfefede184}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Jingsuo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2d3282525d88e4d7f0b78d57a1dc513a}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={David\bibnamedelima R},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{6d10cfc8cf9f375f496ee2705cbcc3a0}
+      \strng{fullhash}{9bec5aec55c716895d4ccb11a608420a}
+      \strng{fullhashraw}{9bec5aec55c716895d4ccb11a608420a}
+      \strng{bibnamehash}{9bec5aec55c716895d4ccb11a608420a}
+      \strng{authorbibnamehash}{9bec5aec55c716895d4ccb11a608420a}
+      \strng{authornamehash}{6d10cfc8cf9f375f496ee2705cbcc3a0}
+      \strng{authorfullhash}{9bec5aec55c716895d4ccb11a608420a}
+      \strng{authorfullhashraw}{9bec5aec55c716895d4ccb11a608420a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present an optical all-fibre data acquisition trigger signal particularly suited for fibre-laser asynchronous optical sampling systems. We demonstrate that in the case where the laser spectra are inadequately matched and deliver a weak interferometric signal, post electronic filtering can significantly enhance the signal, removing the necessity for optical band-pass filtering. The method requires no free-space optics and no precise alignment of focused beam spots, eliminating beam pointing stability and walk-off issues.}
+      \field{issn}{0957-0233}
+      \field{journaltitle}{Meas. Sci. Technol.}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{4}
+      \field{title}{A Simple and Reliable, Optical All-Fibre, Data Acquisition Trigger Signal for Fibre-Laser Asynchronous Optical Sampling Systems}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{045204}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1361-6501/ab0bfc
+      \endverb
+    \endentry
+    \entry{PCAPhotoconductiveAntenna}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.batop.de/products/terahertz/photoconductive-antenna/photoconductive-terahertz-antenna.html}
+      \field{title}{{{PCA}} - {{Photoconductive}} Antenna}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\Q889E5NG\photoconductive-terahertz-antenna.html
+      \endverb
+    \endentry
     \entry{songHandbookTerahertzTechnologies2015}{book}{}{}
       \name{author}{2}{}{%
         {{hash=0e3b8de982a78197e0d616b4e76bba80}{%
@@ -267,8 +414,8 @@
       \strng{authornamehash}{6d6d04e651efd89caa4b828315f1d1e0}
       \strng{authorfullhash}{6d6d04e651efd89caa4b828315f1d1e0}
       \strng{authorfullhashraw}{6d6d04e651efd89caa4b828315f1d1e0}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Terahertz waves, which lie in the frequency range of 0.1-10 THz, have long been investigated in a few limited fields, such as astronomy, because of a lack of devices for their generation and detection. Several technical breakthroughs made over the last couple of decades now allow us to radiate and detect terahertz waves more easily, which has trigg}
@@ -304,8 +451,8 @@
       \strng{authornamehash}{c16463c4897eee2364ac3ab8ef6dbeb3}
       \strng{authorfullhash}{c16463c4897eee2364ac3ab8ef6dbeb3}
       \strng{authorfullhashraw}{c16463c4897eee2364ac3ab8ef6dbeb3}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Photoconductive antennas (PCAs) have been extensively utilized for the generation and detection of both pulsed broadband and single frequency continuous wave terahertz (THz) band radiation. These devices form the basis of many THz imaging and spectroscopy systems, which have demonstrated promising applications in various industries and research fields. The development of THz PCA technology through the last 30 years is reviewed. The key modalities of improving device performance are identified, and literature is reviewed to summarize the progress made in these areas. The goal of this review is to provide a collection of all relevant literature to bring researchers up to date on the current state and remaining challenges of THz PCA technology.}
@@ -328,6 +475,112 @@
       \verb{file}
       \verb C:\Users\User\Zotero\storage\XTSCTI8C\Burford and El-Shenawee - 2017 - Review of terahertz photoconductive antenna techno.pdf
       \endverb
+    \endentry
+    \entry{delarosaTerahertzEmissionImprovement2024}{article}{}{}
+      \name{author}{14}{}{%
+        {{hash=37a71bc60a3b4b160640c3a969ed0f88}{%
+           family={Dela\bibnamedelima Rosa},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Lourdes\bibnamedelima Nicole},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=50c3f96fcfc228f488a84dd16c024929}{%
+           family={Alaba},
+           familyi={A\bibinitperiod},
+           given={Kenneth\bibnamedelima Jay},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=58279927bbc613a0fd29d7865410e523}{%
+           family={Cabello},
+           familyi={C\bibinitperiod},
+           given={Neil\bibnamedelima Irvin},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=52c6a4723f787bb9d8490b970e1bb4a6}{%
+           family={Loberternos},
+           familyi={L\bibinitperiod},
+           given={Regine},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f9bdf12cddeaaaad10634cfcc064ae78}{%
+           family={Ferrolino},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima Paul},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=641a937e6f5033b398ab9a8d2e3ed83f}{%
+           family={Verona},
+           familyi={V\bibinitperiod},
+           given={Ivan\bibnamedelima Cedrick},
+           giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a4fd8b35fc164e69ea5f9d9efdedeff1}{%
+           family={Juguilon},
+           familyi={J\bibinitperiod},
+           given={Vince\bibnamedelima Paul},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=1a14af4becff160968a2256d69ec248a}{%
+           family={Salvador},
+           familyi={S\bibinitperiod},
+           given={Arnel},
+           giveni={A\bibinitperiod}}}%
+        {{hash=7a20fdd6de7f9e74c05e83133245e086}{%
+           family={Somintac},
+           familyi={S\bibinitperiod},
+           given={Armando},
+           giveni={A\bibinitperiod}}}%
+        {{hash=02fd0e849ec968614e58d6ebd217d6e6}{%
+           family={Kitahara},
+           familyi={K\bibinitperiod},
+           given={Hideaki},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b3c2a1c5daf7fc5a26f085a773624755}{%
+           family={De\bibnamedelima Los\bibnamedelima Reyes},
+           familyi={D\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=349768dc8d22a8b50f667b54d209eb6f}{%
+           family={Bardolaza},
+           familyi={B\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fa8db1b0a70f0a26e7e92538947d9a73}{%
+           family={Tani},
+           familyi={T\bibinitperiod},
+           given={Masahiko},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c58495443bf6adbd2478828795ff82c5}{%
+           family={Estacio},
+           familyi={E\bibinitperiod},
+           given={Elmer},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a63949fd8b32eac920cc526b48bec87}
+      \strng{fullhash}{c970aa6b955e08c8b6a018e5b27c848c}
+      \strng{fullhashraw}{c970aa6b955e08c8b6a018e5b27c848c}
+      \strng{bibnamehash}{0a63949fd8b32eac920cc526b48bec87}
+      \strng{authorbibnamehash}{0a63949fd8b32eac920cc526b48bec87}
+      \strng{authornamehash}{0a63949fd8b32eac920cc526b48bec87}
+      \strng{authorfullhash}{c970aa6b955e08c8b6a018e5b27c848c}
+      \strng{authorfullhashraw}{c970aa6b955e08c8b6a018e5b27c848c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We report on the terahertz emission improvement in GaAs-based photoconductive antennas (PCA) with gold (Au) nanoparticles (NPs) on the PCA gap, patterned using anodic aluminum oxide template. Two PCA devices were fabricated with Au NPs having average diameters of 200~nm and 20~nm. The THz peak-to-peak intensity increased {$\sim$}2-fold for the 200-nm PCA, and increased {$\sim$}1.5-fold in peak-to-peak intensity for the 20-nm PCA. Finite-difference time-domain (FDTD) simulations revealed that surface plasmon resonance enhancement effects were more pronounced for the 200-nm diameter Au NP PCA with a {$\sim$}1.9-fold increase in photoabsorption as compared to the {$\sim$}1.8-fold enhancement in the 20-nm Au NP. The results demonstrate a cost-effective method of utilizing nanostructures to improve PCA performance.}
+      \field{issn}{0925-3467}
+      \field{journaltitle}{Optical Materials}
+      \field{month}{4}
+      \field{title}{Terahertz Emission Improvement of Gallium-Arsenide-Based Bowtie Photoconductive Antenna by {{AAO-patterned}} Gold Nanoparticles Integration on the Photoconducting Gap}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{150}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{115212}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.optmat.2024.115212
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\8TQ2SU2Z\S0925346724003951.html
+      \endverb
+      \keyw{Anodic aluminum oxide template,Metal nanostructures,Photoconductive antenna,Surface plasmon resonance,Terahertz}
     \endentry
     \entry{riturajHighlySensitiveEfficient2025}{article}{}{}
       \name{author}{5}{}{%
@@ -363,8 +616,8 @@
       \strng{authornamehash}{c08bd6e33429c0e2e42bc7d4919064bd}
       \strng{authorfullhash}{68678df5fa9da2d7dd92d1ae207768e0}
       \strng{authorfullhashraw}{68678df5fa9da2d7dd92d1ae207768e0}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Photonic quantum technologies such as effective quantum communication require room temperature (RT) operating single- or few-photon sensors with high external quantum efficiency (EQE) at 1550~nm wavelength. The leading class of devices in this segment is avalanche photodetectors operating particularly in the Geiger mode. However, for superior performance, a trade-off has to be made between temperature of operation, device thickness, and EQE. Two-dimensional (2D) materials can be used to reduce the absorber thickness and thus dark current, leading to an increase in the operating temperature, but they suffer from low EQE. We use specifically stacked bilayer hexagonal BAs, with material properties calculated from first principles, on a co-optimized dielectric photonic crystal substrate to simultaneously decrease the dark current by three orders of magnitude at RT and maintain an EQE of \&gt;99\%. The device can potentially be used in avalanche mode and hence can form a basis for single photon detection.}
@@ -387,6 +640,69 @@
       \verb{file}
       \verb C\:\\Users\\User\\Zotero\\storage\\8PYEYZHS\\Rituraj et al. - 2025 - Highly sensitive and efficient 1550 nm photodetector for room temperature operation.pdf;C\:\\Users\\User\\Zotero\\storage\\JG3F4G43\\Highly-sensitive-and-efficient-1550-nm.html
       \endverb
+    \endentry
+    \entry{jiangTerahertzPhotoconductiveAntenna2021}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=b57e253d44b51c80f968b4975995dd8e}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Xiao-Qiang},
+           giveni={X\bibinithyphendelim Q\bibinitperiod}}}%
+        {{hash=b4b3710ffcb8fb3b6810944904026d85}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Wen-Hui},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=6e13595bc707c04198ec8fd174353628}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Chao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4f4900cae2c11cda82284d85107e92ae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xu},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ab26ea276dd092108bc9882d0f3195c3}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{c474b831b8cef5a626f2ec7c4f438a38}
+      \strng{fullhash}{3573167a530b1f8258a6c278ef997fe6}
+      \strng{fullhashraw}{3573167a530b1f8258a6c278ef997fe6}
+      \strng{bibnamehash}{3573167a530b1f8258a6c278ef997fe6}
+      \strng{authorbibnamehash}{3573167a530b1f8258a6c278ef997fe6}
+      \strng{authornamehash}{c474b831b8cef5a626f2ec7c4f438a38}
+      \strng{authorfullhash}{3573167a530b1f8258a6c278ef997fe6}
+      \strng{authorfullhashraw}{3573167a530b1f8258a6c278ef997fe6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By taking advantage of dielectric metasurfaces and plasmonic nanostructures, a terahertz photoconductive antenna (THz-PCA) is proposed and investigated in detail. The designed dielectric metasurfaces can reduce the optical reflection down to 1.4\% and accelerate the switching process (electric conductive to resistive) that broadens the THz spectrum emitted from THz-PCA. Simultaneously, the embedded plasmonic nanostructures can realize 11.2 times enhancement in local electric field without affecting the switching process and the damage threshold of the THz-PCA. Simulated results indicate that the proposed THz-PCA is 70.56 times stronger in THz radiation power than that of the traditional THz-PCA. The significant enhancement ensures the proposed THz-PCA has great prospects in promoting THz technology based on the THz-PCA.}
+      \field{issn}{2155-3165}
+      \field{journaltitle}{Appl. Opt., AO}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{26}
+      \field{title}{Terahertz Photoconductive Antenna Based on Antireflection Dielectric Metasurfaces with Embedded Plasmonic Nanodisks}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{60}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{7921\bibrangedash 7928}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1364/AO.431678
+      \endverb
+      \keyw{Electron beam lithography,Field enhancement,Metasurfaces,Nanostructures,Photoconductivity,Thin films}
     \endentry
     \entry{alfihedDevelopmentsIntegrationApplication2020}{article}{}{}
       \name{author}{3}{}{%
@@ -414,8 +730,8 @@
       \strng{authornamehash}{088937635dc5871afa558f3b7675f9e8}
       \strng{authorfullhash}{35d8df33776b9a98a7b82fdbaf971fd9}
       \strng{authorfullhashraw}{35d8df33776b9a98a7b82fdbaf971fd9}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This work presents an overview of terahertz (THz) spectroscopy with a focus on its implementation within microfluidic platforms. Such platforms are of great interest because they can enable label-free and reagent-free sensing. However, they must be implemented with thought towards the incorporated materials and structures as they can greatly impact the bandwidth, frequency resolution, signal-to-noise ratio, and dynamic range of the measurements. This review explores such relationships with insight given on the design and material considerations for the effective integration of THz spectroscopy in microfluidic platforms. The review also describes recent work on the application of THz spectroscopy to biomaterial analyses on increasing scales, targeting DNA, proteins, cells, and tissues.}
@@ -473,8 +789,8 @@
       \strng{authornamehash}{f5339ba99dbe5c56e5205bbdf61ce070}
       \strng{authorfullhash}{4059e32b1eecb206917e0fb84b9e05a4}
       \strng{authorfullhashraw}{4059e32b1eecb206917e0fb84b9e05a4}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The absence of non-destructive inspection techniques for illicit drugs hidden in mail envelopes has resulted in such drugs being smuggled across international borders freely. We have developed a novel basic technology for terahertz imaging, which allows detection and identification of drugs concealed in envelopes, by introducing the component spatial pattern analysis. The spatial distributions of the targets are obtained from terahertz multispectral transillumination images, using absorption spectra measured with a tunable terahertz-wave source. The samples we used were methamphetamine and MDMA, two of the most widely consumed illegal drugs in Japan, and aspirin as a reference.}
@@ -775,7 +1091,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{GaInAs lattice matched to InP was grown by molecular-beam epitaxy over a temperature range of 100--450\,{$^\circ$}C and characterized by x-ray diffraction, resistivity, and secondary ion mass spectroscopy. X-ray diffraction analysis indicated the incorporation of excess As for samples grown below 250\,{$^\circ$}C. As-grown GaInAs was n-type, with electrical concentration increasing with decreasing growth temperature, ranging from 5{\texttimes}1014 cm-3 (450\,{$^\circ$}C) to 1.8{\texttimes}1017 (150\,{$^\circ$}C). Secondary ion mass spectroscopy indicated that this behavior was not due to the incorporation of background n-type dopants. Be- and Si-doped GaInAs at 5{\texttimes}1018 cm-3 showed full electrical activation for growth temperatures down to 260\,{$^\circ$}C, with only partial activation for Si and no activation for Be for growth temperatures below 260\,{$^\circ$}C.}
+      \field{abstract}{GaInAs lattice matched to InP was grown by molecular-beam epitaxy over a temperature range of 100--450\,{$^\circ$}C and characterized by x-ray diffraction, resistivity, and secondary ion mass spectroscopy. X-ray diffraction analysis indicated the incorporation of excess As for samples grown below 250\,{$^\circ$}C. As-grown GaInAs was n-type, with electrical concentration increasing with decreasing growth temperature, ranging from 5\texttimes 1014 cm-3 (450\,{$^\circ$}C) to 1.8\texttimes 1017 (150\,{$^\circ$}C). Secondary ion mass spectroscopy indicated that this behavior was not due to the incorporation of background n-type dopants. Be- and Si-doped GaInAs at 5\texttimes 1018 cm-3 showed full electrical activation for growth temperatures down to 260\,{$^\circ$}C, with only partial activation for Si and no activation for Be for growth temperatures below 260\,{$^\circ$}C.}
       \field{issn}{1071-1023}
       \field{journaltitle}{Journal of Vacuum Science \& Technology B: Microelectronics and Nanometer Structures Processing, Measurement, and Phenomena}
       \field{month}{5}
@@ -936,6 +1252,406 @@
       \verb C:\Users\User\Zotero\storage\ZSUXU7LQ\Substrate-temperature-dependence-of-arsenic.html
       \endverb
     \endentry
+    \entry{rochfordPolarizationPolarimetry2002}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=93d8a64ee5e15723439b294f24cbc94e}{%
+           family={Rochford},
+           familyi={R\bibinitperiod},
+           given={Kent},
+           giveni={K\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7f936ba7a00efb9cbc751c65eb2fd482}{%
+           family={Meyers},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{fullhash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{fullhashraw}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{bibnamehash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{authorbibnamehash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{authornamehash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{authorfullhash}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{authorfullhashraw}{93d8a64ee5e15723439b294f24cbc94e}
+      \strng{editorbibnamehash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \strng{editornamehash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \strng{editorfullhash}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \strng{editorfullhashraw}{7f936ba7a00efb9cbc751c65eb2fd482}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Physical Science}} and {{Technology}} ({{Third Edition}})}
+      \field{isbn}{978-0-12-227410-7}
+      \field{month}{1}
+      \field{title}{Polarization and {{Polarimetry}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{521\bibrangedash 538}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/B0-12-227410-5/00590-1
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\PJB6QT3J\B0122274105005901.html
+      \endverb
+    \endentry
+    \entry{lyashenkoCrystalOptics2005}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=05bb8c395e2ea64d2186b9d43d169da0}{%
+           family={Lyashenko},
+           familyi={L\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=80f42a56cd29b910077aa6b38ed41f61}{%
+           family={Svirko},
+           familyi={S\bibinitperiod},
+           given={{\relax\bibnamedelimb Yu}.\bibnamedelimi P.},
+           giveni={Y\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=ca1c7fa40d31eb5e431534a712d90e33}{%
+           family={Bassani},
+           familyi={B\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=21cffedb0c47374f810a9d6ed83b8957}{%
+           family={Liedl},
+           familyi={L\bibinitperiod},
+           given={Gerald\bibnamedelima L.},
+           giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1da33e0c9089a25a4a5a954e806503db}{%
+           family={Wyder},
+           familyi={W\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{fullhash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{fullhashraw}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{bibnamehash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{authorbibnamehash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{authornamehash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{authorfullhash}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{authorfullhashraw}{84e5bf5746e12af3ddc1d8b5d8536253}
+      \strng{editorbibnamehash}{fb6bf5fb450c7b5ab9184b2592ea77b0}
+      \strng{editornamehash}{b31da6c71e5b1e76ac6bd7dc903cfe4c}
+      \strng{editorfullhash}{fb6bf5fb450c7b5ab9184b2592ea77b0}
+      \strng{editorfullhashraw}{fb6bf5fb450c7b5ab9184b2592ea77b0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of {{Condensed Matter Physics}}}
+      \field{isbn}{978-0-12-369401-0}
+      \field{month}{1}
+      \field{title}{Crystal {{Optics}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{283\bibrangedash 289}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/B0-12-369401-9/00607-0
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\545RPHB9\B0123694019006070.html
+      \endverb
+    \endentry
+    \entry{hedayatiAntireflectiveCoatingsConventional2016}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=97a20a0301c9024a12fc4486e6ce8255}{%
+           family={Hedayati},
+           familyi={H\bibinitperiod},
+           given={Mehdi\bibnamedelima Keshavarz},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=9099123090be885717d34daf5291d9dd}{%
+           family={Elbahri},
+           familyi={E\bibinitperiod},
+           given={Mady},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Multidisciplinary Digital Publishing Institute}%
+      }
+      \strng{namehash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{fullhash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{fullhashraw}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{bibnamehash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{authorbibnamehash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{authornamehash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{authorfullhash}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \strng{authorfullhashraw}{8d2c6f70d9222cd1ee67f622759ab7c4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Reduction of unwanted light reflection from a surface of a substance is very essential for improvement of the performance of optical and photonic devices. Antireflective coatings (ARCs) made of single or stacking layers of dielectrics, nano/microstructures or a mixture of both are the conventional design geometry for suppression of reflection. Recent progress in theoretical nanophotonics and nanofabrication has enabled more flexibility in design and fabrication of miniaturized coatings which has in turn advanced the field of ARCs considerably. In particular, the emergence of plasmonic and metasurfaces allows for the realization of broadband and angular-insensitive ARC coatings at an order of magnitude thinner than the operational wavelengths. In this review, a short overview of the development of ARCs, with particular attention paid to the state-of-the-art plasmonic- and metasurface-based antireflective surfaces, is presented.}
+      \field{issn}{1996-1944}
+      \field{journaltitle}{Materials}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Antireflective {{Coatings}}}
+      \field{title}{Antireflective {{Coatings}}: {{Conventional Stacking Layers}} and {{Ultrathin Plasmonic Metasurfaces}}, {{A Mini-Review}}}
+      \field{urlday}{17}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3390/ma9060497
+      \endverb
+      \keyw{absorbing antireflective coating,antireflection,antireflective coating,plasmonic metasurface}
+    \endentry
+    \entry{prashantDesignPerspectivesThin2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=de313e9f4179ad20e10082de2dbbcb4c}{%
+           family={Prashant},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=52e19426b7e648990872f8f0d020d172}{%
+           family={Agnihotri},
+           familyi={A\bibinitperiod},
+           given={Suneet\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b4eaacabc4b780b322fc3b0ba2f4a3c9}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Abhijit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=91b9923c6bd86a76e9dd40b1d741a4b6}{%
+           family={Samajdar},
+           familyi={S\bibinitperiod},
+           given={Dip\bibnamedelima Prakash},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9d669650b5c051cee931f363465cacef}
+      \strng{fullhash}{d06c4e615cdf8a11f79a902a13530bb4}
+      \strng{fullhashraw}{d06c4e615cdf8a11f79a902a13530bb4}
+      \strng{bibnamehash}{d06c4e615cdf8a11f79a902a13530bb4}
+      \strng{authorbibnamehash}{d06c4e615cdf8a11f79a902a13530bb4}
+      \strng{authornamehash}{9d669650b5c051cee931f363465cacef}
+      \strng{authorfullhash}{d06c4e615cdf8a11f79a902a13530bb4}
+      \strng{authorfullhashraw}{d06c4e615cdf8a11f79a902a13530bb4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{III-V thin-film solar cells (SCs) have shown exceptional optoelectronic properties and remarkable power conversion efficiency (PCE), attributed to their outstanding charge transport, efficient photon trapping, adaptability, and recycling of photons. In particular, incorporating anti-reflective coatings (ARCs) made from wide-bandgap oxides has proven effective in reducing optical losses, with reductions as low as 20~\% being reported. Furthermore, the use of carrier-selective contacts in these designs not only eliminates the need for complex doped junctions but also simplifies the fabrication process, further enhancing their performance. Despite these advancements, relatively few studies have explored the integration of both ARCs and carrier-selective contacts in gallium arsenide (GaAs)-based thin-film solar cells. This gap represents a significant opportunity for improving the efficiency and performance of these devices. To address this, we present a GaAs thin-film solar cell incorporating an ARC layer for enhanced light-trapping and optimized photon absorption. In addition, we integrate carrier-selective contacts using titanium dioxide (TiO2) as the electron transport layer and molybdenum oxide (MoO3) as the hole transport layer, ensuring effective charge separation and collection. Our optical analysis demonstrates that, with an optimized ARC thickness, the optical losses in the 380~nm-thick GaAs absorber layer can be limited to 20~\%. Moreover, by maintaining a surface recombination velocity (SRV) of 103~cm/s and a carrier lifetime of 10{$\mu$}s, the proposed design achieves an impressive PCE of approximately 23~\%. This study highlights the potential of combining ARCs and carrier-selective contacts to push the performance of GaAs thin-film solar cells to new heights, paving the way for more efficient, and cost-effective photovoltaic technologies.}
+      \field{issn}{0022-3697}
+      \field{journaltitle}{Journal of Physics and Chemistry of Solids}
+      \field{month}{1}
+      \field{shorttitle}{Design Perspectives of a Thin Film {{GaAs}} Solar Cell Integrated with {{Carrier Selective}} Contacts and Anti-Reflection Coatings}
+      \field{title}{Design Perspectives of a Thin Film {{GaAs}} Solar Cell Integrated with {{Carrier Selective}} Contacts and Anti-Reflection Coatings: {{Optical}} and Device Analysis}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{196}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{112396}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jpcs.2024.112396
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\A6TQDX2D\S0022369724005316.html
+      \endverb
+      \keyw{Anti-reflection,III-V semiconductor,Optoelectronic modelling,Photogeneration,Solar cells}
+    \endentry
+    \entry{baisnabChapter7Short2021}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{hash=b1037ffaafed8ddfd088c301c6b08fca}{%
+           family={Baisnab},
+           familyi={B\bibinitperiod},
+           given={Dipak\bibnamedelima Kumar},
+           giveni={D\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=b2cd191946723a97392232bf8f3ccaf0}{%
+           family={Mukherjee},
+           familyi={M\bibinitperiod},
+           given={Supratim},
+           giveni={S\bibinitperiod}}}%
+        {{hash=285ed9d657586373e024ada621a144ee}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Soumen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=285ed9d657586373e024ada621a144ee}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Soumen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5457963241ebb08861ca23d16503c04e}{%
+           family={Dhara},
+           familyi={D\bibinitperiod},
+           given={Sandip},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a801ce34cbddd56711022cfdde484739}
+      \strng{fullhash}{4e7c744183490931f39bfae9036cd40a}
+      \strng{fullhashraw}{4e7c744183490931f39bfae9036cd40a}
+      \strng{bibnamehash}{4e7c744183490931f39bfae9036cd40a}
+      \strng{authorbibnamehash}{4e7c744183490931f39bfae9036cd40a}
+      \strng{authornamehash}{a801ce34cbddd56711022cfdde484739}
+      \strng{authorfullhash}{4e7c744183490931f39bfae9036cd40a}
+      \strng{authorfullhashraw}{4e7c744183490931f39bfae9036cd40a}
+      \strng{editorbibnamehash}{44665045603c888a62aecb5958db4238}
+      \strng{editornamehash}{44665045603c888a62aecb5958db4238}
+      \strng{editorfullhash}{44665045603c888a62aecb5958db4238}
+      \strng{editorfullhashraw}{44665045603c888a62aecb5958db4238}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the previous chapters, various solution deposition techniques to produce inorganic films on solid and flexible substrates were discussed. These techniques can be employed to obtain tailor-made homogenous and heterogeneous, single and multilayer films to cater various applications such as optoelectronic, sensing, and memory devices. In many such complex and highly efficient devices, the foundation layer or layers of materials play an important task in enhancing the efficiency of the final assemblies. These improvements owe to the constituent polymeric or inorganic molecular arrangements, interfacial interactions, morphology and thickness of the film, and the extrinsic characteristic of the layer. For example, the introduction of antireflection coating to a solar cell assembly improves light absorption and thus increases the power conversion efficiency. Similarly, successful magnetoelectric coupling in ferroelectric-ferromagnetic bilayer or multilayer thin films can be utilized as sensors, actuators, and switches. Thus, it is important to know the type of films that can be grown for its successful integration in customized devices. In this chapter, a brief description and introductory notes are provided about the development and use of various types of thin films, such as semiconducting, heterostructure, functional oxides, transparent conducting, thermo- and photochromic, multiferroic, corrosion resistance coating, hydrophobic, and others. Such films are the foundation stones for realizing more complex but cutting edge devices for future generations.}
+      \field{booktitle}{Chemical {{Solution Synthesis}} for {{Materials Design}} and {{Thin Film Device Applications}}}
+      \field{isbn}{978-0-12-819718-9}
+      \field{month}{1}
+      \field{title}{Chapter 7 - {{A}} Short Review on Inorganic Thin Films from Device Perspective}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{231\bibrangedash 275}
+      \range{pages}{45}
+      \verb{doi}
+      \verb 10.1016/B978-0-12-819718-9.00007-8
+      \endverb
+      \keyw{Magnetic recording,Multiferroic,Photocatalyst,Protective coatings,Semiconductors,Superhydrophobic,Transparent conducting}
+    \endentry
+    \entry{khanFabricationCharacterizationMgF22024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f13e6e0cea9ba11d5a2b0fa5e404150c}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Sadaf\bibnamedelima Bashir},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c982e6b06b44a3f9819e66e33395720d}{%
+           family={Irfan},
+           familyi={I\bibinitperiod},
+           given={Syed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f4a3454102f78f1d541fe99ce63c23ec}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhengjun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf8b3578e0a859b63429a87d08923cba}
+      \strng{fullhash}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \strng{fullhashraw}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \strng{bibnamehash}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \strng{authorbibnamehash}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \strng{authornamehash}{cf8b3578e0a859b63429a87d08923cba}
+      \strng{authorfullhash}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \strng{authorfullhashraw}{2f025972ce8b55bbcd0219eb7b6b2a49}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Moth eye protuberances, for instance, exhibit highly developed and well-organized nanostructures that allow them to adapt to a wide range of environmental conditions and achieve remarkable antireflective performance, which has inspired and been emulated by scientific advancement. Innovative studies have focused on bioinspired and imitating moth-eye patterns to provide a textured surface in multilayer antireflective coatings (ARC) using nanomaterials, polymers, or composites to eliminate undesired reflection in standard optical components and optoelectronic industrial applications. Multilayer AR systems provide a number of advantages over single-layer designs. Still, their limited applicability is due to obstacles such as mismatched properties at interfaces, high costs, poor mechanical durability, and wetting concerns. Using MgF2 and polytetrafluoroethylene, we develop a technique for fabricating high-performance AR nanostructures on borosilicate crown glass and Fluorine-doped Tin Oxide substrates via the glancing angle deposition technique. By inducing porosity and changing the deposition angle ({$\alpha$}) at 550~nm, the refractive index of MgF2 is reduced from 1.38 to 1.14. In agreement with optical modelling predictions, high-performance ARC has been successfully produced on different substrates. Besides this, introducing a thin layer of polytetrafluoroethylene on MgF2 ARC via vapor deposition having a refractive index of 1.21 deposited at {$\alpha$} {$\sim$}80{$^\circ$} results in inducing water-repellent properties in ARC. Hence, our fabricated ARC yields stable AR efficiency with outstanding directional uniformity, durability, and negative temperature stability, having hydrophobic characteristics.}
+      \field{issn}{2238-7854}
+      \field{journaltitle}{Journal of Materials Research and Technology}
+      \field{month}{7}
+      \field{title}{Fabrication and Characterization of {{MgF2}} Anti-Reflective Films Comprising Dual-Layer Prepared by Physical Vapor Deposition Technique for Optoelectronic Applications}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{31}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{1616\bibrangedash 1625}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jmrt.2024.06.162
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\CSN9CQAS\\Khan et al. - 2024 - Fabrication and characterization of MgF2 anti-reflective films comprising dual-layer prepared by phy.pdf;C\:\\Users\\User\\Zotero\\storage\\6LNQFJWN\\S223878542401473X.html
+      \endverb
+      \keyw{Anti-reflective (AR),Glancing angle deposition technique,Hydrophobic,Multilayer,Temperature stability}
+    \endentry
+    \entry{jestin126DownShiftingIncident2012}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=978bb5623ff21334cd5d8739c5e91b66}{%
+           family={Jestin},
+           familyi={J\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7d05a6fab895a511d13f84e3928addea}{%
+           family={Sayigh},
+           familyi={S\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{fullhash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{fullhashraw}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{bibnamehash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{authorbibnamehash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{authornamehash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{authorfullhash}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{authorfullhashraw}{978bb5623ff21334cd5d8739c5e91b66}
+      \strng{editorbibnamehash}{7d05a6fab895a511d13f84e3928addea}
+      \strng{editornamehash}{7d05a6fab895a511d13f84e3928addea}
+      \strng{editorfullhash}{7d05a6fab895a511d13f84e3928addea}
+      \strng{editorfullhashraw}{7d05a6fab895a511d13f84e3928addea}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Decreasing the cost of renewable energy and enhancing the performance of solar cells have become a great challenge for the twenty-first century. Down-shifting has proven to be an interesting principle to improve the efficiency of solar cells. In this chapter, after a brief description of the down-shifting process, a review of the most common down-shifting elements and their use in solar cells will be presented. To conclude, an overview of patent filing and commercial applications will be given.}
+      \field{booktitle}{Comprehensive {{Renewable Energy}}}
+      \field{isbn}{978-0-08-087873-7}
+      \field{month}{1}
+      \field{title}{1.26 - {{Down-Shifting}} of the {{Incident Light}} for {{Photovoltaic Applications}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{563\bibrangedash 585}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/B978-0-08-087872-0.00131-1
+      \endverb
+      \keyw{Luminescence,Organic dyes,Photovoltaics,Quantum dots,Rare-earth ions,Solar cells,Spectral down-shifting}
+    \endentry
     \entry{sharhanTransferMatrixMathematical2020}{article}{}{}
       \name{author}{1}{}{%
         {{hash=9d2e453f4babaddd6643306ddf715bea}{%
@@ -955,8 +1671,8 @@
       \strng{authornamehash}{9d2e453f4babaddd6643306ddf715bea}
       \strng{authorfullhash}{9d2e453f4babaddd6643306ddf715bea}
       \strng{authorfullhashraw}{9d2e453f4babaddd6643306ddf715bea}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Applied mathematics is one of the most widely sciences used to serve other sciences, especially physical mathematics, which is one of the most important applied mathematics topics used in physics. In this work, we used the Transfer matrix mathematical method for evaluation the Distributed Bragg Reflectors mirrors for vertical cavity and the wavelength And The method of light extraction from the martials pay attention from the researchers since the LED and Laser become the most popular devices in different applications. This study focused on the development of simulation method to design and optimization for the DBR(Distributed Bragg Reflectors) structures, which are commonly used in designing DBR mirrors for vertical cavity surface emitting GaN based LEDs and lasers. From the multi-layer simulation, the simulation results are given for the investigation of several properties. First, the wavelength(nm) vs. reflectance(\%) can be calculated in the DBR structures that TiO2 and SiO2 thin films are stacked alternately. As a results, it is suggested that highly efficient DBR structures can be designed and manufactured using simulation methodology.}
@@ -981,72 +1697,1177 @@
       \verb C:\Users\User\Zotero\storage\5N2TKTKH\Sharhan - 2020 - Transfer Matrix Mathematical Method for Evaluation the DBR Mirror for Light Emitting Diode and Laser.pdf
       \endverb
     \endentry
-    \entry{heavensOpticalPropertiesThin1960}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=cdcbdd85dbc35b37c538599cc3674cb2}{%
-           family={Heavens},
-           familyi={H\bibinitperiod},
-           given={O.\bibnamedelimi S.},
-           giveni={O\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+    \entry{jenaTransferMatrixBased2021}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=e8348dc7bd3a1902f92d2c47b249f05d}{%
+           family={Jena},
+           familyi={J\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0481baf967b8c9f97303f997f254227a}{%
+           family={Tokas},
+           familyi={T\bibinitperiod},
+           given={R.\bibnamedelimi B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=597d42143eef71812e9b00df8d39703f}{%
+           family={Misal},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c72bfb58453187eb41cff9880f8ecfb1}{%
+           family={De},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=66aae559365f8249fc9c475957380dcf}{%
+           family={Rao},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=5b5bdf4dfaa99fc28c184e660fc1ae3f}{%
+           family={Thakur},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=82c9c2b125c7ce122796207ba8ad1ab5}{%
+           family={Udupa},
+           familyi={U\bibinitperiod},
+           given={D.\bibnamedelimi V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
       }
-      \strng{namehash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{fullhash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{fullhashraw}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{bibnamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{authorbibnamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{authornamehash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{authorfullhash}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \strng{authorfullhashraw}{cdcbdd85dbc35b37c538599cc3674cb2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{f2edece48db20778ffcdf1652c8536b8}
+      \strng{fullhash}{5184b84c2da0f8a29d170d3d76367ce6}
+      \strng{fullhashraw}{5184b84c2da0f8a29d170d3d76367ce6}
+      \strng{bibnamehash}{f2edece48db20778ffcdf1652c8536b8}
+      \strng{authorbibnamehash}{f2edece48db20778ffcdf1652c8536b8}
+      \strng{authornamehash}{f2edece48db20778ffcdf1652c8536b8}
+      \strng{authorfullhash}{5184b84c2da0f8a29d170d3d76367ce6}
+      \strng{authorfullhashraw}{5184b84c2da0f8a29d170d3d76367ce6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The optical behaviour of a surface carrying a transition layer is discussed, as a problem in scattering. The results are given of the application of electromagnetic theory to the case of a single parallel-sided film. Methods are given for extending this treatment to the case of multiple parallel-sided layers. Both analytical and graphical solutions are considered. Features governing the design of certain multilayer systems are given. A survey is made of the many methods now available for the determination of the thickness and optical constants of materials in the form of thin films. The range, accuracy and conditions of application of the various methods are summarized. A selection of the results obtained on a range of metallic and dielectric films is made and the basis of interpretation of these results is given. It is shown that the apparently anomalous variations of the optical constants of metal films with film thickness can be attributed to the granular nature of such films. Although less spectacular variations are observed in the properties of dielectric films, it is seen that for some materials the optical behaviour suggests the presence of marked inhomogeneity and anisotropy. Films formed chemically and electrolytically are briefly mentioned. Recent methods of controlling the thickness of films during deposition are given, together with a selection of the more important applications of thin films in optics. These include anti-reflecting and high reflecting systems, narrow-band, wide-band and cut-on multilayer filters, the use of thin films in polarizing systems and the application of thin films in heat-absorbing systems.}
-      \field{issn}{0034-4885}
-      \field{journaltitle}{Rep. Prog. Phys.}
-      \field{langid}{english}
+      \field{abstract}{Measured optical transmission spectrum of photonic structure comprising TiO2/Ag/TiO2/Ag multilayer is reverse engineered by employing transfer matrix method with three different multilayer models to analyse the factors responsible for the annealing induced changes in the transmission. The multilayer is made to have a single peak or a passband in the visible region, so that the spectral changes due to annealing can be observed more vividly. Prior to the multilayer deposition, single layer thin film of Ag and TiO2 are prepared using asymmetric bipolar pulsed dc sputtering and their optical constants such as refractive index and extinction co-efficient are determined. The multilayer is prepared by four-layer sequential deposition of Ag and TiO2 on BK7 glass substrate. The deposited TiO2/Ag/TiO2/Ag multilayer is annealed in the temperature range 100--300~{$^\circ$}C. The optical transmission of the annealed multilayers is measured using spectrophotometer. The measured peak transmission and spectral bandwidth of the multilayer filter decreases with annealing, which is ascribed to inter-diffusion at the interfaces, and increasing absorption at the interfaces and in the silver layers of the multilayer. The ascription is resolved from the layers properties and interface parameters obtained by reverse engineering the measured transmission spectra. The rough interfaces in the multilayer are modeled as thin homogeneous layers following Bruggeman effective medium approximation, and the interface parameters are found to be varying with annealing.}
+      \field{issn}{0030-3992}
+      \field{journaltitle}{Optics \& Laser Technology}
+      \field{month}{12}
+      \field{title}{Transfer Matrix Based Reverse Engineering Approach to Analyse Annealing Induced Changes in Optical Transmission of {{TiO2}}/{{Ag}}/{{TiO2}}/{{Ag}} Multilayer}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{144}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{107392}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.optlastec.2021.107392
+      \endverb
+      \keyw{Annealing,Interface,Multilayer,Sputtering,Transfer matrix}
+    \endentry
+    \entry{legallyblindbirdingAntiReflectionCoatingsPart2024}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=53140ef98c5dfc8f33115809628537ff}{%
+           family={{legallyblindbirding}},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{fullhash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{fullhashraw}{53140ef98c5dfc8f33115809628537ff}
+      \strng{bibnamehash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{authorbibnamehash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{authornamehash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{authorfullhash}{53140ef98c5dfc8f33115809628537ff}
+      \strng{authorfullhashraw}{53140ef98c5dfc8f33115809628537ff}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{[latexpage] The Headache of Multiple Layers In the previous post we calculated the effect of a single dielectric layer placed between air and glass, and showed that with a judicious selection of index and thickness, it would serve as an anti-reflection coating that would pass 100\% of the light at a nominal wavelength, and at}
+      \field{langid}{american}
+      \field{month}{12}
+      \field{shorttitle}{Anti-{{Reflection Coatings Part II}}}
+      \field{title}{Anti-{{Reflection Coatings Part II}}: {{The Transfer Matrix Method}} - {{Physics}}, {{Birds}} and {{Blindness}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{reed2PhotolithographicMicrofabrication1998}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=472e773d00aa3f27cae7824c3dcc1f2d}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={Michael\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=76109372f435726a88c57a74b4c1bc8e}{%
+           family={Fedder},
+           familyi={F\bibinitperiod},
+           given={Gary\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=a1b28f8df719923d87ca02ea12de25fc}{%
+           family={Fukuda},
+           familyi={F\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=de71430081c5502672eb137f070020e6}{%
+           family={Menz},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Science B.V.}%
+      }
+      \strng{namehash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{fullhash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{fullhashraw}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{bibnamehash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{authorbibnamehash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{authornamehash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{authorfullhash}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{authorfullhashraw}{e38258b9b65b37465c0defcf4efbd494}
+      \strng{editorbibnamehash}{c0691d8f23d63c5d939b88f23394e811}
+      \strng{editornamehash}{c0691d8f23d63c5d939b88f23394e811}
+      \strng{editorfullhash}{c0691d8f23d63c5d939b88f23394e811}
+      \strng{editorfullhashraw}{c0691d8f23d63c5d939b88f23394e811}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Micro {{Mechanical Systems}}}
       \field{month}{1}
-      \field{number}{1}
-      \field{title}{Optical Properties of Thin Films}
+      \field{series}{Handbook of {{Sensors}} and {{Actuators}}}
+      \field{title}{2 - {{Photolithographic Microfabrication}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{6}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{13\bibrangedash 61}
+      \range{pages}{49}
+      \verb{doi}
+      \verb 10.1016/S1386-2766(98)80003-0
+      \endverb
+    \endentry
+    \entry{ohanlonGasProperties2003}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=05817d39c8151e90feb78499c78c1dbb}{%
+           family={O'Hanlon},
+           familyi={O\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Ltd}%
+      }
+      \strng{namehash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{fullhash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{fullhashraw}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{bibnamehash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{authorbibnamehash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{authornamehash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{authorfullhash}{05817d39c8151e90feb78499c78c1dbb}
+      \strng{authorfullhashraw}{05817d39c8151e90feb78499c78c1dbb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter includes the following topics: Kinetic Picture of a Gas Gas Laws Elementary Gas Transport Phenomena}
+      \field{booktitle}{A {{User}}'s {{Guide}} to {{Vacuum Technology}}}
+      \field{isbn}{978-0-471-46716-8}
+      \field{langid}{english}
+      \field{title}{Gas {{Properties}}}
       \field{urlday}{14}
       \field{urlmonth}{5}
       \field{urlyear}{2023}
-      \field{volume}{23}
-      \field{year}{1960}
+      \field{year}{2003}
       \field{urldateera}{ce}
-      \field{pages}{1}
-      \range{pages}{1}
+      \field{pages}{9\bibrangedash 24}
+      \range{pages}{16}
       \verb{doi}
-      \verb 10.1088/0034-4885/23/1/301
+      \verb 10.1002/0471467162.ch2
       \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\HSGKTZPI\\2003 - Gas Properties.pdf;C\:\\Users\\User\\Zotero\\storage\\7A49JQUK\\0471467162.html
+      \endverb
+      \keyw{Boyle's law,Dalton's law,mean free path,particle flux}
     \endentry
-    \entry{fluggeHandbuchPhysikRontgenstrahlen1957}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=90d1fa99baa0209da64ad60c6bbd9ef8}{%
-           family={Flügge},
-           familyi={F\bibinitperiod},
-           given={Siegfried},
-           giveni={S\bibinitperiod}}}%
+    \entry{sharmaCeramicbasedNanocompositesPerspective2022}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=99404f10fb0218ca2a72fa1c7b71a8ee}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Nidhi},
+           giveni={N\bibinitperiod}}}%
+        {{hash=96cbf5a25260c1e5bedc350417082486}{%
+           family={Saxena},
+           familyi={S\bibinitperiod},
+           given={Tuhina},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9dedf12880b26b3617acfd1ff097c9f7}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={Syed\bibnamedelima Nasimul},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=9e92c4e1dc22d39124c351becb7c690e}{%
+           family={Ray},
+           familyi={R\bibinitperiod},
+           given={Bankim\bibnamedelima Chandra},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=3c45ff36953e605641c7ab1341ff992e}{%
+           family={Biswas},
+           familyi={B\bibinitperiod},
+           given={Krishanu},
+           giveni={K\bibinitperiod}}}%
+        {{hash=727ed142084cf200712180876a8b04da}{%
+           family={Jha},
+           familyi={J\bibinitperiod},
+           given={Shikhar\bibnamedelima Krishn},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{fullhash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{fullhashraw}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{bibnamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{authorbibnamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{authornamehash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{authorfullhash}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \strng{authorfullhashraw}{90d1fa99baa0209da64ad60c6bbd9ef8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \strng{namehash}{3f3ea1aeafb952ffd2664f7a8f8515ed}
+      \strng{fullhash}{aab28c2d201368d6e5d97c73011a774f}
+      \strng{fullhashraw}{aab28c2d201368d6e5d97c73011a774f}
+      \strng{bibnamehash}{aab28c2d201368d6e5d97c73011a774f}
+      \strng{authorbibnamehash}{aab28c2d201368d6e5d97c73011a774f}
+      \strng{authornamehash}{3f3ea1aeafb952ffd2664f7a8f8515ed}
+      \strng{authorfullhash}{aab28c2d201368d6e5d97c73011a774f}
+      \strng{authorfullhashraw}{aab28c2d201368d6e5d97c73011a774f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
+      \field{abstract}{To overcome the inherent brittle nature of ceramics and to optimize their favorable properties, new design philosophies and novel concepts for manufacturing are needed. Owing to their distinguished mechanical attributes such as strength and stiffness, developing ceramic matrix composites (CMCs) has become the latest penchant for researchers. CMCs are traditionally fibers dispersed in a ceramic matrix (oxide or non-oxide). With the advent of nanoparticles, the probing interests in the field of CMCs are now transforming from traditional reinforcement media (microscale fillers) into new possibilities at the nanoscale. This has brought a new generation of CMCs at nanometric level, commonly known as ceramic matrix nanocomposites (CMNCs). Introduction of nanomaterials like graphene and carbon nanotubes (CNTs) as nano-reinforcements has modified the ceramic-structures at the nanometric level for advanced applications in fields such as automotive, industrial, and aerospace engineering. Lately, a variety of new strategies such as tuning in the presence of dopants, opting pristine dispersion routes and usage of modified sintering techniques have enhanced the distinctive features of the CMNCs. This work summarizes the ongoing advances, recent research, key challenges in the implementation of carbonaceous CMNCs reinforced with graphene and CNTs along with their applications and future prospects. A detailed discussion on the sintering techniques, tribological behavior, strengthening and toughening mechanisms of carbonaceous CMNCs is presented. Various advantages of CMNCs reinforced with graphene and CNTs along with a few drawbacks like the cost and process-limitations have been elaborated.}
+      \field{issn}{2352-4928}
+      \field{journaltitle}{Materials Today Communications}
+      \field{month}{6}
+      \field{shorttitle}{Ceramic-Based Nanocomposites}
+      \field{title}{Ceramic-Based Nanocomposites: {{A}} Perspective from Carbonaceous Nanofillers}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{31}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{103764}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mtcomm.2022.103764
+      \endverb
+      \keyw{Carbon nanotubes (CNTs),Ceramic matrix nanocomposites (CMNCs),Graphene,Sintering,Toughening,Tribology}
+    \endentry
+    \entry{bentChapter5Semiconductor2008}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=784625d52d1af28c595f23f6d9f11188}{%
+           family={Bent},
+           familyi={B\bibinitperiod},
+           given={Stacey\bibnamedelima F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=9ebea92000814d81e995879232e78799}{%
+           family={Nilsson},
+           familyi={N\bibinitperiod},
+           given={Anders},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a7a2c2c1920de719f8688d567c89af82}{%
+           family={Pettersson},
+           familyi={P\bibinitperiod},
+           given={Lars\bibnamedelimb G.\bibnamedelimi M.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e7978b6851731a6ee2d29e162f55d468}{%
+           family={N{ø}rskov},
+           familyi={N\bibinitperiod},
+           given={Jens\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{fullhash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{fullhashraw}{784625d52d1af28c595f23f6d9f11188}
+      \strng{bibnamehash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{authorbibnamehash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{authornamehash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{authorfullhash}{784625d52d1af28c595f23f6d9f11188}
+      \strng{authorfullhashraw}{784625d52d1af28c595f23f6d9f11188}
+      \strng{editorbibnamehash}{ad634b2e368ce3148582ec61ea158707}
+      \strng{editornamehash}{8b9e75cfabaf5e81a8ce742427c42160}
+      \strng{editorfullhash}{ad634b2e368ce3148582ec61ea158707}
+      \strng{editorfullhashraw}{ad634b2e368ce3148582ec61ea158707}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This chapter deals with semiconductors and their surface chemistry. Semiconductor materials, including the group IV elements Si and Ge, play a dominant role in much of modern technology. It begins by reviewing the surface structure of the most commonly studied crystal faces of these materials. This includes the (100) and (111) crystal faces of silicon and germanium. Following this, it briefly discusses the oxidation of both silicon and germanium, and reviews the passivation of silicon and germanium surfaces. In addition, it explores the reactivity of Si, Ge, and to a lesser extent GaAs and InP, toward various organic molecules that can be used to functionalize the surface and impart new properties to the semiconductor. The study of organic functionalization of semiconductors, in which organic molecules are adsorbed onto the surface in vacuum, is providing new insight into the reactivity of the reconstructed semiconductor surfaces. Several common themes have emerged in the understanding of the reactivity of both silicon and germanium based on these studies. Furthermore, the organic functionalization studies have indicated that multiple reaction products can form even for simple systems. Kinetic and thermodynamic influences must be considered in any analysis of the product distribution. Finally, increased level of understanding of the behavior of silicon and germanium surfaces toward organic reagents is banked upon to enable the next generation of studies, in which organic functionalization can be achieved selectively and controllably for a variety of new applications.}
+      \field{booktitle}{Chemical {{Bonding}} at {{Surfaces}} and {{Interfaces}}}
+      \field{isbn}{978-0-444-52837-7}
+      \field{month}{1}
+      \field{title}{Chapter 5 - {{Semiconductor Surface Chemistry}}}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \field{pages}{323\bibrangedash 395}
+      \range{pages}{73}
+      \verb{doi}
+      \verb 10.1016/B978-044452837-7.50006-X
+      \endverb
+    \endentry
+    \entry{eizenbergElectronBeamEvaporation1986}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=b985a1683ff88092307d1d69ab7bc7c9}{%
+           family={Eizenberg},
+           familyi={E\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9cb7dda294423859194849b7983d1642}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f92c3a1918c33be0c794ee45d06aa279}{%
+           family={Heiblum},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c224dd8dfcfafb78c9a608890628aed}{%
+           family={Segmüller},
+           familyi={S\bibinitperiod},
+           given={Armin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{70701a893f4b799d40d567f571892ba9}
+      \strng{fullhash}{1d22587790bc697b872bf1d1ee6deea3}
+      \strng{fullhashraw}{1d22587790bc697b872bf1d1ee6deea3}
+      \strng{bibnamehash}{1d22587790bc697b872bf1d1ee6deea3}
+      \strng{authorbibnamehash}{1d22587790bc697b872bf1d1ee6deea3}
+      \strng{authornamehash}{70701a893f4b799d40d567f571892ba9}
+      \strng{authorfullhash}{1d22587790bc697b872bf1d1ee6deea3}
+      \strng{authorfullhashraw}{1d22587790bc697b872bf1d1ee6deea3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Thin layers of Nb, 100--400 Å thick, were grown by electron beam evaporation on (100)GaAs substrates in a molecular beam epitaxy system. The crystallographic relationship between deposit and substrate was monitored in\hphantom{,}situ by reflection high-energy electron diffraction, and after deposition by transmission electron microscopy and grazing-incidence x-ray diffraction. In spite of the large lattice mismatch (17\%) and the low deposition temperature (40--400\,{$^\circ$}C), a quite well oriented deposit with the orientation (100)Nb{$\parallel$}(100)GaAs and [001]Nb{$\parallel$}[011]GaAs was obtained for a substrate temperature of {$\sim$}170\,{$^\circ$}C. Changing the substrate temperature from the optimum value of {$\sim$}170\,{$^\circ$}C in either direction resulted in a gradual deterioration of the epitaxy.}
+      \field{issn}{0003-6951}
+      \field{journaltitle}{Appl. Phys. Lett.}
+      \field{month}{8}
+      \field{number}{7}
+      \field{title}{Electron Beam Evaporation of Oriented {{Nb}} Films onto {{GaAs}} Crystals in Ultrahigh Vacuum}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{49}
+      \field{year}{1986}
+      \field{urldateera}{ce}
+      \field{pages}{422\bibrangedash 424}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1063/1.97608
+      \endverb
+    \endentry
+    \entry{ritterOpticalFilmMaterials1976}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=867d5bbb7a036c2758813ebe86d4a45e}{%
+           family={Ritter},
+           familyi={R\bibinitperiod},
+           given={Elmar},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{fullhash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{fullhashraw}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{bibnamehash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{authorbibnamehash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{authornamehash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{authorfullhash}{867d5bbb7a036c2758813ebe86d4a45e}
+      \strng{authorfullhashraw}{867d5bbb7a036c2758813ebe86d4a45e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper, presented at the February 1976 OSA Topical Meeting on Optical Interference Coatings, discusses the chemical aspects of the production of thin films and the packing density effects in dielectric films. Useful materials are briefly surveyed, current trends are reviewed, and some examples of applications are given.}
+      \field{journaltitle}{Applied Optics, Vol. 15, Issue 10, pp. 2318-2327}
       \field{langid}{english}
-      \field{shorttitle}{Handbuch Der {{Physik}}}
-      \field{title}{Handbuch Der {{Physik}}: {{Röntgenstrahlen}}; {{X-rays}}}
-      \field{year}{1957}
+      \field{month}{10}
+      \field{title}{Optical Film Materials and Their Applications}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1364/AO.15.002318
+      \endverb
+      \keyw{Chemical vapor deposition,Material properties,Optical materials,Optical properties,Physical vapor deposition,Thin films}
+    \endentry
+    \entry{xueElectronBeamEvaporated2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=a28dfb199e5e00926e70ed15238a3c5c}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ed155f18c7a5f1a2fcf650ee6a663fda}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shuangpeng},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3f88242f43dc787661e87acce7fc296a}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yuchang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bd7d15d79ca36b953d99a1a0aaccb94a}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiao},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8139bad61e635eae85ffadb7c124bb9d}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9d56b317aac8cde82526bc1beb5b9fec}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Kunping},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8a6acc408a16f48a734a908b8bfb92b0}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fanghui},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fff51fc51de4cd829ce16e3426b152f}
+      \strng{fullhash}{4056aee80ec377696a2b04fccdc07267}
+      \strng{fullhashraw}{4056aee80ec377696a2b04fccdc07267}
+      \strng{bibnamehash}{9fff51fc51de4cd829ce16e3426b152f}
+      \strng{authorbibnamehash}{9fff51fc51de4cd829ce16e3426b152f}
+      \strng{authornamehash}{9fff51fc51de4cd829ce16e3426b152f}
+      \strng{authorfullhash}{4056aee80ec377696a2b04fccdc07267}
+      \strng{authorfullhashraw}{4056aee80ec377696a2b04fccdc07267}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Perovskite solar cells (PSCs) have demonstrated significant advances in efficiency, yet issues such as interfacial defects and poor long-term stability remain significant barriers to their practical application. All-inorganic CsPbI3-xBrx perovskites exhibit enhanced thermal and photostability, but still suffer from severe interfacial non-radiative recombination, limiting overall device performance. In this work, we introduced a SiO2 interfacial modification layer prepared via electron beam evaporation between the TiO2 electron transport layer and the perovskite absorber. The introduced SiO2 layer significantly improved surface wettability, enabling uniform crystallization of the perovskite films, and efficiently passivated interfacial defects, resulting in reduced interfacial recombination and enhanced photovoltaic performance. The optimized SiO2-modified device achieved a power conversion efficiency (PCE) of 13.3~\%, a notable improvement over the 10.4~\% of the control device, primarily due to enhanced open-circuit voltage and fill factor. Moreover, these SiO2-modified PSCs exhibited significantly enhanced ambient stability without encapsulation. This study highlights electron beam evaporation as a simple, cost-effective, and promising approach for improving the efficiency and stability of CsPbI3-xBrx perovskite solar cells.}
+      \field{issn}{0927-0248}
+      \field{journaltitle}{Solar Energy Materials and Solar Cells}
+      \field{month}{10}
+      \field{title}{Electron Beam Evaporated {{SiO2}} Interfacial Layer for Improved {{CsPbI3-xBrx}} Perovskite Solar Cells}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{292}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{113772}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.solmat.2025.113772
+      \endverb
+      \keyw{CsPbIBr perovskite,Electron beam evaporation,Interfacial engineering,Trap state passivation}
+    \endentry
+    \entry{thorntonStructureZoneModelsThin1988}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=4615ebb2f57af975197987eb38f0b20d}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{fullhash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{fullhashraw}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{bibnamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorbibnamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authornamehash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorfullhash}{4615ebb2f57af975197987eb38f0b20d}
+      \strng{authorfullhashraw}{4615ebb2f57af975197987eb38f0b20d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Structure zone models based on examinations of thin films using optical and scanning microcopy have provided useful guide-lines in categorizing general regimes of film growth behavior. However, many o}
+      \field{booktitle}{Modeling of {{Optical Thin Films}}}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Structure-{{Zone Models Of Thin Films}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{0821}
+      \field{year}{1988}
+      \field{urldateera}{ce}
+      \field{pages}{95}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1117/12.941846
+      \endverb
+    \endentry
+    \entry{movchanSTRUCTUREPROPERTIESTHICK1969}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=639ee32047416d4f4a8ebea8b4bfa614}{%
+           family={Movchan},
+           familyi={M\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4811997bfbf9cdcf0ee941f823a86a2c}{%
+           family={Demchishin},
+           familyi={D\bibinitperiod},
+           given={A.\bibnamedelimi V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Originating Research Org. not identified}%
+      }
+      \strng{namehash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{fullhash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{fullhashraw}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{bibnamehash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{authorbibnamehash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{authornamehash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{authorfullhash}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \strng{authorfullhashraw}{269a616cceba5b5b5fd5821bf3d0cdc6}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{|{} OSTI.GOV}
+      \field{journaltitle}{Fiz. Metal. Metalloved. 28: 653-60 (Oct 1969).}
+      \field{langid}{russian}
+      \field{month}{1}
+      \field{title}{{STRUCTURE AND PROPERTIES OF THICK CONDENSATES OF NICKEL, TITANIUM, TUNGSTEN, ALUMINUM OXIDES, AND ZIRCONIUM DIOXIDE IN VACUUM.}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{1969}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\QRTSWE2G\4181669.html
+      \endverb
+    \endentry
+    \entry{macleodThinFilmOpticalFilters2010}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=8229cfc8804de95df6d13a8e6c0f0453}{%
+           family={MacLeod},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi Angus},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4514e2a54ddcefceabe4864dc7906c2e}{%
+           family={Macleod},
+           familyi={M\bibinitperiod},
+           given={H.\bibnamedelimi Angus},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boca Raton}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{fullhash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{fullhashraw}{1be8474a91300f309540983f76bc9f0f}
+      \strng{bibnamehash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{authorbibnamehash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{authornamehash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{authorfullhash}{1be8474a91300f309540983f76bc9f0f}
+      \strng{authorfullhashraw}{1be8474a91300f309540983f76bc9f0f}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Written by a world-renowned authority of optical coatings, Thin-Film Optical Filters, Fourth Edition presents an introduction to thin-film optical filters for both manufacturers and users. The preeminent author covers an assortment of design, manufacture, performance, and application topics. He also includes enough of the basic mathematics of optic}
+      \field{edition}{4}
+      \field{isbn}{978-0-429-13651-1}
+      \field{month}{3}
+      \field{title}{Thin-{{Film Optical Filters}}}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1201/9781420073034
+      \endverb
+    \endentry
+    \entry{manifacierSimpleMethodDetermination1976}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a75cf53666bc127ff1c40ecd511e8b98}{%
+           family={Manifacier},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=6dc0f1a474a1369018d3f1cff8753260}{%
+           family={Gasiot},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d730461e817d4a5767efce12d939d3c}{%
+           family={Fillard},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{fullhash}{3320f814d89cecbc31fff914eb2e55b3}
+      \strng{fullhashraw}{3320f814d89cecbc31fff914eb2e55b3}
+      \strng{bibnamehash}{3320f814d89cecbc31fff914eb2e55b3}
+      \strng{authorbibnamehash}{3320f814d89cecbc31fff914eb2e55b3}
+      \strng{authornamehash}{6dc60f0b0b5daa319608fe0da9b95903}
+      \strng{authorfullhash}{3320f814d89cecbc31fff914eb2e55b3}
+      \strng{authorfullhashraw}{3320f814d89cecbc31fff914eb2e55b3}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new calculation following traditional methods is proposed for deducing optical constants and thickness from the fringe pattern of the transmission spectrum of a thin transparent dielectric film surrounded by non-absorbing media. The particular interest of this method, apart from its easiness, is that it makes a directly programmable calculation possible; the accuracy is of the same order as for the iteration method.}
+      \field{issn}{0022-3735}
+      \field{journaltitle}{J. Phys. E: Sci. Instrum.}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{A Simple Method for the Determination of the Optical Constants n, k and the Thickness of a Weakly Absorbing Thin Film}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{1976}
+      \field{urldateera}{ce}
+      \field{pages}{1002}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3735/9/11/032
+      \endverb
+    \endentry
+    \entry{swanepoelDeterminationThicknessOptical1983}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=26be4c90b0538f371d694d5bc031579a}{%
+           family={Swanepoel},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{fullhash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{fullhashraw}{26be4c90b0538f371d694d5bc031579a}
+      \strng{bibnamehash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{authorbibnamehash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{authornamehash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{authorfullhash}{26be4c90b0538f371d694d5bc031579a}
+      \strng{authorfullhashraw}{26be4c90b0538f371d694d5bc031579a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The rigorous expression for the transmission of a thin absorbing film on a transparent substrate is manipulated to yield formulae in closed form for the refractive index and absorption coefficient. A procedure is presented to calculate the thickness to an accuracy of better than 1\% with similar accuracies in the values of n. A method to correct for errors due to slit width is also given. Various formulae to calculate the absorption coefficient accurately over almost three orders of magnitude are discussed. Only data from the transmission spectrum are used and the procedure is simple, fast and very accurate. All formulae are in closed form and can be used on a programmable pocket calculator.}
+      \field{issn}{0022-3735}
+      \field{journaltitle}{J. Phys. E: Sci. Instrum.}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Determination of the Thickness and Optical Constants of Amorphous Silicon}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{16}
+      \field{year}{1983}
+      \field{urldateera}{ce}
+      \field{pages}{1214}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0022-3735/16/12/023
+      \endverb
+    \endentry
+    \entry{mcclainAlgorithmComputerProgram1991}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=615ff7bb93c75fbb2941b7a31b3e3476}{%
+           family={McClain},
+           familyi={M\bibinitperiod},
+           given={Marjorie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=41a048480e7a85e20eed132638ddb948}{%
+           family={Feldman},
+           familyi={F\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8b2cf204158ed0fe93eaa3f06a3ab686}{%
+           family={Kahaner},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ae5c6c70db586f25fd1cb490b5e33d2d}{%
+           family={Ying},
+           familyi={Y\bibinitperiod},
+           given={Xuantong},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ac3f0d87dc148ef469c3ecb9f1ec952}
+      \strng{fullhash}{efd651977e54cb0733b53f8b98bede86}
+      \strng{fullhashraw}{efd651977e54cb0733b53f8b98bede86}
+      \strng{bibnamehash}{efd651977e54cb0733b53f8b98bede86}
+      \strng{authorbibnamehash}{efd651977e54cb0733b53f8b98bede86}
+      \strng{authornamehash}{6ac3f0d87dc148ef469c3ecb9f1ec952}
+      \strng{authorfullhash}{efd651977e54cb0733b53f8b98bede86}
+      \strng{authorfullhashraw}{efd651977e54cb0733b53f8b98bede86}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A procedure has been developed to calculate numerically the envelope functions of an oscillatory curve. The method has been shown to be applicable to optical transmission data, but it is general enough to be used for many other data sets. The program is available on request.}
+      \field{issn}{0894-1866}
+      \field{journaltitle}{Comput. Phys.}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{An Algorithm and Computer Program for the Calculation of Envelope Curves}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \field{pages}{45\bibrangedash 48}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1063/1.168405
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\SMYW4XWV\\McClain et al. - 1991 - An algorithm and computer program for the calculation of envelope curves.pdf;C\:\\Users\\User\\Zotero\\storage\\FSMN7NAF\\1.html
+      \endverb
+    \endentry
+    \entry{ballesterEnhancingSwanepoelMethod2025}{article}{}{}
+      \name{author}{10}{}{%
+        {{hash=b58dc179cbf3a0f2e6443423df33cef5}{%
+           family={Ballester},
+           familyi={B\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=57d2833239890ed2edb5920f630c17c5}{%
+           family={Marquez},
+           familyi={M\bibinitperiod},
+           given={Almudena\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=678ea0e89d6d2050328938fdb86663e2}{%
+           family={{Lopez-Tapia}},
+           familyi={L\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=24a9ab1dcb2c0eda1337ff5b79a30adb}{%
+           family={Fernandez},
+           familyi={F\bibinitperiod},
+           given={Susana},
+           giveni={S\bibinitperiod}}}%
+        {{hash=33c182d844c36d87e76db1b981df7be7}{%
+           family={Bass},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1fd82ab5c372b9367f6834a1e4cdeb00}{%
+           family={Minkov},
+           familyi={M\bibinitperiod},
+           given={Dorian},
+           giveni={D\bibinitperiod}}}%
+        {{hash=1ab508fcebc6fcba59d05f73292ab6d8}{%
+           family={Wuersch},
+           familyi={W\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4c2a8b53817b8a8576049f1881a44284}{%
+           family={Willomitzer},
+           familyi={W\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6cef8fcc7496bafc465447e56c643aae}{%
+           family={Marquez},
+           familyi={M\bibinitperiod},
+           given={Emilio},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f4ddc66037050e112ebae925938e1b70}{%
+           family={Katsaggelos},
+           familyi={K\bibinitperiod},
+           given={Aggelos\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Optica Publishing Group}%
+      }
+      \strng{namehash}{5787d90fa1f4190e62f018622affd0da}
+      \strng{fullhash}{cc25d7cbf0673d2fe98f86ecf700f40b}
+      \strng{fullhashraw}{cc25d7cbf0673d2fe98f86ecf700f40b}
+      \strng{bibnamehash}{5787d90fa1f4190e62f018622affd0da}
+      \strng{authorbibnamehash}{5787d90fa1f4190e62f018622affd0da}
+      \strng{authornamehash}{5787d90fa1f4190e62f018622affd0da}
+      \strng{authorfullhash}{cc25d7cbf0673d2fe98f86ecf700f40b}
+      \strng{authorfullhashraw}{cc25d7cbf0673d2fe98f86ecf700f40b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Swanepoel method is a widely used optical technique for characterizing thin films through normal-incidence transmission measurements. A critical step in this approach involves extracting the upper and lower envelopes of the measured oscillatory spectrum. By analyzing the transmission spectrum and its corresponding envelopes, the Swanepoel procedure enables precise determination of the film refractive index and extinction coefficient. However, even minor inaccuracies in envelope construction can propagate significant errors into the final characterization results. To address this challenge, we present what we believe to be a novel physics-informed optimization algorithm for envelope detection. Our mathematical model reformulates the envelope detection problem as a global optimization task that enforces the physical properties of the Swanepoel envelopes. Extensive validation on fifty randomly generated transmission spectra demonstrates unprecedented accuracy: the method achieves root-mean-square errors (RMSE) below 0.10\% for the upper envelope and 0.06\% for the lower envelope (more than doubling the accuracy of current state-of-the-art approaches). Furthermore, the proposed model has been assessed with two experimental transmission spectra, demonstrating its robustness and accuracy with real noisy data. We have developed an open-source Python software package (see text below). This software includes not only our innovative envelope construction algorithm but also additional envelope drawing algorithms for comparison and an efficient implementation of the Swanepoel method, enabling complete optical characterization of thin films.}
+      \field{issn}{1094-4087}
+      \field{journaltitle}{Opt. Express, OE}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{6}
+      \field{shorttitle}{Enhancing the {{Swanepoel}} Method}
+      \field{title}{Enhancing the {{Swanepoel}} Method: Precise Envelope Detection of Thin-Film Transmission Spectra}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{13376\bibrangedash 13400}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1364/OE.553824
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\V2RWMDX8\Ballester et al. - 2025 - Enhancing the Swanepoel method precise envelope detection of thin-film transmission spectra.pdf
+      \endverb
+      \keyw{Liquid crystal displays,Material properties,Optical materials,Optical properties,Refractive index,Thin films}
+    \endentry
+    \entry{marquezOpticalconstantCalculationNonuniform1999}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=6a14836235c315a3c3a76ccf9b7a3c91}{%
+           family={Márquez},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=53725de770af1799e594537681747904}{%
+           family={{Bernal-Oliva}},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=00bcb4e2de17d0499a9be49434a421a1}{%
+           family={{González-Leal}},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=513ab2957bca21440cfee2c2b548af0f}{%
+           family={{Prieto-Alcón}},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1c1babbd707ab607df96dc249ade330d}{%
+           family={Ledesma},
+           familyi={L\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=73f4edc20b246523f49f88d6b05c18b4}{%
+           family={{Jiménez-Garay}},
+           familyi={J\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=ff8c3ae914c755836a673047e9d1c1d0}{%
+           family={Mártil},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a39a71128724de0019f3c12d0aa56ca3}
+      \strng{fullhash}{3495ba6fcb6c95a4090737654ee630ad}
+      \strng{fullhashraw}{3495ba6fcb6c95a4090737654ee630ad}
+      \strng{bibnamehash}{a39a71128724de0019f3c12d0aa56ca3}
+      \strng{authorbibnamehash}{a39a71128724de0019f3c12d0aa56ca3}
+      \strng{authornamehash}{a39a71128724de0019f3c12d0aa56ca3}
+      \strng{authorfullhash}{3495ba6fcb6c95a4090737654ee630ad}
+      \strng{authorfullhashraw}{3495ba6fcb6c95a4090737654ee630ad}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Optical-transmission spectra are very sensitive to inhomogeneities in thin films. In particular, a non-uniform thickness produces a clear shrinking in the transmission spectrum at normal incidence. If this deformation is not taken into account, it may lead to serious errors in the calculated values of the refractive index and film thickness. In this paper, a method first applied by Swanepoel for enabling the transformation of an optical-transmission spectrum of a thin film of wedge-shaped thickness into the spectrum of a uniform film, whose thickness is equal to the average thickness of the non-uniform layer, has been employed. This leads subsequently to the accurate derivation of the refractive index in the subgap region (0.1--1.8eV), the average thickness, as well as a parameter indicating the degree of film-thickness uniformity. This optical procedure is applied to the particular case of freshly-prepared films of the Ge10As15Se75 ternary chalcogenide glassy alloy. The dispersion of the refractive index is discussed in terms of the Wemple--DiDomenico single-oscillator model. The optical-absorption edge is described using the `non-direct transition' model proposed by Tauc, and the optical energy gap is calculated by Tauc's extrapolation. Finally, the photo-induced and thermally induced changes in the optical properties of the a-Ge10As15Se75 layers are also studied.}
+      \field{issn}{0254-0584}
+      \field{journaltitle}{Materials Chemistry and Physics}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Optical-Constant Calculation of Non-Uniform Thickness Thin Films of the {{Ge10As15Se75}} Chalcogenide Glassy Alloy in the Sub-Band-Gap Region (0.1--1.8 ~ {{eV}})}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{60}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{231\bibrangedash 239}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/S0254-0584(99)00078-4
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\Y6F79LT2\\Márquez et al. - 1999 - Optical-constant calculation of non-uniform thickness thin films of the Ge10As15Se75 chalcogenide gl.pdf;C\:\\Users\\User\\Zotero\\storage\\ZJ9R2Z9D\\S0254058499000784.html
+      \endverb
+      \keyw{Amorphous semi-conductors,Optical constants,Ternary chalcogenide glasses,Thermally and photo-induced effects,Thin films}
+    \endentry
+    \entry{parrattSurfaceStudiesSolids1954}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e973073a26887dad5a61d2c8e3ef3bb2}{%
+           family={Parratt},
+           familyi={P\bibinitperiod},
+           given={L.\bibnamedelimi G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{fullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{fullhashraw}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{bibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorbibnamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authornamehash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorfullhash}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \strng{authorfullhashraw}{e973073a26887dad5a61d2c8e3ef3bb2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Analysis of the shape of the curve of reflected x-ray intensity vs glancing angle in the region of total reflection provides a new method of studying certain structural properties of the mirror surface about 10 to several hundred angstroms deep. Dispersion theory, extended to treat any (small) number of stratified homogeneous media, is used as a basis of interpretation.}
+      \field{journaltitle}{Phys. Rev.}
+      \field{month}{7}
+      \field{number}{2}
+      \field{title}{Surface {{Studies}} of {{Solids}} by {{Total Reflection}} of {{X-Rays}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{95}
+      \field{year}{1954}
+      \field{urldateera}{ce}
+      \field{pages}{359\bibrangedash 369}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/PhysRev.95.359
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\PRJA2TRW\\Parratt - 1954 - Surface Studies of Solids by Total Reflection of X-Rays.pdf;C\:\\Users\\User\\Zotero\\storage\\UIHTH2A9\\PhysRev.95.html
+      \endverb
+    \endentry
+    \entry{pietschHighResolutionXRayScattering2004}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=87b866354dc4b3169aa80f8aeec57acb}{%
+           family={Pietsch},
+           familyi={P\bibinitperiod},
+           given={Ullrich},
+           giveni={U\bibinitperiod}}}%
+        {{hash=a430af88b14114bfbbd2aa475cbb8815}{%
+           family={Holy},
+           familyi={H\bibinitperiod},
+           given={Vaclav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=60ade05c81e51440458bf10513bfe1bc}{%
+           family={Baumbach},
+           familyi={B\bibinitperiod},
+           given={Tilo},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{f0a4732a90565ee9d3effac5c547d7a9}
+      \strng{fullhash}{12caa8d3b10951993d75b6afe66fea9d}
+      \strng{fullhashraw}{12caa8d3b10951993d75b6afe66fea9d}
+      \strng{bibnamehash}{12caa8d3b10951993d75b6afe66fea9d}
+      \strng{authorbibnamehash}{12caa8d3b10951993d75b6afe66fea9d}
+      \strng{authornamehash}{f0a4732a90565ee9d3effac5c547d7a9}
+      \strng{authorfullhash}{12caa8d3b10951993d75b6afe66fea9d}
+      \strng{authorfullhashraw}{12caa8d3b10951993d75b6afe66fea9d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{During the last 20 years interest in high-resolution x-ray diffractometry and reflectivity has grown as a result of the development of the semiconductor industry and the increasing interest in material research of thin layers of magnetic, organic, and other materials. For example, optoelectronics requires a subsequent epitaxy of thin layers of different semiconductor materials. Here, the individuallayer thicknesses are scaled down to a few atomic layers in order to exploit quantum effects. For reasons of electronic and optical confinement, these thin layers are embedded within much thicker cladding layers or stacks of multilayers of slightly different chemical composition. It is evident that the interface quality of those quantum weHs is quite important for the function of devices. Thin metallic layers often show magnetic properties which do not ap pear for thick layers or in bulk material. The investigation of the mutual interaction of magnetic and non-magnetic layers leads to the discovery of colossal magnetoresistance, for example. This property is strongly related to the thickness and interface roughness of covered layers.}
+      \field{isbn}{978-0-387-40092-1}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{High-{{Resolution X-Ray Scattering}}}
+      \field{title}{High-{{Resolution X-Ray Scattering}}: {{From Thin Films}} to {{Lateral Nanostructures}}}
+      \field{year}{2004}
+      \keyw{Technology & Engineering / Electronics / General,Technology & Engineering / Manufacturing,Technology & Engineering / Materials Science,Technology & Engineering / Nanotechnology & MEMS,Technology & Engineering / Optics}
+    \endentry
+    \entry{kiessigInterferenzRontgenstrahlenDunnen1931}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=b76f735bd36fcc0416c7543976dfca7c}{%
+           family={Kiessig},
+           familyi={K\bibinitperiod},
+           given={Heinz},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{fullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{fullhashraw}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{bibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorbibnamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authornamehash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorfullhash}{b76f735bd36fcc0416c7543976dfca7c}
+      \strng{authorfullhashraw}{b76f735bd36fcc0416c7543976dfca7c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1521-3889}
+      \field{journaltitle}{Annalen der Physik}
+      \field{langid}{english}
+      \field{number}{7}
+      \field{title}{Interferenz von {{Röntgenstrahlen}} an Dünnen {{Schichten}}}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{402}
+      \field{year}{1931}
+      \field{urldateera}{ce}
+      \field{pages}{769\bibrangedash 788}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1002/andp.19314020702
+      \endverb
+      \verb{file}
+      \verb C:\Users\User\Zotero\storage\7SD8ZMN4\andp.html
+      \endverb
+    \endentry
+    \entry{nevotCharacterizationSurfacesGrazing1980}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=257bda2a321fb32a1638b46a3d0c605f}{%
+           family={Nevot},
+           familyi={N\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5d667a10de15f160deb0c4607adda433}{%
+           family={Croce},
+           familyi={C\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{fullhash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{fullhashraw}{a0456f15970c4dc721d613ec3761891f}
+      \strng{bibnamehash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{authorbibnamehash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{authornamehash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{authorfullhash}{a0456f15970c4dc721d613ec3761891f}
+      \strng{authorfullhashraw}{a0456f15970c4dc721d613ec3761891f}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Rev. Phys. Appl.}
+      \field{shorttitle}{Characterization of Surfaces by Grazing {{X-ray}} Reflection}
+      \field{title}{Characterization of Surfaces by Grazing {{X-ray}} Reflection: {{Application}} to the Study of the Polishing of Various Silicate Glasses}
+      \field{volume}{15}
+      \field{year}{1980}
+      \field{pages}{761\bibrangedash 779}
+      \range{pages}{19}
+      \keyw{BETA,bibliography,inorganic compounds,mechanical engineering: surface,optics: glass,optics: reflection,surface: glass}
+    \endentry
+    \entry{schinkeUncertaintyAnalysisCoefficient2015}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=72456b46759ace3c5eef5c561d2089b2}{%
+           family={Schinke},
+           familyi={S\bibinitperiod},
+           given={Carsten},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8464ae6b880835055630d044baed8768}{%
+           family={Christian\bibnamedelima Peest},
+           familyi={C\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=9a36c5b44886cb562bb5c2c81c026cfa}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3ffae5850742754b4a3a6af2239e02f6}{%
+           family={Brendel},
+           familyi={B\bibinitperiod},
+           given={Rolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=50d8172e03eb6ba912ae80af4741c798}{%
+           family={Bothe},
+           familyi={B\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4ffb904048842cc35b9f00a3382c99f3}{%
+           family={Vogt},
+           familyi={V\bibinitperiod},
+           given={Malte\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=0c7cbe95124739f9fe60de0468949bf8}{%
+           family={Kröger},
+           familyi={K\bibinitperiod},
+           given={Ingo},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0fe9f887e5146c3aa25809eafe0aa741}{%
+           family={Winter},
+           familyi={W\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=34dc1dbfce69b312a05d5a536a6a0a76}{%
+           family={Schirmacher},
+           familyi={S\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5e2794d63097d61ee06e20f67fbcefaf}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Siew},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5d156c96bcd59cfe3bfced726ccc5a9b}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Hieu\bibnamedelima T.},
+           giveni={H\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=da88158f2596b722639bee868fcf21ef}{%
+           family={MacDonald},
+           familyi={M\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{474c2105226b9139134942449ce9314e}
+      \strng{fullhash}{61b317722a09627c16f8cf8210b3b98e}
+      \strng{fullhashraw}{61b317722a09627c16f8cf8210b3b98e}
+      \strng{bibnamehash}{474c2105226b9139134942449ce9314e}
+      \strng{authorbibnamehash}{474c2105226b9139134942449ce9314e}
+      \strng{authornamehash}{474c2105226b9139134942449ce9314e}
+      \strng{authorfullhash}{61b317722a09627c16f8cf8210b3b98e}
+      \strng{authorfullhashraw}{61b317722a09627c16f8cf8210b3b98e}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We analyze the uncertainty of the coefficient of band-to-band absorption of crystalline silicon. For this purpose, we determine the absorption coefficient at room temperature (295\enspace K) in the wavelength range from 250 to 1450\enspace nm using four different measurement methods. The data presented in this work derive from spectroscopic ellipsometry, measurements of reflectance and transmittance, spectrally resolved luminescence measurements and spectral responsivity measurements. A systematic measurement uncertainty analysis based on the Guide to the expression of uncertainty in measurement (GUM) as well as an extensive characterization of the measurement setups are carried out for all methods. We determine relative uncertainties of the absorption coefficient of 0.4\% at 250\enspace nm, 11\% at 600\enspace nm, 1.4\% at 1000\enspace nm, 12\% at 1200\enspace nm and 180\% at 1450\enspace nm. The data are consolidated by intercomparison of results obtained at different institutions and using different measurement approaches.}
+      \field{issn}{2158-3226}
+      \field{journaltitle}{AIP Advances}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Uncertainty Analysis for the Coefficient of Band-to-Band Absorption of Crystalline Silicon}
+      \field{urlday}{24}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{5}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{067168}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4923379
+      \endverb
+      \verb{file}
+      \verb C\:\\Users\\User\\Zotero\\storage\\K5WIRC9N\\Schinke et al. - 2015 - Uncertainty analysis for the coefficient of band-to-band absorption of crystalline silicon.pdf;C\:\\Users\\User\\Zotero\\storage\\UBY8EPBW\\1.html
+      \endverb
     \endentry
     \entry{liuOptimalGrowthConditions2022}{article}{}{}
       \name{author}{7}{}{%
@@ -1097,8 +2918,8 @@
       \strng{authornamehash}{77a4cfa899bb09f893de3f88f9d8b15d}
       \strng{authorfullhash}{ba04832142cbf53ae6fae240f69fd3be}
       \strng{authorfullhashraw}{ba04832142cbf53ae6fae240f69fd3be}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Aluminum nitride (AlN) thin-film materials possess a wide energy gap; thus, they are suitable for use in various optoelectronic devices. In this study, AlN thin films were deposited using radio frequency magnetron sputtering with an Al sputtering target and N2 as the reactive gas. The N2 working gas flow rate was varied among 20, 30, and 40 sccm to optimize the AlN thin film growth. The optimal AlN thin film was produced with 40 sccm N2 flow at 500 W under 100\% N2 gas and at 600 {$^\circ$}C. The films were studied using X-ray diffraction and had (002) phase orientation. X-ray photoelectron spectroscopy was used to determine the atomic content of the optimal film to be Al, 32\%; N, 52\%; and O, 12\% at 100 nm beneath the surface of the thin film. The film was also investigated through atomic force microscopy and had a root mean square roughness of 2.57 nm and a hardness of 76.21 GPa. Finally, in situ continual sputtering was used to produce a gallium nitride (GaN) layer on Si with the AlN thin film as a buffer layer. The AlN thin films investigated in this study have excellent material properties, and the proposed process could be a less expensive method of growing high-quality GaN thin films for various applications in GaN-based power transistors and Si integrated circuits.}
@@ -1123,6 +2944,36 @@
       \verb C:\Users\User\Zotero\storage\WH7M2FJT\Liu et al. - 2022 - Optimal Growth Conditions for Forming c-Axis (002).pdf
       \endverb
       \keyw{aluminum nitride,hardness measurement,reactive sputtering,X-ray diffraction,X-ray photoelectron spectroscopy}
+    \endentry
+    \entry{miyazakiRefractiveIndexDielectric2010}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7432cd6e6f7102c06f7bf7cb7e47459a}{%
+           family={Miyazaki},
+           familyi={M\bibinitperiod},
+           given={Hidetoshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{fullhash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{fullhashraw}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{bibnamehash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{authorbibnamehash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{authornamehash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{authorfullhash}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \strng{authorfullhashraw}{7432cd6e6f7102c06f7bf7cb7e47459a}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{SiOx films were deposited by reactive rf magnetron sputtering using a sintered SiO target. The composition of the deposited SiOx films was controlled from 0{$\cdot$}98 to 1{$\cdot$}74 by changing oxygen flow ratio at deposition. Refractive indexes of the resultant SiOx films were 1{$\cdot$}85 to 1{$\cdot$}50 at a wavelength of 0{$\cdot$}633 nm, and the dielectric constant of those were 5{$\cdot$}34 to 3{$\cdot$}52 at 100 kHz, with varying the x in SiOx film from 0{$\cdot$}98 to 1{$\cdot$}74.}
+      \field{journaltitle}{Physics and Chemistry of Glasses - European Journal of Glass Science andTechnology Part B}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Refractive Index and Dielectric Constant of {{SiOx}} Films Deposited by Reactive Sputtering}
+      \field{volume}{51}
+      \field{year}{2010}
+      \field{pages}{136\bibrangedash 137}
+      \range{pages}{2}
     \endentry
   \enddatalist
 \endrefsection

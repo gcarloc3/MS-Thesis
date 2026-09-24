@@ -72,7 +72,7 @@ d_optimal=np.array([1,1,1,1,1,1,206,14,53,1000])
 
 for layer in range(int(9-n_layers),9):   # Rough sweep (100 nm range 5 nm step) for best thickness
     original_val=d_sweep[layer]
-    base_reflectance= abs(PS(refractive_index_array(1550),d_sweep,1550))**2 +abs(PS(refractive_index_array(780),d_sweep,780))**2
+    base_reflectance= abs( PS( refractive_index_array(1550), d_sweep,1550))**2 + abs( PS( refractive_index_array(780) ,d_sweep,780)) **2
     for sweep_size in range(-50,55,5):
         d_sweep[layer]=original_val+sweep_size
         r_init_1550= PS(refractive_index_array(1550),d_sweep,1550)
@@ -84,7 +84,7 @@ for layer in range(int(9-n_layers),9):   # Rough sweep (100 nm range 5 nm step) 
 
 for layer in range(int(9-n_layers),9):   # Fine sweep (10 nm range 1 nm step) for best thickness
     original_val=d_sweep[layer]
-    base_reflectance = abs(PS(refractive_index_array(1550),d_sweep,1550))**2+ abs(PS(refractive_index_array(780),d_sweep,780))**2
+    base_reflectance = abs( PS( refractive_index_array(1550), d_sweep,1550)) **2+ abs( PS( refractive_index_array(780), d_sweep,780)) **2
     for sweep_size in range(-5,6):
         d_sweep[layer]=original_val+sweep_size
         r_init_1550 = PS(refractive_index_array(1550),d_sweep,1550)

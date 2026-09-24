@@ -23,5 +23,5 @@
 \contentsline {section}{\numberline {4.4}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{36}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{39}{chapter.5}%
 \contentsline {chapter}{References}{40}{section*.39}%
-\contentsline {chapter}{Appendices}{42}{section*.40}%
-\contentsline {chapter}{\numberline {A}Transfer Matrix Method python code}{43}{appendix.1.A}%
+\contentsline {chapter}{Appendices}{45}{section*.40}%
+\contentsline {chapter}{\numberline {A}Transfer Matrix Method python code}{46}{appendix.1.A}%
