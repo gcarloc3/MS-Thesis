@@ -18,11 +18,14 @@
 \contentsline {section}{\numberline {3.3}Simulation of multilayer a-Si/SiO$_{2}$ antireflective coating via the transfer matrix method}{23}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Fabrication and characterization of a-Si/SiO$_{2}$ antireflective coating}{23}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Thicknesses and densities of a-Si and SiO$_{2}$ thin films}{25}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{34}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{36}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{38}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{41}{chapter.5}%
-\contentsline {chapter}{References}{42}{section*.39}%
-\contentsline {chapter}{Appendices}{47}{section*.40}%
-\contentsline {chapter}{\numberline {A}Transfer Matrix Method python code}{48}{appendix.1.A}%
+\contentsline {section}{\numberline {4.1}Optical and material properties of a-Si and SiO$_{2}$ thin films}{25}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}a-Si thin films}{25}{subsection.4.1.1}%
+\contentsline {subsubsection}{Visual inspection}{25}{subsubsection*.19}%
+\contentsline {subsubsection}{Thickness}{25}{subsubsection*.20}%
+\contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{36}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{38}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{40}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{43}{chapter.5}%
+\contentsline {chapter}{References}{44}{section*.41}%
+\contentsline {chapter}{Appendices}{49}{section*.42}%
+\contentsline {chapter}{\numberline {A}Transfer Matrix Method python code}{50}{appendix.1.A}%

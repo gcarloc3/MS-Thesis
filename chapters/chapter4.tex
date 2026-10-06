@@ -1,5 +1,25 @@
 \chapter{Results and Discussion}
-\section{Thicknesses and densities of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_thicknesses}
+\section{Optical and material properties of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_thicknesses}
+\subsection{a-Si thin films}
+\subsubsection{Visual inspection}
+shows the a-Si thin films of varying thickness on glass substrates together with a bare substrate. The films have a darker tint compared to the glass which intensifies as the thickness of the layer increases, confirming the deposition of a-Si.
+
+\subsubsection{Thickness}
+ The \gls{QCM} is able to give a nominal value of the film thickness during growth, but it requires validation, which can be provided by XRR measurements.~\ref{fig: a-Si_XRR} shows the XRR spectra of several a-Si thin films with varying thicknesses according to the \gls{QCM} reading during the deposition process. \ref{tab: thickness_a-Si} summarizes the \gls{QCM} and \gls{XRR} thicknesses.
+
+ From~\ref{fig: a-Si_XRR} the Kiessig fringes discussed in~\ref{sec: xrr} are apparent, and their size also varies depending on the QCM thickness. The largest fringes appear in the \qty{0.035}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.520}{\kilo\angstrom} film having very small fringes. No fringes could be identified for films beyond this thickness, which is attributed to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_a-Si} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
+
+ A linear regression of the \gls{XRR} and \gls{QCM} thicknesses as shown in~\ref{fig: linear_fit_xrr_aSi} yields the equation 
+
+\begin{equation}\label{eqn:aSi_thickness} 
+    y = 168.03x + 3.0403
+\end{equation}
+
+with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. 
+
+
+ and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si$(100)$ substrates respectively with varying thicknesses according to the \gls{QCM} readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
+
 \begin{figure}[t]
 	\centering
 	\begin{subfigure}{1\textwidth}
@@ -85,7 +105,7 @@
 	\caption[Linear regression of SiO$_2$ thicknesses]{Linear regression of XRR and \gls{QCM} thicknesses for SiO$_2$ thin films grown via e-beam evaporation.}\label{fig: linear_fit_xrr_SiO2}
 \end{figure}
 
-~\ref{fig: a-Si_XRR}  and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si$(100)$ substrates respectively with varying thicknesses according to the \gls{QCM} readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
+  and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si$(100)$ substrates respectively with varying thicknesses according to the \gls{QCM} readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
 
 \begin{table}[tbp]
 \centering
