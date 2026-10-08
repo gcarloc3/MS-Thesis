@@ -1,12 +1,18 @@
 \chapter{Methodology}\label{cha: Methodology}
 
 \section{Initial growth of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films via electron beam evaporation}\label{sec: growth}
-Glass slides and Si wafers were used as substrates for the initial growth via electron beam evaporation of a-Si and SiO$_2$ thin films respectively. The substrates were cleaned by sonication in acetone, isopropanol, and deionized water for 5 minutes each, after which they were blow-dried with nitrogen gas. The substrates were then loaded into the ULVAC electron beam evaporation chamber, where a base pressure of $\qty{4.5e-4}{\Pa}$ was achieved before actual deposition. Deposition was carried out at room temperature, and the nominal deposition rates and thicknesses of the films were monitored using a \gls{QCM} with the input values in~\ref{tab: qcm_input}. A reliable method to measure the thickness of the thin films in real time during deposition of the multilayer coating is necessary, which can be provided by the \gls{QCM} as shown in .
+Glass slides and Si wafers were used as substrates for the initial growth via electron beam evaporation of a-Si and SiO$_2$ thin films respectively. The substrates were cleaned by sonication in acetone, isopropanol, and deionized water for 5 minutes each, after which they were blow-dried with nitrogen gas. The substrates were then loaded into the ULVAC electron beam evaporation chamber, where a base pressure of $\qty{4.5e-4}{\Pa}$ was achieved before actual deposition. Deposition was carried out at room temperature, and the nominal deposition rates and thicknesses of the films were monitored using a ULVAC CRTM-6000G deposition controller \gls{QCM} shown in  with the input values in~\ref{tab: qcm_input}. A reliable method to measure the thickness of the thin films in real time during deposition of the multilayer coating is necessary, which can be provided by the \gls{QCM}.
 
 \section{Optical and material characterization of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: analysis}
-After unloading the samples from the chamber, the XRR spectra of the films were obtained using a Malvern Panalytical Empyrean x-ray diffrac\-tometer. The thicknesses of the films were calculated using both the direct method and the Fourier method. The direct method involves manual counting of the fringes and dividing the calculated thickness from the angle difference of the selected extrema, whereas the Fourier method can be performed directly by the analysis software. Curve fitting was performed on selected samples to obtain the densities and interface roughness of the films.
+After unloading the samples from the chamber, the XRR spectra of the films were obtained using a Malvern Panalytical Empyrean x-ray diffrac\-tometer shown in . The thicknesses of the films were calculated using both the direct method and the Fourier method. The direct method involves manual counting of the fringes and dividing the calculated thickness from the angle difference of the selected extrema, whereas the Fourier method can be performed directly by the Advanced Material Analysis and Simulation Software bundled with the diffractometer. Curve fitting was also performed on selected samples to obtain the densities and interface roughness of the films.
 
-The refractive index of the a-Si film was determined using the envelope method via UV-Vis spectroscopy as described in \ref{sec: swanepoel} with a Shimadzu UV-Vis spectrophotometer  while the refractive index of the SiO$_2$ film was identified using the interference method described in \ref{sec: EM waves} via the reflectance spectroscopy setup as shown in~\ref{fig: normal_reflection}.
+The refractive index of the a-Si film was determined using the envelope method via UV-Vis spectroscopy as described in~\ref{sec: swanepoel} with a Shimadzu UV-Vis spectrophotometer  while the refractive index of the SiO$_2$ film was identified using the interference method described in~\ref{sec: EM waves} via the reflectance spectroscopy setup as shown in~\ref{fig: normal_reflection}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\textwidth]{figures/reflectivity_setup.jpg}
+	\caption[Normal incidence reflection spectroscopy]{Normal incidence reflectance spectroscopy setup.}\label{fig: normal_reflection}
+\end{figure}
 
 \section{Simulation of multilayer a-Si/SiO\texorpdfstring{$_{2}$}{2} antireflective coating via the transfer matrix method}\label{sec: TMM_simulation}
 A \gls{TMM} implementation in Python was used to calculate the optimal thicknesses of the Si and SiO$_2$ layers for the antireflective coating stack. The refractive indices of the a-Si and SiO$_2$ layers used for the simulation were obtained from the previous section. The optimal thicknesses of the layers were calculated to minimize the reflectance at $\qty{1550}{\nano\meter}$ and $\qty{780}{\nano\meter}$, which are the wavelengths of the lasers which can be used in the THz-TDS spectroscopy system. The program first iterated over a \qty{100}{\nano\meter} range with \qty{5}{\nano\meter} step size for each layer while calculating the reflectance of the stack, selecting the thicknesses that resulted in the lowest sum of the reflectances at the target wavelengths. A finer sweep with \qty{10}{\nano\meter} range and \qty{1}{\nano\meter} step size followed the rough sweep, before the program outputs the optimized thickness. The number of layers and sequence of the stack was manually set by the user, prioritizing the least number of layers and the smallest thickness while still keeping the reflectivity less than \qty{1}{\percent}.
@@ -27,8 +33,3 @@ SiO$_2$ & 1   & 2.65 \\
 \caption{QCM inputs}\label{tab: qcm_input}
 \end{table}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\textwidth]{figures/reflectivity_setup.jpg}
-	\caption[Normal incidence reflection spectroscopy]{Normal incidence reflectance spectroscopy setup.}\label{fig: normal_reflection}
-\end{figure}
