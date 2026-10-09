@@ -14,7 +14,7 @@
 \subsubsection{Thickness, density and roughness}
  The \gls{QCM} is able to give a nominal value of the film thickness during growth but it requires validation which can be provided by \gls{XRR} measurements.~\ref{fig: a-Si_XRR} shows the XRR spectra of several a-Si thin films with varying thicknesses according to the \gls{QCM} reading during the deposition process.~\ref{tab: thickness_a-Si} summarizes the \gls{QCM} and \gls{XRR} thicknesses.
 
-\begin{figure}[!h]
+\begin{figure}[!ht]
 	\centering
 	\begin{subfigure}{1\textwidth}
 		\centering
@@ -36,7 +36,7 @@
 
 	\caption{XRR measurements in log scale of a-Si thin films with varying \gls{QCM} thicknessses. Kiessig fringes are visible, with the length of the fringes inversely proportional to the thickness of the film.}\label{fig: a-Si_XRR}
 \end{figure}
-\begin{figure}[!h]
+\begin{figure}[!ht]
 \ContinuedFloat\centering
 	\begin{subfigure}{1\textwidth}
 		\centering
@@ -75,7 +75,7 @@
 \caption{a-Si thicknesses measured using the \gls{QCM}, direct fringe calculation and Fourier method from the XRR spectra. The results of the two methods are generally in agreement with each other.}\label{tab: thickness_a-Si}
 \end{table}
 
-The Kiessig fringes as discussed in~\ref{sec: xrr} are apparent from~\ref{fig: a-Si_XRR}, and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.035}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.520}{\kilo\angstrom} film having very small fringes. No fringes could be identified for films beyond this thickness, which is attributed to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_a-Si} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
+The Kiessig fringes discussed in~\ref{sec: xrr} are apparent from~\ref{fig: a-Si_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.035}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.520}{\kilo\angstrom} film having very small fringes. No fringes could be identified for films beyond this thickness, which is attributed to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_a-Si} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
 
 Linear regression of the \gls{XRR} and \gls{QCM} thicknesses as shown in~\ref{fig: linear_fit_xrr_aSi} gives
 \begin{equation}\label{eqn:aSi_thickness} 
@@ -126,48 +126,38 @@ The calculated roughness for both films is less than \qty{1}{\nano\meter}, signi
 \end{figure}
 
 \subsubsection{Thickness, density and roughness}
-
- and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si$(100)$ substrates respectively with varying thicknesses according to the \gls{QCM} readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
+~\ref{fig: SiO2_XRR} shows the XRR spectra of several SiO$_2$ thin films with varying thicknesses according to the \gls{QCM} reading during the deposition process.~\ref{tab: thickness_SiO2} summarizes the \gls{QCM} and \gls{XRR} thicknesses.
 
 \begin{figure}
 	\centering
 	\begin{subfigure}[t]{0.9\textwidth}
 		\centering
-		\includegraphics[width=0.95\textwidth]{figures/525_SiO2.png}
+		\includegraphics[width=0.9\textwidth]{figures/525_SiO2.png}
 		\caption[XRR 525 SiO2]{\qty{0.525}{\kilo\angstrom} SiO$_2$ thin film}\label{fig:525_SiO2}
 	\end{subfigure}%
 
 	\begin{subfigure}[t]{0.9\textwidth}
 		\centering
-		\includegraphics[width=0.95\textwidth]{figures/884_SiO2.png}
+		\includegraphics[width=0.9\textwidth]{figures/884_SiO2.png}
 		\caption[XRR 884 SiO2]{\qty{0.884}{\kilo\angstrom} SiO$_2$ thin film}\label{fig:884_SiO2}
 	\end{subfigure}%
 
 	\begin{subfigure}[t]{0.9\textwidth}
 		\centering
-		\includegraphics[width=0.95\textwidth]{figures/1050_SiO2.png}
+		\includegraphics[width=0.9\textwidth]{figures/1050_SiO2.png}
 		\caption[XRR 1050 SiO2]{\qty{1.050}{\kilo\angstrom} SiO$_2$ thin film}\label{fig:1050_SiO2}
 	\end{subfigure}%
 
 	\begin{subfigure}[t]{0.9\textwidth}
 		\centering
-		\includegraphics[width=0.95\textwidth]{figures/1369_SiO2.png}
+		\includegraphics[width=0.9\textwidth]{figures/1369_SiO2.png}
 		\caption[XRR 1369 SiO2]{\qty{1.369}{\kilo\angstrom} SiO$_2$ thin film}\label{fig:1369_SiO2}
 	\end{subfigure}%
 	
-	\caption{XRR measurements of SiO$_2$ thin films with varying \gls{QCM} thicknessses}\label{fig: SiO2_XRR}
+	\caption{XRR measurements in log scale of SiO$_2$ thin films with varying \gls{QCM} thicknessses. Kiessig fringes are visible, with the length of the fringes inversely proportional to the thickness of the film.}\label{fig: SiO2_XRR}
 \end{figure}
 
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=0.65\textwidth]{figures/linear_fit_xrr_SiO2.png}
-	\caption[Linear regression of SiO$_2$ thicknesses]{Linear regression of XRR and \gls{QCM} thicknesses for SiO$_2$ thin films grown via e-beam evaporation.}\label{fig: linear_fit_xrr_SiO2}
-\end{figure}
-
-  and~\ref{fig: SiO2_XRR} show the XRR measurements of various a-Si films grown on glass substrates and SiO$_2$ films grown on Si$(100)$ substrates respectively with varying thicknesses according to the \gls{QCM} readings across different growth runs. From the graphs of the intensity the $2\theta$ range at which the detector can  count the reflected x-rays generally ranges from \ang{0.3} to \ang{2.0}. The measured thicknesses of the a-Si film based on XRR are summarized in~\ref{tab: thickness_a-Si}, while for SiO$_2$ the results are summarized in~\ref{tab: thickness_SiO2}. No thickness data could be obtained from XRR for films which were thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$. 
-
-
+Similar to the previous section, the Kiessig fringes are visible in~\ref{fig: SiO2_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.525}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.369}{\kilo\angstrom} SiO$_2$ film having very small fringes. No fringes could be identified for films beyond this thickness, which we attribute to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_SiO2} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
 
 \begin{table}[tbp]
 \centering
@@ -184,7 +174,21 @@ The calculated roughness for both films is less than \qty{1}{\nano\meter}, signi
 \caption{SiO$_2$ thicknesses measured using the \gls{QCM}, direct fringe calculation and Fourier method from the XRR spectra}\label{tab: thickness_SiO2}
 \end{table}
 
-~\ref{fig: XRR_fit_103} and~\ref{fig: XRR_fit_204} show the simulated curves using the XRR software for selected a-Si films on glass substrates and SiO$_2$ films on Si. The values of thickness, interface roughness and densities obtained by fitting the curve are summarized in~\ref{tab: XRR_fit_SiO2}.
+Linear regression of the \gls{XRR} and \gls{QCM} thicknesses as shown in~\ref{fig: linear_fit_xrr_SiO2} gives
+\begin{equation}\label{eqn:SiO2_thickness} 
+    y = 198.52x - 4.5056
+\end{equation}
+with $R^2 = 0.9941$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. Even though the value is less than that of the a-Si films in the previous section, the high $R^2$ value signifies that this equation relating the \gls{QCM} thickness to the \gls{XRR} thickness is also reliable and can be used to match the real-time \gls{QCM} readings during deposition to the actual thickness of the deposited film. The lower $R^2$ value in the regression for SiO$_2$ might be caused by muliple factors, some of which could be increased porosity, a difference in stoichiometry of the film versus the source (i.e SiO$_x$ where $x<2$), or the variation in the deposition rate during the growth of the SiO$_2$ films, which in turn may be caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=0.65\textwidth]{figures/linear_fit_xrr_SiO2.png}
+	\caption[Linear regression of SiO$_2$ thicknesses]{Linear regression of XRR and \gls{QCM} thicknesses for SiO$_2$ thin films grown via e-beam evaporation.}\label{fig: linear_fit_xrr_SiO2}
+\end{figure}
+
+The results of the curve fitting performed using the Advanced Material Analysis and Simulation Software for the \gls{XRR} spectra of selected SiO$_2$ thin film thicknesses as shown in~\ref{fig: XRR_fit_103} and~\ref{fig: XRR_fit_204} are presented in~\ref{tab: XRR_fit_SiO2}. The thicknesses also match the previously calculated values in the direct and Fourier method.  
+
+The calculated roughness for both films is also less than \qty{1}{\nano\meter}, signifying the excellent quality and sharp interface of the deposited film required for multilayer antireflective coatings. Again, the densities of the films are generally lower than the expected density for SiO$_2$ as used for the \gls{QCM} input $(\rho=2.65)$, and there is a much larger variation between the two films compared to that for a-Si. This difference is also likely caused by the increased porosity of the films during deposition resulting from the absence of substrate heating, compounded by the previously mentioned difficulty in maintaining the stable evaporation of SiO$_2$.
 
 \begin{table}[tbp]
 \centering
@@ -199,7 +203,6 @@ The calculated roughness for both films is less than \qty{1}{\nano\meter}, signi
 \caption{Thickness, roughness and densities calculated from XRR curve fitting}\label{tab: XRR_fit_SiO2}
 \end{table}
 
-
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_21_40_26.png}
@@ -212,15 +215,7 @@ The calculated roughness for both films is less than \qty{1}{\nano\meter}, signi
 	\caption[XRR curve fit to $204$ nm SiO$_2$ film]{XRR curve fit to \qty{204.7}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_204}
 \end{figure}
 
-with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. Similarly, linear regression of the measured XRR thickness and the \gls{QCM} values for SiO$_2$ as shown in~\ref{fig: linear_fit_xrr_SiO2} yields the following equation with $R^2 = 0.9941$:
-
-\begin{equation}\label{eqn:SiO2_thickness} 
-    y = 198.52x - 4.5056
-\end{equation}
-
-The initial comparison of the \gls{QCM} readings and the measured thicknesses during XRR indicate that the \gls{QCM} readings during deposition generally underestimate the actual thicknesses of the films. This underestimation is likely due to the mismatch in densities used as input for the \gls{QCM} as shown in~\ref{tab: qcm_input} and the actual densities of the evaporated film as shown in~\ref{tab: XRR_fit_SiO2}. The thicknesses of the films as obtained by curve fitting generally agree with the direct and Fourier method of analysis for the Kiessig fringes. The low interface roughness of the films imply that electron beam evaporation is an effective method to produce uniform films, albeit with much lower densities than the bulk material. This discrepancy may be caused by the increased porosity of the film. The lack of data for films thicker than \qty{1.52}{\kilo\angstrom} for a-Si and \qty{1.369}{\kilo\angstrom} for SiO$_2$ is explained by the limitation of the equipment, which can only resolve fringes larger than that which correspond to a thickness of \qty{270}{\nano\meter}.
-
-Nevertheless, the results of the regression analysis indicate that the \gls{QCM} readings scale linearly with the actual thicknesses of the films as measured by XRR\@. The high $R^2$ values suggest that the \gls{QCM} is a reliable tool for monitoring film thickness during deposition as long as the linear relationship is considered, and that the linear relationships obtained in this study can be used to calibrate the \gls{QCM} readings for future depositions. The lower $R^2$ value in the regression for SiO$_2$ is attributed to the variation in the deposition rate during the growth of the SiO$_2$ films, which is caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials.
+\section{Refractive index of a-Si thin films}\label{sec: results_index_Si}
 
 \begin{figure}
 	\centering
@@ -228,7 +223,6 @@ Nevertheless, the results of the regression analysis indicate that the \gls{QCM}
 	\caption[Envelope method for \qty{600}{\nano\meter} a-Si thin film]{The transmission curves for the \qty{600}{\nano\meter} a-Si thin film and the glass substrate together with the upper and lower envelopes for the envelope method}\label{fig: swanelpoel_aSi}
 \end{figure}
 
-\section{Refractive index of a-Si thin films}\label{sec: results_index_Si}
 ~\ref{fig: swanelpoel_aSi} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the envelope method as described in~\ref{sec: swanepoel}. The equations of the exponential functions fitted to the extrema points listed in~\ref{tab: swanepoel_aSi} are
 \begin{equation}\label{eqn:aSi_upper_env} 
     y = 80.612419+\num{1.200883e9}e^{-x/89.819343}-\num{12.00749e9}e^{-x/89.821415}
