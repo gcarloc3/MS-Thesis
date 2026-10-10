@@ -188,7 +188,7 @@ with $R^2 = 0.9941$, where $y$ is the measured XRR thickness in \unit{\nano\mete
 
 The results of the curve fitting performed using the Advanced Material Analysis and Simulation Software for the \gls{XRR} spectra of selected SiO$_2$ thin film thicknesses as shown in~\ref{fig: XRR_fit_103} and~\ref{fig: XRR_fit_204} are presented in~\ref{tab: XRR_fit_SiO2}. The thicknesses also match the previously calculated values in the direct and Fourier method.  
 
-The calculated roughness for both films is also less than \qty{1}{\nano\meter}, signifying the excellent quality and sharp interface of the deposited film required for multilayer antireflective coatings. Again, the densities of the films are generally lower than the expected density for SiO$_2$ as used for the \gls{QCM} input $(\rho=2.65)$, and there is a much larger variation between the two films compared to that for a-Si. This difference is also likely caused by the increased porosity of the films during deposition resulting from the absence of substrate heating, compounded by the previously mentioned difficulty in maintaining the stable evaporation of SiO$_2$.
+The calculated roughness for both films is also less than \qty{1}{\nano\meter}, signifying the excellent quality and sharp interface of the deposited film required for multilayer antireflective coatings. Again, the densities of the films are generally lower than the expected density for SiO$_2$ as used for the \gls{QCM} input $(\rho=2.65)$, and there is a much larger variation in densities between the two films compared to that for a-Si. This difference is also likely caused by the increased porosity of the films during deposition resulting from the absence of substrate heating, compounded by the previously mentioned difficulty in maintaining the stable evaporation of SiO$_2$.
 
 \begin{table}[tbp]
 \centering
@@ -205,13 +205,13 @@ The calculated roughness for both films is also less than \qty{1}{\nano\meter}, 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_21_40_26.png}
+	\includegraphics[width=1\textwidth]{figures/ReportPlot08_Sep_2026_21_40_26.png}
 	\caption[XRR curve fit to $103.9$ nm SiO$_2$ film]{XRR curve fit to \qty{103.9}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_103}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.85\textwidth]{figures/ReportPlot08_Sep_2026_22_50_23.png}
+	\includegraphics[width=1\textwidth]{figures/ReportPlot08_Sep_2026_22_50_23.png}
 	\caption[XRR curve fit to $204$ nm SiO$_2$ film]{XRR curve fit to \qty{204.7}{\nano\meter} SiO$_2$ thin film}\label{fig: XRR_fit_204}
 \end{figure}
 
@@ -220,54 +220,64 @@ The calculated roughness for both films is also less than \qty{1}{\nano\meter}, 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/swanelpoel_aSi.png}
-	\caption[Envelope method for \qty{600}{\nano\meter} a-Si thin film]{The transmission curves for the \qty{600}{\nano\meter} a-Si thin film and the glass substrate together with the upper and lower envelopes for the envelope method}\label{fig: swanelpoel_aSi}
+	\caption[Envelope method for \qty{600}{\nano\meter} a-Si thin film]{The transmission curves for the \qty{600}{\nano\meter} a-Si thin film $T_{a-Si}$ and the glass substrate $T_{sub}$ together with the upper $T_{M}$ and lower envelopes $T_{m}$ for the envelope method. The envelopes cross at $\lambda=$ \qty{630}{\nano\meter}, likely caused by the very few data points used for fitting as highlighted.}\label{fig: swanelpoel_aSi}
 \end{figure}
 
-~\ref{fig: swanelpoel_aSi} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using the envelope method as described in~\ref{sec: swanepoel}. The equations of the exponential functions fitted to the extrema points listed in~\ref{tab: swanepoel_aSi} are
-\begin{equation}\label{eqn:aSi_upper_env} 
-    y = 80.612419+\num{1.200883e9}e^{-x/89.819343}-\num{12.00749e9}e^{-x/89.821415}
-\end{equation}
-for the upper envelope with $R^2 = 0.9969$ and 
-\begin{equation}\label{eqn:aSi_lower_env} 
-    y = 45.9178758+\num{3.6028012e10}e^{-x/64.3969697}-\num{3.16015549e10}e^{-x/64.3973202}
-\end{equation}
-for the lower envelope with $R^2 = 0.9977$. The last $d_{1}$ of \qty{281.5}{\nano\meter} is excluded from further calculations due to its distance from the other thickness values. The equation for the refractive index of the a-Si thin film according to~\ref{eqn: sellmeier} fitted to the data points of the refractive indices obtained from the envelope method is
+~\ref{fig: swanelpoel_aSi} shows the UV-Vis transmittance spectra of a \qty{600}{\nano\meter} a-Si thin film deposited on a glass substrate together with the upper and lower envelopes as calculated using a modified version of the envelope method described in~\ref{sec: swanepoel}. The equations of the exponential functions fitted to the extrema points listed in~\ref{tab: swanepoel_aSi} using \verb|scipy.optimize.curve_fit| are
+\begin{align}
+	y &= 0.7848 - 250.7271e^{-x/103.5957} \label{eqn:aSi_env_1} \\
+	y &= 0.4543 - 464.5691e^{-x/83.2507} \label{eqn:aSi_env_2}
+\end{align}
+for the upper and lower envelopes respectively. The last maxima at $\lambda=$ \qty{655}{\nano\meter} is excluded from further calculations due to the mismatch in expected value for $m$. The envelope method in~\ref{sec: swanepoel} specifies that succeeding extrema must correspond to half-integer steps, but the calculated value at this wavelength is $m=5.0$ instead of a value close to the half-integer $5.5$. This likely means that the envelope functions are no longer accurate at this wavelength. The minima at $\lambda=$ \qty{613}{\nano\meter} is also excluded because the calculated $N$ is negative, caused by the crossing of the upper and lower envelopes. More fringes in the transmission spectra would probably result in more accurate envelopes which satisfy the necessary conditions outlined in~\ref{sec: swanepoel}.
+
+The equation for the refractive index of the a-Si thin film according to the Cauchy ~\ref{eqn: sellmeier} fitted to the remaining four data points of the refractive indices obtained from the envelope method using \verb|scipy.optimize.curve_fit| is
 \begin{equation}\label{eqn:aSi_sellmeier} 
-    n^2 = 14.84529+\frac{\num{7.06709e12}\lambda^2}{\lambda^2+\num{2.12449e18}}+\frac{-10.41841\lambda^2}{\lambda^2+190469.027}.
+    n(\lambda) = 2.8716 + \frac{38061.0}{\lambda^2}
 \end{equation}
-and the graph of the resulting refractive index versus wavelength is shown in~\ref{fig: index_aSi}. The average thickness of the a-Si thin film according to the envelope method is \qty{653}{\nano\meter}.
+with $R^2 \approx 0.5849$ and the graph of the resulting refractive index versus wavelength is shown in~\ref{fig: index_aSi}. The low $R^2$ is caused by the refractive index at \qty{871}{\nano\meter} deviating from the trend of increasing refractive index for decreasing wavelength, likely due to the transmission envelope.
+
 
 \begin{table}[tbp]
 \centering
-\begin{tabular}{llllllllllll}
+\begin{tabular}{llllllllll}
 \toprule
-$\lambda$ (\unit{\nano\meter}) & $T_{film} $ & $T_{sub}$ & $T_{M} $    & $T_{m}  $   & $n_{s}  $   &$ N $     &$ n_{1}$ & $d_{1}$ (\unit{\nano\meter})       & $m$        & $d_{2}$ (\unit{\nano\meter})      & $n_{2} $      \\
+$\lambda$ (\unit{\nano\meter}) & $T_{a-Si} $ & $T_{sub}$ & $T_{M} $  & $T_{m}$ & $n_{s}$ & $N$ & $n_{i}$ & $m$ & $n_{f}$    \\
 \midrule
-\multicolumn{12}{l}{maxima}                                                                 \\
-1002 & 76.9 & 86.3 & 78.1 & 45.7 & 1.62 & 4.76 & 3.04 & 698.1 & 3.47 & 659.4 & 3.07 \\
-782  & 65.3 & 88.2 & 62.9 & 41.4 & 1.61 & 4.45 & 2.93 & 422.4 & 4.28 & 666.8 & 3.00 \\
-655  & 33.5 & 89.5 & 34.3 & 26.7 & 1.61 & 5.34 & 3.23 & 564.0 & 5.64 & 608.1 & 3.01 \\
-590  & 11.3 & 89.7 & 13.3 & 11.3 & 1.61 & 6.00 & 3.43 &       &      &       &      \\
+\multicolumn{10}{l}{maxima}                                                                 \\
+1002 & 0.769 & 0.896 & 0.769 & 0.452 & 1.62 & 4.776  & 3.04 & 3.6                         & 2.92 \\
+782  & 0.653 & 0.896 & 0.653 & 0.416 & 1.61 & 4.614  & 2.99 & 4.6                         & 2.93 \\
+655  & 0.335 & 0.335 & 0.335 & 0.276 & 1.61 & 3.835  & 2.70 & 5.0  						  &      \\
 \midrule
-\multicolumn{12}{l}{minima}                                                                 \\
-871  & 44.1 & 86.9 & 72.3 & 44.5 & 1.61 & 4.59 & 2.98 & 737.9 & 3.91 & 657.6 & 3.00 \\
-709  & 36.1 & 89.6 & 49.0 & 35.2 & 1.61 & 4.38 & 2.91 & 426.7 & 4.68 & 670.8 & 2.99 \\
-613  & 16.4 & 89.6 & 21.5 & 17.7 & 1.61 & 5.34 & 3.23 & 281.5* &      &       &      \\
-571  & 7.4  & 89.6 & 7.6  & 6.6  & 1.61 & 8.18 & 4.02 &       &      &       &      \\
-\midrule
-       &       &           &       &       &      &      & $\bar{d}$ & 569.8 &      & 652.53 &  \\
+\multicolumn{10}{l}{minima}                                                                 \\
+871  & 0.441 & 0.896 & 0.729 & 0.441 & 1.61 & 4.682  & 3.01 & 4.2                         & 2.90 \\
+709  & 0.361 & 0.896 & 0.518 & 0.361 & 1.61 & 4.491  & 2.95 & 5.0                         & 2.95 \\
+613  & 0.160 & 0.896 & 0.123 & 0.167 & 1.61 & -5.162 &      &              &      \\
 \bottomrule
 \end{tabular}
-\caption{Relevant values for the envelope method of the a-Si thin film.}\label{tab: swanepoel_aSi}
+\caption{Relevant values for the modified envelope method of the a-Si thin film, with $d=$ \qty{600}{\nano\meter} from \gls{XRR}. The calculations are not continued for $\lambda=$ \qty{655}{\nano\meter} since $m=5.0$ instead of $5.5$ when considering fringes, and for $\lambda=$ \qty{613}{\nano\meter} since $N<0$.}\label{tab: swanepoel_aSi}
 \end{table}
+
+On the other hand, direct curve fitting of the Cauchy equation to the transmission spectra using the transfer matrix method and \verb|scipy.optimize.curve_fit| as shown in~\ref{fig: T_fit_aSi}, gives the following equation for refractive index 
+\begin{equation}\label{eqn:aSi_direct_cauchy} 
+    n(\lambda) = (3.2971\pm0.0128) + \frac{0\pm9886.9}{\lambda^2}
+\end{equation}
+as graphed in \ref{fig: index_aSi}. Values lower than \qty{700}{\nano\meter} had to be excluded from the fitting in order for the model to converge properly, which means that the refractive index values corresponding to wavlengths lower than \qty{700}{\nano\meter} are an extrapolation.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/T_fit_aSi.png}
+	\caption[Direct fitting of transmittance from the transfer matrix method for a-Si]{Direct fitting of transmittance from the transfer matrix method for the a-Si thin film. Values lower than \qty{700}{\nano\meter} are excluded in order for the model to converge.}\label{fig: T_fit_aSi}
+\end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/index_aSi.png}
-	\caption[Refractive index of a-Si thin film]{Refractive index of a-Si thin film from \qtyrange{500}{1100}{\nano\meter} }\label{fig: index_aSi}
+	\caption[Refractive index of a-Si thin film]{Refractive index of the a-Si thin film from \qtyrange{500}{1100}{\nano\meter} as calculated from the envelope and direct fitting methods compared to values obtained by Swanepoel\cite{swanepoelDeterminationThicknessOptical1983} and Schinke\cite{schinkeUncertaintyAnalysisCoefficient2015}.}\label{fig: index_aSi}
 \end{figure}
 
-The refractive index of the a-Si thin film is comparable to the literature values obtained by Swanepoel for a-Si, with values ranging from $3.0$ to $3.2$ across the relevant wavelengths. However, the refractive index does not decrease monotonically with increasing wavelength as expected for the material. This deviation from the expected behavior is unlikely to be anomalous dispersion and instead is probably caused by the few number of data points from the envelope method used to fit the Sellmeier equation. This is supported by the difference in calculated thickness for the film using the envelope method and the extrapolation using~\ref{eqn:aSi_thickness}. A larger number of oscillations and data points would likely yield a more accurate Sellmeier equation that would exhibit the proper dispersion behavior across the wavelength range. Furthermore, the a-Si thin film refractive index is much lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.25$ across the range of wavelengths as measured by Schinke~\cite{schinkeUncertaintyAnalysisCoefficient2015}. This is likely due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon, and supports the previous finding in~\ref{sec: results_thicknesses}.
+The refractive indices of the a-Si thin film calculated for both methods are quite consistent, differing by around $0.25$, and comparable to the literature values obtained by Swanepoel for a-Si at longer wavelengths\cite{swanepoelDeterminationThicknessOptical1983}. Furthermore, the calculated a-Si thin film refractive index is lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.25$ across the range of wavelengths as measured by Schinke~\cite{schinkeUncertaintyAnalysisCoefficient2015}. This is likely due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon, and supports the previous findings in~\ref{sec: results_thicknesses}. However, the refractive index appears somewhat flat over the wavelength range instead of increasing at shorter wavelengths. This difference from the expected behavior at shorter wavelengths is probably caused by the loss of information due to the fitting procedures used.
+
+In the modified envelope method, the number of data points used to fit the transmission envelopes is too few, which results in less accurate transmission envelopes and consequently refractive index values. On the other hand, for the direct fitting method using the transfer matrix method, the accuracy of the calculated value depends on the quality of the fit to the experimental data and is also limited to the \qtyrange{700}{1100}{\nano\meter} wavelength range. An extrapolation to shorter wavelengths may no longer be accurate regardless of the method used. 
 
 \section{Refractive index of SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_index_SiO2}
 ~\ref{fig: intensity_SiO2} shows the reflectance spectra of a \qty{990}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate after deconvolution using a mirror. The extrema points used for the calculation of the refractive index of the film using~\ref{eqn: index_extrema} are listed in~\ref{tab: oscillation_SiO2} together with the corresponding refractive indices and the new wavelengths.~\ref{fig: index_SiO2} shows the graph of the refractive index after fitting the data points to~\ref{eqn: sellmeier}, which is 
