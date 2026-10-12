@@ -12,24 +12,25 @@
 \contentsline {section}{\numberline {2.4}Envelope method for refractive index}{12}{section.2.4}%
 \contentsline {section}{\numberline {2.5}X-ray reflectivity}{15}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Terahertz photoconductive antenna}{18}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Methodology}{22}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Initial growth of a-Si and SiO$_{2}$ thin films via electron beam evaporation}{22}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Material and optical characterization of a-Si and SiO$_{2}$ thin films}{22}{section.3.2}%
+\contentsline {chapter}{\numberline {3}Methodology}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Initial growth of a-Si and SiO$_{2}$ thin films via electron beam evaporation}{21}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Material and optical characterization of a-Si and SiO$_{2}$ thin films}{21}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Transfer matrix simulation of multilayer a-Si/SiO$_{2}$ antireflective coating}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Fabrication and characterization of a-Si/SiO$_{2}$ antireflective coating}{24}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Optical and material properties of a-Si and SiO$_{2}$ thin films}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}a-Si thin films}{25}{subsection.4.1.1}%
-\contentsline {subsubsection}{Visual inspection}{25}{subsubsection*.18}%
-\contentsline {subsubsection}{Thickness, density and roughness}{25}{subsubsection*.20}%
-\contentsline {subsection}{\numberline {4.1.2}SiO$_{2}$ thin films}{30}{subsection.4.1.2}%
-\contentsline {subsubsection}{Visual inspection}{30}{subsubsection*.28}%
-\contentsline {subsubsection}{Thickness, density and roughness}{30}{subsubsection*.30}%
-\contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{35}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{38}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{41}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{44}{chapter.5}%
-\contentsline {chapter}{References}{45}{section*.46}%
-\contentsline {chapter}{Appendices}{50}{section*.47}%
-\contentsline {section}{\numberline {.1}Transfer Matrix Method python code}{51}{section.1..1}%
-\contentsline {section}{\numberline {.2}Fitting code}{56}{section.1..2}%
+\contentsline {section}{\numberline {3.4}Fabrication and characterization of a-Si/SiO$_{2}$ antireflective coating}{23}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Optical and material properties of a-Si and SiO$_{2}$ thin films}{24}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}a-Si thin films}{24}{subsection.4.1.1}%
+\contentsline {subsubsection}{Visual inspection}{24}{subsubsection*.19}%
+\contentsline {subsubsection}{Thickness, density and roughness}{24}{subsubsection*.21}%
+\contentsline {subsection}{\numberline {4.1.2}SiO$_{2}$ thin films}{29}{subsection.4.1.2}%
+\contentsline {subsubsection}{Visual inspection}{29}{subsubsection*.29}%
+\contentsline {subsubsection}{Thickness, density and roughness}{29}{subsubsection*.31}%
+\contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Transfer matrix method for antireflective coatings}{40}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{42}{section.4.5}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{45}{chapter.5}%
+\contentsline {chapter}{References}{46}{section*.49}%
+\contentsline {chapter}{Appendices}{51}{section*.50}%
+\contentsline {section}{\numberline {.1}Transfer Matrix Method python code}{52}{section.1..1}%
+\contentsline {section}{\numberline {.2}Fitting code}{57}{section.1..2}%

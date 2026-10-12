@@ -234,7 +234,7 @@ The equation for the refractive index of the a-Si thin film according to the Cau
 \begin{equation}\label{eqn:aSi_sellmeier} 
     n(\lambda) = (2.8716\pm0.0347) + \frac{38061.0\pm22671.1}{\lambda^2}
 \end{equation}
-with $R^2 \approx 0.5849$ and the graph of the resulting refractive index versus wavelength is shown in~\ref{fig: index_aSi}. The low $R^2$ is caused by the refractive index at \qty{871}{\nano\meter} deviating from the trend of increasing refractive index for decreasing wavelength, likely due to the transmission envelope.
+and the graph of the resulting refractive index versus wavelength is shown in~\ref{fig: index_aSi}. The low $R^2$ is caused by the refractive index at \qty{871}{\nano\meter} deviating from the trend of increasing refractive index for decreasing wavelength, likely due to the selection of the transmission envelope.
 
 \begin{table}[tbp]
 \centering
@@ -260,7 +260,7 @@ On the other hand, direct curve fitting of the Cauchy equation to the transmissi
 \begin{equation}\label{eqn:aSi_direct_cauchy} 
     n(\lambda) = (3.2971\pm0.0128) + \frac{0\pm9886.9}{\lambda^2}
 \end{equation}
-as graphed in \ref{fig: index_aSi}. Values lower than \qty{700}{\nano\meter} had to be excluded from the fitting in order for the model to converge properly, which means that the refractive index values corresponding to wavlengths lower than \qty{700}{\nano\meter} are extrapolated.
+as represented by the blue line in~\ref{fig: index_aSi}. Values lower than \qty{700}{\nano\meter} had to be excluded from the fitting in order for the model to converge properly, which means that the refractive index values corresponding to wavlengths lower than \qty{700}{\nano\meter} are extrapolated.
 
 \begin{figure}
 	\centering
@@ -276,7 +276,7 @@ as graphed in \ref{fig: index_aSi}. Values lower than \qty{700}{\nano\meter} had
 
 The refractive indices of the a-Si thin film calculated for both methods are quite consistent, differing by around $0.25$, and comparable to the literature values obtained by Swanepoel for a-Si at longer wavelengths\cite{swanepoelDeterminationThicknessOptical1983}. Furthermore, the calculated a-Si thin film refractive index is lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.25$ across the range of wavelengths as measured by Schinke~\cite{schinkeUncertaintyAnalysisCoefficient2015}. This is likely due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon, and supports the previous findings in~\ref{sec: results_thicknesses}. However, the refractive index appears somewhat flat over the wavelength range instead of increasing at shorter wavelengths. This difference from the expected behavior at shorter wavelengths is probably caused by the loss of information due to the fitting procedures used.
 
-In the modified envelope method, the number of data points used to fit the transmission envelopes is too few, which results in less accurate transmission envelopes and consequently refractive index values. On the other hand, for the direct fitting method using the transfer matrix method, the accuracy of the calculated value depends on the quality of the fit to the experimental data and is also limited to the \qtyrange{700}{1100}{\nano\meter} wavelength range, consequently extrapolation to shorter wavelengths may no longer be accurate. 
+In the modified envelope method, the number of data points used to fit the transmission envelopes is too few, which results in less accurate transmission envelopes and consequently refractive index values. On the other hand, for the direct fitting method using the transfer matrix method, the accuracy of the value depends on the quality of the fit to the experimental data and is also limited to the \qtyrange{700}{1100}{\nano\meter} wavelength range, consequently extrapolation to shorter wavelengths may no longer be accurate. 
 
 \section{Refractive index of SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_index_SiO2}
 ~\ref{fig: intensity_SiO2} shows the reflectance spectra of a \qty{990}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate after deconvolution using a mirror. For the extrema method there are six points that can be used for the calculation of the refractive index of the film using~\ref{eqn: index_extrema}; they are listed in~\ref{tab: oscillation_SiO2} together with the corresponding refractive indices and the new average wavelengths. Fitting the resulting data points to the Cauchy~\ref{eqn: sellmeier} using \verb|scipy.optimize.curve_fit| as shown in the green points and blue curve in~\ref{fig: index_SiO2} gives the following equation:
@@ -284,11 +284,11 @@ In the modified envelope method, the number of data points used to fit the trans
     n(\lambda) = (1.431606\pm0.012136) + \frac{9540.05\pm4793.93}{\lambda^2}.
 \end{equation}
 
-On the other hand, direct fitting using \verb|scipy.optimize.curve_fit| and the transfer matrix method to fit the Cauchy equation directly to the reflectance data results in the following equation for the refractive index:
+On the other hand, direct fitting using \verb|scipy.optimize.curve_fit| and the transfer matrix method to fit the Cauchy equation directly to the reflectance data results in the following equation for the refractive index as shown in the red curve in~\ref{fig: index_SiO2}:
 \begin{equation} \label{eqn:SiO2_direct_cauchy} 
-    n(\lambda) = (1.431606\pm0.012136) + \frac{9540.05\pm4793.93}{\lambda^2}
+    n(\lambda) = (1.431606\pm0.012136) + \frac{9540.05\pm4793.93}{\lambda^2}.
 \end{equation}
-as shown in the red curve in~\ref{fig: index_SiO2}
+
 \begin{table}[tbp]
 \centering
 \begin{tabular}{llllll}
@@ -321,9 +321,28 @@ $\lambda_0$ (\unit{\nano\meter}) & R     & $\lambda_1$ (\unit{\nano\meter})   & 
 	\caption[Refractive index of SiO$_2$ thin film]{Refractive index of the SiO$_2$ film for the extrema and direct methods compared to the values obtained by Gao for SiO$_2$ and Miyazaki for SiO$_{1.74}$. The high uncertainty for the extrema method may be caused by the few data points fitted.}\label{fig: index_SiO2}
 \end{figure}
 
-The refractive indices of the SiO$_2$ thin film obtained from both methods are comparable to the literature values obtained from Gao\cite{liuOptimalGrowthConditions2022}. The extrema method has a slightly higher value versus the literature and a much larger error range, whereas the direct method has a slightly lower value and smaller error range. The increased uncertainty in refractive index values for the extrema method compared to the direct method is likely caused by the few data points used for fitting in the extrema method compared to the direct method. 
+The refractive indices of the SiO$_2$ thin film obtained from both methods are comparable to the literature values obtained from Gao\cite{liuOptimalGrowthConditions2022}. The extrema method has a slightly higher value versus the literature and a much uncertainty, whereas the direct method has a slightly lower value and smaller uncertainty. The increased uncertainty in refractive index values for the extrema method compared to the direct method is likely caused by the few data points used for fitting in the extrema method compared to the direct method. 
 
-The slightly lower refractive index value calculated through the direct method may be caused by multiple factors, such as increased porosity of the film, or poor fitting through the transfer matrix method. The refractive index of the film appears to be close to that of stoichiometric SiO$_2$ even though there was no reactive gas used during the deposition process. Miyazaki et al.\ deposited SiO$_{1.74}$ thin films and found that the refractive index at \qty{633}{\nano\meter} was $1.50$~\cite{miyazakiRefractiveIndexDielectric2010}, which is higher than the measured refractive index for both methods. This increased porosity may also account for the lower density of the SiO$_2$ thin film as measured by XRR previously compared to bulk SiO$_2$.
+The slightly lower refractive index value calculated through the direct method may be caused by multiple factors, such as increased porosity of the film or poor fitting through the transfer matrix method. The refractive index of the film appears to be close to that of stoichiometric SiO$_2$ even though there was no reactive gas used during the deposition process. Miyazaki et al.\ deposited SiO$_{1.74}$ thin films and found that the refractive index at \qty{633}{\nano\meter} was $1.50$~\cite{miyazakiRefractiveIndexDielectric2010}, which is higher than the measured refractive index for both methods. Increased porosity may also account for the lower density of the SiO$_2$ thin film as measured by XRR previously compared to bulk SiO$_2$.
+
+\section{Transfer matrix method for antireflective coatings}
+The simplest design for an antireflective coating as stated in~\ref{sec: EM waves} is a quarter-wavelength thick film with refractive index equivalent to the square root of the substrate. The problem with this antireflective coating is that it only works for the chosen wavelength and severely limits the choice of materials for the film. Since the goal is to create an antireflective coating which works at multiple wavelengths while utilizing readily available materials, the single-layer coating is ruled out.
+
+Moving to the two-layer antireflective coating with a-Si first on the substrate and SiO$_2$ on top, the results of the transfer matrix simulation are presented in~\ref{fig: two_layer}. Using the literature values of the refractive indices for a-Si and SiO$_2$, the simulation started from a $51/51$ \unit{\nano\meter} a-Si/SiO$_2$ stack and ended at a $73/153$ \unit{\nano\meter} stack. The reflectance is lower compared to approximately \qty{30}{\percent} across the wavelength range for bare Si, but a much better design can probably be obtained.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/two_layer.png}
+	\caption[Simulated reflectance of an a-Si/SiO$_2$ stack]{Reflectance of a-Si/SiO$_2$ antireflective coatings with varying thicknesses as calculated using the transfer matrix method and refractive indices from literature. The reflectance is lower than the bare Si wafer.}\label{fig: two_layer}
+\end{figure}
+
+The three-layer antireflective coating of SiO$_2$/a-Si/SiO$_2$ as seen in~\ref{fig: three_layer} is much more suitable. After four iterations from $51/51/51$ \unit{\nano\meter}, the optimized thickness for the multilayer stack is $48/19/208$ \unit{\nano\meter} for the bottom, middle, and top films, with a much lower reflectance across the wavelength range compared to the two-layer stack previously presented. The reflectance at both the \qty{780}{\nano\meter} and \qty{1550}{\nano\meter} wavelengths is less than \qty{1}{\percent}. 
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.85\textwidth]{figures/three_layer.png}
+	\caption[Simulated reflectance of an SiO$_2$/a-Si/SiO$_2$ stack]{Reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with varying thicknesses. The reflectance for the optimized film at \qty{780}{\nano\meter} and \qty{1550}{\nano\meter} is less than \qty{1}{\percent}.}\label{fig: three_layer}
+\end{figure}
 
 \section{Reflectance of a-Si/SiO\texorpdfstring{$_{2}$}{2} antireflective coatings}\label{sec:results_ARC_reflectance}
 

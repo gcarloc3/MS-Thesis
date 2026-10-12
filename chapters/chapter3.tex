@@ -1,5 +1,5 @@
 \chapter{Methodology}\label{cha: Methodology}
-
+A summary of the procedures in this study is presented in~\ref{fig: methodology} .
 \section{Initial growth of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films via electron beam evaporation}\label{sec: growth}
 Glass slides and Si wafers were used as substrates for the initial growth via electron beam evaporation of a-Si and SiO$_2$ thin films respectively. The substrates were cleaned by sonication in acetone, isopropanol, and deionized water for 5 minutes each, after which they were blow-dried with nitrogen gas. The substrates were then loaded into the ULVAC electron beam evaporation chamber, where a base pressure of $\qty{4.5e-4}{\Pa}$ was achieved before actual deposition. Deposition was carried out at room temperature, and the nominal deposition rates and thicknesses of the films were monitored using a ULVAC CRTM-6000G deposition controller \gls{QCM}, with input values of z-factor $= 0.712$ and $\rho =$ \qty{2.32}{\gram\per\cubic\centi\meter} for Si and z-factor $= 1$ and $\rho =$ \qty{2.65}{\gram\per\cubic\centi\meter} for SiO$_2$. A reliable method to measure the thickness of the thin films in real time during deposition is necessary, which can be provided by the \gls{QCM}.
 \section{Material and optical characterization of a-Si and SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: analysis}
@@ -7,9 +7,9 @@ After unloading the samples from the chamber, the XRR spectra of the films were 
 
 The transmission spectra of the a-Si film on glass substrate was obtained via UV-Vis spectroscopy with a Shimadzu UV-Vis spectrophotometer while the reflectance spectra of the SiO$_2$ film on Si$(100)$ wafer was measured via the reflectance spectroscopy setup as shown in~\ref{fig: normal_reflection}. Two methods were utilized to obtain the refractive indices as a function of wavelength for each film. 
 
-For a-Si, the first method used a modified version of the envelope method described in~\ref{sec: swanepoel} which yields $n(\lambda)$ at the extrema points that can be fitted to the Cauchy equation. The second method involved fitting the Cauchy equation directly to the transmission curve using the transfer matrix method to obtain $n(\lambda)$ over the whole range of wavelengths. 
+For a-Si, the first method used a modified version of the envelope method described in~\ref{sec: swanepoel} which yields $n(\lambda)$ at the tangent points that can be fitted to the Cauchy equation. The second method involved fitting the Cauchy equation directly to the transmission curve using the transfer matrix method to obtain $n(\lambda)$ over the whole range of wavelengths. 
 
-For SiO$_2$, the first method involved identification of the refractive indices from the reflectance spectra using the interference method described in~\ref{sec: EM waves}, which also yields $n(\lambda)$ at specified points that can be fitted to the Cauchy equation, and the second method involves fitting the Cauchy equation directly to the reflectance spectra using the transfer matrix method to obtain $n(\lambda)$ over the whole wavelength range.
+For SiO$_2$, the first method calculated the refractive indices from the reflectance spectra using the interference method described in~\ref{sec: EM waves}, which yields $n(\lambda)$ at specified extrema points that can be fitted to the Cauchy equation, whereas the second method involves fitting the Cauchy equation directly to the reflectance spectra using the transfer matrix method to obtain $n(\lambda)$ over the whole wavelength range.
 
 \begin{figure}
 	\centering
@@ -22,5 +22,11 @@ A \gls{TMM} implementation in Python was used to calculate the optimal thickness
 
 \section{Fabrication and characterization of a-Si/SiO\texorpdfstring{$_{2}$}{2} antireflective coating}\label{sec: coating_fab}
 The thicknesses obtained from the simulation were then used as parameters for the electron beam physical vapor deposition of the a-Si/SiO$_2$ antireflective coating on bare wafers. After deposition, the reflectance of the samples with the antireflective coating was measured via reflectance spectroscopy and compared to the simulated reflectance to verify the antireflective properties of the multilayer stack.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\textwidth]{figures/methodology.png}
+	\caption[Summary of procedures in this study]{Summary of procedures in this study.}\label{fig: methodology}
+\end{figure}
 
 
