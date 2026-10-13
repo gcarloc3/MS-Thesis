@@ -26,11 +26,10 @@
 \contentsline {subsubsection}{Visual inspection}{29}{subsubsection*.29}%
 \contentsline {subsubsection}{Thickness, density and roughness}{29}{subsubsection*.31}%
 \contentsline {section}{\numberline {4.2}Refractive index of a-Si thin films}{34}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{37}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Refractive index of SiO$_{2}$ thin films}{38}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Transfer matrix method for antireflective coatings}{40}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Reflectance of a-Si/SiO$_{2}$ antireflective coatings}{42}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{45}{chapter.5}%
-\contentsline {chapter}{References}{46}{section*.49}%
-\contentsline {chapter}{Appendices}{51}{section*.50}%
-\contentsline {section}{\numberline {.1}Transfer Matrix Method python code}{52}{section.1..1}%
-\contentsline {section}{\numberline {.2}Fitting code}{57}{section.1..2}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{48}{chapter.5}%
+\contentsline {chapter}{References}{49}{section*.53}%
+\contentsline {chapter}{Appendices}{54}{section*.54}%
+\contentsline {section}{\numberline {.1}Transfer Matrix Method python code}{55}{section.1..1}%

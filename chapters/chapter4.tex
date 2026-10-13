@@ -64,24 +64,24 @@
 \toprule
 \gls{QCM} (\unit{\kilo\angstrom})   & Direct (\unit{\nano\meter})  & Fourier (\unit{\nano\meter}) \\
 \midrule
-0.035 & 7.822   & 6.90   \\
-0.069 & 14.077  & 13.80  \\
-0.104 & 21.290  & 21.20  \\
-0.138 & 27.529  & 27.50  \\
-1.270 & 214.620 & 213.15 \\
-1.520 & 259.840 & 259.20 \\
+0.035 & 7.8   & 6.9   \\
+0.069 & 14.1  & 13.8  \\
+0.104 & 21.3  & 21.2  \\
+0.138 & 27.5  & 27.5  \\
+1.270 & 214.6 & 213.2 \\
+1.520 & 259.8 & 259.2 \\
 \bottomrule   
 \end{tabular}
 \caption{a-Si thicknesses measured using the \gls{QCM}, direct fringe calculation and Fourier method from the XRR spectra. The results of the two methods are generally in agreement with each other.}\label{tab: thickness_a-Si}
 \end{table}
 
-The Kiessig fringes discussed in~\ref{sec: xrr} are apparent from~\ref{fig: a-Si_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.035}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.520}{\kilo\angstrom} film having very small fringes. No fringes could be identified for films beyond this thickness, which is attributed to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_a-Si} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
+The Kiessig fringes discussed in~\ref{sec: xrr} are apparent from~\ref{fig: a-Si_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.035}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.520}{\kilo\angstrom} film having very small fringes. No fringes could be identified for films beyond this thickness, which is attributed to the limited resolution of the x-ray diffractometer. The step size of the machine is $\Delta\theta = 0.0001$, which implies that any fringes at this scale corresponding to a thickness of approximately \qty{300}{\nano\meter} can no longer be observed. In~\ref{tab: thickness_a-Si} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
 
 Linear regression of the \gls{XRR} and \gls{QCM} thicknesses as shown in~\ref{fig: linear_fit_xrr_aSi} gives
 \begin{equation}\label{eqn:aSi_thickness} 
-    y = 168.03x + 3.0403
+    y = 169.70x
 \end{equation}
-with $R^2 = 0.9999$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. The high $R^2$ value signifies that this equation relating the \gls{QCM} thickness to the \gls{XRR} thickness is reliable and can be used to match the real-time \gls{QCM} readings during deposition to the actual thickness of the deposited film.
+with $R^2 = 0.9996$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. The high $R^2$ value signifies that this equation relating the \gls{QCM} thickness to the \gls{XRR} thickness is reliable and can be used to match the real-time \gls{QCM} readings during deposition to the actual thickness of the deposited film.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[width=0.65\textwidth]{figures/linear_fit_xrr_aSi.png}
@@ -95,11 +95,11 @@ The results of the curve fitting performed using the Advanced Material Analysis 
 \toprule
 & Thickness (\unit{\nano\meter}) & Roughness (\unit{\nano\meter}) & Density (\unit{\gram\per\cubic\centi\meter})\\
 \midrule
-\qty{21.20}{\nano\meter} a-Si 		& 21.9115  	 & 0.7047   & 1.80726          \\
-\qty{27.50}{\nano\meter} a-Si 		& 28.4339 	 & 0.8008   & 1.75748          \\
+\qty{21.20}{\nano\meter} a-Si 		& 21.92  	 & 0.70   & 1.81          \\
+\qty{27.50}{\nano\meter} a-Si 		& 28.43 	 & 0.80   & 1.76          \\
 \bottomrule   
 \end{tabular}
-\caption{Thickness, roughness and densities calculated from XRR curve fitting}\label{tab: XRR_fit_aSi}
+\caption{Thickness, roughness and densities calculated from XRR curve fitting. The values are consistent, which implies that the deposition method is reliable.}\label{tab: XRR_fit_aSi}
 \end{table}
 The calculated roughness for both films is less than \qty{1}{\nano\meter}, signifying the excellent quality and sharp interface of the deposited film required for multilayer antireflective coatings. The densities of the films are generally lower than the expected density for silicon as used for the \gls{QCM} input $(\rho=2.32)$. This difference is likely caused by the increased porosity of the films during deposition resulting from the absence of substrate heating. A higher substrate temperature promotes migration of the atoms resulting in increased density and crystallization as discussed in~\ref{sec: ebeam_rrl}.
 
@@ -157,7 +157,7 @@ The calculated roughness for both films is less than \qty{1}{\nano\meter}, signi
 	\caption{XRR measurements in log scale of SiO$_2$ thin films with varying \gls{QCM} thicknessses. Kiessig fringes are visible, with the length of the fringes inversely proportional to the thickness of the film.}\label{fig: SiO2_XRR}
 \end{figure}
 
-Similar to the previous section, the Kiessig fringes are visible in~\ref{fig: SiO2_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.525}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.369}{\kilo\angstrom} SiO$_2$ film having very small fringes. No fringes could be identified for films beyond this thickness, which we attribute to the limited resolution of the x-ray diffractometer. The step size of the machine is , which implies that any fringes smaller than this can no longer be resolved. In~\ref{tab: thickness_SiO2} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
+Similar to the previous section, the Kiessig fringes are visible in~\ref{fig: SiO2_XRR} and their size varies depending on the QCM thickness. The largest fringes appear in the \qty{0.525}{\kilo\angstrom} thick film and get progressively smaller as the \gls{QCM} thickness reading increases, with the \qty{1.369}{\kilo\angstrom} SiO$_2$ film having very small fringes. No fringes could be identified for films beyond this thickness, which again is caused by the resolution of the instrument. In~\ref{tab: thickness_SiO2} the results of the direct and Fourier method are in general agreement, signifying the accuracy of the \gls{XRR} method in determining the thickness of the film.
 
 \begin{table}[tbp]
 \centering
@@ -171,19 +171,19 @@ Similar to the previous section, the Kiessig fringes are visible in~\ref{fig: Si
 1.369 & 272.3   & 270.1   \\
 \bottomrule
 \end{tabular}
-\caption{SiO$_2$ thicknesses measured using the \gls{QCM}, direct fringe calculation and Fourier method from the XRR spectra}\label{tab: thickness_SiO2}
+\caption{SiO$_2$ thicknesses measured using the \gls{QCM}, direct fringe calculation and Fourier method from the XRR spectra. The values are consistent for both the direct and Fourier method, signifying the accuracy of the method.}\label{tab: thickness_SiO2}
 \end{table}
 
 Linear regression of the \gls{XRR} and \gls{QCM} thicknesses as shown in~\ref{fig: linear_fit_xrr_SiO2} gives
 \begin{equation}\label{eqn:SiO2_thickness} 
-    y = 198.52x - 4.5056
+    y = 194.24x
 \end{equation}
-with $R^2 = 0.9941$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. Even though the value is less than that of the a-Si films in the previous section, the high $R^2$ value signifies that this equation relating the \gls{QCM} thickness to the \gls{XRR} thickness is also reliable and can be used to match the real-time \gls{QCM} readings during deposition to the actual thickness of the deposited film. The lower $R^2$ value in the regression for SiO$_2$ might be caused by muliple factors, some of which could be increased porosity, a difference in stoichiometry of the film versus the source (i.e SiO$_x$ where $x<2$), or the variation in the deposition rate during the growth of the SiO$_2$ films, which in turn may be caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials.
+with $R^2 = 0.9992$, where $y$ is the measured XRR thickness in \unit{\nano\meter} and $x$ is the \gls{QCM} reading in \unit{\kilo\angstrom}. Again, the high $R^2$ value signifies that this equation relating the \gls{QCM} thickness to the \gls{XRR} thickness is also reliable and can be used to match the real-time \gls{QCM} readings during deposition to the actual thickness of the deposited film. The lower $R^2$ value in the regression for SiO$_2$ might be caused by muliple factors, some of which could be increased porosity, a difference in stoichiometry of the film versus the source (i.e SiO$_x$ where $x<2$), or the variation in the deposition rate during the growth of the SiO$_2$ films, which in turn may be caused by the difficulty in maintaining a stable deposition rate for SiO$_2$ due to its low thermal conductivity and tendency to sublime instead of melting into a uniform liquid pool during heating by the electron beam as is the case for other materials.
 
 \begin{figure}[t]
 	\centering
 	\includegraphics[width=0.65\textwidth]{figures/linear_fit_xrr_SiO2.png}
-	\caption[Linear regression of SiO$_2$ thicknesses]{Linear regression of XRR and \gls{QCM} thicknesses for SiO$_2$ thin films grown via e-beam evaporation.}\label{fig: linear_fit_xrr_SiO2}
+	\caption[Linear regression of SiO$_2$ thicknesses]{Linear regression of XRR and \gls{QCM} thicknesses for SiO$_2$ thin films grown via e-beam evaporation. The high $R^2$ means that the growth rate is consistent across runs.}\label{fig: linear_fit_xrr_SiO2}
 \end{figure}
 
 The results of the curve fitting performed using the Advanced Material Analysis and Simulation Software for the \gls{XRR} spectra of selected SiO$_2$ thin film thicknesses as shown in~\ref{fig: XRR_fit_103} and~\ref{fig: XRR_fit_204} are presented in~\ref{tab: XRR_fit_SiO2}. The thicknesses also match the previously calculated values in the direct and Fourier method.  
@@ -196,11 +196,11 @@ The calculated roughness for both films is also less than \qty{1}{\nano\meter}, 
 \toprule
 & Thickness (\unit{\nano\meter}) & Roughness (\unit{\nano\meter}) & Density (\unit{\gram\per\cubic\centi\meter})\\
 \midrule
-\qty{103.9}{\nano\meter} SiO$_2$ 	& 104.5311   & 0.3626   & 1.69738          \\
-\qty{204.7}{\nano\meter} SiO$_2$ 	& 203.8994   & 0.741    & 2.04566		   \\
+\qty{103.9}{\nano\meter} SiO$_2$ 	& 104.53   & 0.36   & 1.70          \\
+\qty{204.7}{\nano\meter} SiO$_2$ 	& 203.90   & 0.74    & 2.05		   \\
 \bottomrule   
 \end{tabular}
-\caption{Thickness, roughness and densities calculated from XRR curve fitting}\label{tab: XRR_fit_SiO2}
+\caption{Thickness, roughness and densities calculated from XRR curve fitting. The larger variation in density may be caused by the difficulty in maintaining stable evaporation of SiO$_2$}\label{tab: XRR_fit_SiO2}
 \end{table}
 
 \begin{figure}
@@ -230,7 +230,7 @@ The calculated roughness for both films is also less than \qty{1}{\nano\meter}, 
 \end{align}
 for the upper and lower envelopes respectively. The last maxima at $\lambda=$ \qty{655}{\nano\meter} is excluded from further calculations due to the mismatch in expected value for $m$. The envelope method in~\ref{sec: swanepoel} specifies that succeeding extrema must correspond to half-integer steps, but the calculated value at this wavelength is $m=5.0$ instead of a value close to the half-integer $5.5$. This likely means that the envelope functions are no longer accurate at this wavelength. The minima at $\lambda=$ \qty{613}{\nano\meter} is also excluded because the calculated $N$ is negative, caused by the crossing of the upper and lower envelopes. More fringes in the transmission spectra would probably result in more accurate envelopes which satisfy the necessary conditions outlined in~\ref{sec: swanepoel}.
 
-The equation for the refractive index of the a-Si thin film according to the Cauchy ~\ref{eqn: sellmeier} fitted to the remaining four data points of the refractive indices obtained from the envelope method using \verb|scipy.optimize.curve_fit| is
+The equation for the refractive index of the a-Si thin film according to the Cauchy~\ref{eqn: sellmeier} fitted to the remaining four data points of the refractive indices obtained from the envelope method using \verb|scipy.optimize.curve_fit| is
 \begin{equation}\label{eqn:aSi_sellmeier} 
     n(\lambda) = (2.8716\pm0.0347) + \frac{38061.0\pm22671.1}{\lambda^2}
 \end{equation}
@@ -265,13 +265,13 @@ as represented by the blue line in~\ref{fig: index_aSi}. Values lower than \qty{
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/T_fit_aSi.png}
-	\caption[Direct fitting of transmittance from the transfer matrix method for a-Si]{Direct fitting of transmittance from the transfer matrix method for the a-Si thin film. Values lower than \qty{700}{\nano\meter} are excluded in order for the model to converge. The refractive index equation corresponding to the fitted curve is \ref{eqn:aSi_direct_cauchy}}\label{fig: T_fit_aSi}
+	\caption[Direct fitting of transmittance from the transfer matrix method for a-Si]{Direct fitting of transmittance from the transfer matrix method for the a-Si thin film. Values lower than \qty{700}{\nano\meter} are excluded in order for the model to converge. The refractive index equation corresponding to the fitted curve is~\ref{eqn:aSi_direct_cauchy}}\label{fig: T_fit_aSi}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.85\textwidth]{figures/index_aSi.png}
-	\caption[Refractive index of a-Si thin film]{Refractive index of the a-Si thin film from \qtyrange{500}{1100}{\nano\meter} as calculated from the envelope and direct fitting methods compared to values obtained by Swanepoel\cite{swanepoelDeterminationThicknessOptical1983} and Schinke\cite{schinkeUncertaintyAnalysisCoefficient2015}.}\label{fig: index_aSi}
+	\caption[Refractive index of a-Si thin film]{Refractive index of the a-Si thin film from \qtyrange{500}{1100}{\nano\meter} as calculated from the envelope and direct fitting methods compared to values obtained by Swanepoel\cite{swanepoelDeterminationThicknessOptical1983} and Schinke\cite{schinkeUncertaintyAnalysisCoefficient2015}. The envelope method gives a much lower refractive index value compared to the direct method.}\label{fig: index_aSi}
 \end{figure}
 
 The refractive indices of the a-Si thin film calculated for both methods are quite consistent, differing by around $0.25$, and comparable to the literature values obtained by Swanepoel for a-Si at longer wavelengths\cite{swanepoelDeterminationThicknessOptical1983}. Furthermore, the calculated a-Si thin film refractive index is lower than that of crystalline silicon, which has a refractive index of $3.5$ to $4.25$ across the range of wavelengths as measured by Schinke~\cite{schinkeUncertaintyAnalysisCoefficient2015}. This is likely due to the lower density and less ordered structure of the a-Si thin film compared to crystalline silicon, and supports the previous findings in~\ref{sec: results_thicknesses}. However, the refractive index appears somewhat flat over the wavelength range instead of increasing at shorter wavelengths. This difference from the expected behavior at shorter wavelengths is probably caused by the loss of information due to the fitting procedures used.
@@ -281,7 +281,7 @@ In the modified envelope method, the number of data points used to fit the trans
 \section{Refractive index of SiO\texorpdfstring{$_{2}$}{2} thin films}\label{sec: results_index_SiO2}
 ~\ref{fig: intensity_SiO2} shows the reflectance spectra of a \qty{990}{\nano\meter} SiO$_2$ thin film deposited on a Si substrate after deconvolution using a mirror. For the extrema method there are six points that can be used for the calculation of the refractive index of the film using~\ref{eqn: index_extrema}; they are listed in~\ref{tab: oscillation_SiO2} together with the corresponding refractive indices and the new average wavelengths. Fitting the resulting data points to the Cauchy~\ref{eqn: sellmeier} using \verb|scipy.optimize.curve_fit| as shown in the green points and blue curve in~\ref{fig: index_SiO2} gives the following equation:
 \begin{equation} \label{eqn:SiO2_extrema_cauchy} 
-    n(\lambda) = (1.431606\pm0.012136) + \frac{9540.05\pm4793.93}{\lambda^2}.
+    n(\lambda) = (1.479980\pm0.028405) + \frac{3669.94\pm13332.23}{\lambda^2}.
 \end{equation}
 
 On the other hand, direct fitting using \verb|scipy.optimize.curve_fit| and the transfer matrix method to fit the Cauchy equation directly to the reflectance data results in the following equation for the refractive index as shown in the red curve in~\ref{fig: index_SiO2}:
@@ -306,7 +306,7 @@ $\lambda_0$ (\unit{\nano\meter}) & R     & $\lambda_1$ (\unit{\nano\meter})   & 
 952.5 & 0.216 &       &      &       &      \\
 \bottomrule
 \end{tabular}
-\caption{Refractive indices and wavelengths for the SiO$_2$ thin film at specified extrema points}\label{tab: oscillation_SiO2}
+\caption{Refractive indices and wavelengths for the SiO$_2$ thin film at specified extrema points calculated using Equation 2.8}\label{tab: oscillation_SiO2}
 \end{table}
 
 \begin{figure}
@@ -323,7 +323,7 @@ $\lambda_0$ (\unit{\nano\meter}) & R     & $\lambda_1$ (\unit{\nano\meter})   & 
 
 The refractive indices of the SiO$_2$ thin film obtained from both methods are comparable to the literature values obtained from Gao\cite{liuOptimalGrowthConditions2022}. The extrema method has a slightly higher value versus the literature and a much uncertainty, whereas the direct method has a slightly lower value and smaller uncertainty. The increased uncertainty in refractive index values for the extrema method compared to the direct method is likely caused by the few data points used for fitting in the extrema method compared to the direct method. 
 
-The slightly lower refractive index value calculated through the direct method may be caused by multiple factors, such as increased porosity of the film or poor fitting through the transfer matrix method. The refractive index of the film appears to be close to that of stoichiometric SiO$_2$ even though there was no reactive gas used during the deposition process. Miyazaki et al.\ deposited SiO$_{1.74}$ thin films and found that the refractive index at \qty{633}{\nano\meter} was $1.50$~\cite{miyazakiRefractiveIndexDielectric2010}, which is higher than the measured refractive index for both methods. Increased porosity may also account for the lower density of the SiO$_2$ thin film as measured by XRR previously compared to bulk SiO$_2$.
+The slightly lower refractive index value calculated through the direct method may be caused by multiple factors, such as increased porosity of the film or poor fitting through the transfer matrix method. The refractive index of the film appears to be close to that of stoichiometric SiO$_2$ even though there was no reactive gas used during the deposition process. Miyazaki et al.\ deposited SiO$_{1.74}$ thin films and found that the refractive index at \qty{633}{\nano\meter} was $1.50$~\cite{miyazakiRefractiveIndexDielectric2010}, which is higher than the measured refractive index for both methods. Increased porosity may also account for the lower density of the SiO$_2$ thin film as measured previously by XRR compared to bulk SiO$_2$.
 
 \section{Transfer matrix method for antireflective coatings}
 The simplest design for an antireflective coating as stated in~\ref{sec: EM waves} is a quarter-wavelength thick film with refractive index equivalent to the square root of the substrate. The problem with this antireflective coating is that it only works for the chosen wavelength and severely limits the choice of materials for the film. Since the goal is to create an antireflective coating which works at multiple wavelengths while utilizing readily available materials, the single-layer coating is ruled out.
@@ -348,30 +348,61 @@ The three-layer antireflective coating of SiO$_2$/a-Si/SiO$_2$ as seen in~\ref{f
 
 \begin{figure}
 	\centering
-	\includegraphics[width=1\textwidth]{figures/reflectance_arc.png}
-	\caption[Reflectance of various antireflective coatings]{Reflectivities of antireflective coatings with varying layer thicknesses simulated using the transfer matrix method and measured experimentally. The reflectance of a bare Si wafer is included for comparison.}\label{fig: reflectance_ARC}
+	\includegraphics[width=.85\textwidth]{figures/reflectance_arc_lit.png}
+	\caption[Simulated and experimental reflectance of antireflective coatings using literature refractive indices]{Experimental and simulated reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with various layer thicknesses together with a bare Si wafer. The refractive index used for simulation was from the literature. The simulation overestimates the locations of the minima for all three coatings.}\label{fig: ref_arc_lit}
 \end{figure}
 
-~\ref{fig: reflectance_ARC} shows the reflectance spectra after deconvolution relative to a mirror of a-Si/SiO$_2$ antireflective coatings with layer thicknesses of \qty{53}{\nano\meter} /\qty{14}{\nano\meter} /\qty{206}{\nano\meter}, \qty{48}{\nano\meter} /\qty{19}{\nano\meter} /\qty{208}{\nano\meter}, and \qty{49}{\nano\meter} /\qty{24}{\nano\meter} /\qty{251}{\nano\meter} for the SiO$_2$/a-Si/SiO$_2$ layers together with the simulated reflectance from the \gls{TMM} using the refractive indices obtained in the previous sections. The simulated reflectance spectra for the first antireflective coating has a value less than \qty{1}{\percent} around \qty{656}{\nano\meter}, the simulation of the second antireflective coating has a minimum value less than \qty{1}{\percent} at \qty{684}{\nano\meter}, and the third antireflective coating has less than \qty{1}{\percent} at \qty{778}{\nano\meter}. The measured reflectance spectra for the antireflective coatings shows the minimum values less than \qty{4}{\percent} for the first antireflective coating at \qty{662}{\nano\meter}, \qty{2.3}{\percent} for the second antireflective coating at \qty{716}{\nano\meter}, and less than \qty{1}{\percent} at \qty{835}{\nano\meter} for the third ARC.\@The values of the reflectance at \qty{780}{\nano\meter} are around \qty{24}{\percent} for the first ARC, \qty{10}{\percent} for the second ARC, and \qty{7}{\percent} for the third ARC.~\ref{tab: arc_reflectance} summarizes the relevant information of the antireflective coatings being studied. The blank Si wafer exhibits a reflectance ranging from \qty{50}{\percent} to \qty{75}{\percent} across the wavelength range of \qtyrange{450}{1000}{nm}.
+~\ref{fig: ref_arc_lit} shows the reflectance spectra after deconvolution relative to a mirror of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with layer thicknesses of $53/14/206$, $48/19/208$, and $49/24/251$ \unit{\nano\meter} for the SiO$_2$/a-Si/SiO$_2$ layers together with the simulated reflectance from the \gls{TMM} using the refractive indices from the literature. The wavelengths at which the simulated reflectance spectra are at a minimum are \qty{720}{\nano\meter} for $53/14/206$, \qty{782}{\nano\meter} for $48/19/208$, and \qty{922}{\nano\meter} for $49/24/251$. The measured reflectance spectra for the antireflective coatings exhibit minima at \qty{662}{\nano\meter} for $53/14/206$, \qty{716}{\nano\meter} for $48/19/208$, and \qty{835}{\nano\meter} for $49/24/251$. The wavelengths calculated with refractive indices from the literature tend to overestimate the actual wavelength at which the films have a minimum as shown in~\ref{tab: arc_reflectance}, which means that they cannot be used for the films in this study. A better model for the refractive index is needed.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.85\textwidth]{figures/reflectance_arc_EE.png}
+	\caption[Simulated and experimental reflectance of antireflective coatings using refractive indices from the envelope method for a-Si and extrema method for SiO$_2$]{Experimental and simulated reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with refractive indices from the envelope method for a-Si and extrema method for SiO$_2$. The locations of the minima for all three coatings are underestimated.}\label{fig: ref_arc_EE}
+\end{figure}
+
+~\ref{fig: ref_arc_EE} shows the graph of the experimental reflectance versus the simulated reflectance with the refractive index of a-Si taken from the envelope method in~\ref{sec: results_index_Si} and that of SiO$_2$ from the extrema method in~\ref{sec: results_index_SiO2}. The wavelengths of the minima for the simulation have moved to \qty{632}{\nano\meter} for $53/14/206$, \qty{666}{\nano\meter} for $48/19/208$, and \qty{780}{\nano\meter} for $49/24/251$, but they still do not match the experimental data. Instead of overestimating the wavelengths, the location of the minima is underestimated as seen in~\ref{tab: arc_reflectance}, but the error is less compared to the method which uses the literature refractive index.
+
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.85\textwidth]{figures/reflectance_arc_ED.png}
+	\caption[Simulated and experimental reflectance of antireflective coatings using refractive indices from envelope method for a-Si and direct method for SiO$_2$]{Experimental and simulated reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with refractive indices from the envelope method for a-Si and direct method for SiO$_2$. The locations of the minima for all three coatings are underestimated worse than the envelope and extrema method.}\label{fig: ref_arc_ED}
+\end{figure}
+
+~\ref{fig: ref_arc_ED} shows the graph of the experimental reflectance versus the simulated reflectance with the refractive index of a-Si taken from the envelope method in~\ref{sec: results_index_Si} and that of SiO$_2$ from the direct method in~\ref{sec: results_index_SiO2}. The wavelengths of the minima for the simulation are now at \qty{624}{\nano\meter} for $53/14/206$, \qty{658}{\nano\meter} for $48/19/208$, and \qty{770}{\nano\meter} for $49/24/251$. The location of the minimum is still underestimated, and is worse than the envelope and extrema method as seen in~\ref{tab: arc_reflectance} but better than the method based on the literature values.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.85\textwidth]{figures/reflectance_arc_DE.png}
+	\caption[Simulated and experimental reflectance of antireflective coatings using refractive indices from the direct method for a-Si and extrema method for SiO$_2$]{Experimental and simulated reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with refractive indices from the direct method for a-Si and extrema method for SiO$_2$. The minimum values for the coatings are close to each other, with the largest error of \qty{1.8}{\percent} for $49/24/251$.}\label{fig: ref_arc_DE}
+\end{figure}
+
+~\ref{fig: ref_arc_EE} shows the graph of the experimental reflectance versus the simulated reflectance with the refractive index of a-Si taken from the direct method in~\ref{sec: results_index_Si} and that of SiO$_2$ from the extrema method in~\ref{sec: results_index_SiO2}. The wavelengths of the minima for the simulation are now at \qty{666}{\nano\meter} for $53/14/206$, \qty{716}{\nano\meter} for $48/19/208$, and \qty{850}{\nano\meter} for $49/24/251$, which is the closest so far for all methods. The minimum of the second coating matches with the simulation, whereas the minima for $53/14/206$ and $49/24/251$ are overestimated by \qty{0.6}{\percent} and \qty{1.8}{\percent} respectively as shown in~\ref{tab: arc_reflectance}.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=.85\textwidth]{figures/reflectance_arc_DD.png}
+	\caption[Simulated and experimental reflectance of antireflective coatings using refractive indices from the direct method for both a-Si and SiO$_2$]{Experimental and simulated reflectance of SiO$_2$/a-Si/SiO$_2$ antireflective coatings with refractive indices from the direct method for both a-Si and SiO$_2$. The minimum values for the coatings are also close to each other.}\label{fig: ref_arc_DD}
+\end{figure}
+
+~\ref{fig: ref_arc_EE} shows the graph of the experimental reflectance versus the simulated reflectance with both the refractive index of a-Si and SiO$_2$ taken from the direct method. The wavelengths of the minima for the simulation are now at \qty{658}{\nano\meter} for $53/14/206$, \qty{710}{\nano\meter} for $48/19/208$, and \qty{842}{\nano\meter} for $49/24/251$. Although the minimum of the second coating is slightly underestimated compared to the direct and extrema method, the error for the minimum of $49/24/251$ is reduced to \qty{0.8}{\percent} from \qty{1.8}{\percent} as shown in~\ref{tab: arc_reflectance}.
 
 \begin{table}[tbp]
 \centering
-\begin{tabular}{llllll}
+\begin{tabular}{llllllllllll}
 \toprule
-          & \multicolumn{2}{l}{1st minimum} & \multicolumn{2}{l}{2nd minimum} & R at \qty{780}{\nano\meter}\\
+\multicolumn{1}{c}{Coating} & \multicolumn{1}{c}{Exp} & \multicolumn{5}{c}{Simulated} & \multicolumn{5}{c}{\% error vs experiment}              \\
 \midrule
-          & $\lambda$ (\unit{\nano\meter})& R            & $\lambda_0$ (\unit{\nano\meter})& R &            \\
+\multicolumn{1}{c}{}        & \multicolumn{1}{c}{}           & lit  & EE   & ED   & DE  & DD  & lit.   & EE     & ED     & DE    & DD      \\
 \midrule  
-\qty{53}{\nano\meter}/\qty{14}{\nano\meter}/\qty{206}{\nano\meter} TMM & 656 & 0.00492 & 1533 & 0.0114 & 0.10945 \\
-\qty{53}{\nano\meter}/\qty{14}{\nano\meter}/\qty{206}{\nano\meter}  & 663 & 0.03906 &      &        & 0.24194 \\
-\qty{48}{\nano\meter}/\qty{19}{\nano\meter}/\qty{208}{\nano\meter} TMM & 684 & 0.00049 & 1482 & 0.0043 & 0.05995 \\
-\qty{48}{\nano\meter}/\qty{19}{\nano\meter}/\qty{208}{\nano\meter} & 718 & 0.02367 &      &        & 0.09677 \\
-\qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter} TMM & 778 & 0.00003 & 1606 & 0.0009 & 0.00006 \\
-\qty{49}{\nano\meter}/\qty{24}{\nano\meter}/\qty{251}{\nano\meter}  & 840 & 0.00858 &      &        & 0.06700 \\
-Si                       &     &         &      &        & 0.55323 \\
+53/14/206                   & 662                            & 720  & 632  & 624  & 666 & 658 & 8.8\%  & -4.5\% & -5.7\% & 0.6\% & -0.6\% \\
+48/19/208                   & 716                            & 782  & 666  & 658  & 716 & 710 & 9.2\%  & -7.0\% & -8.1\% & 0.0\% & -0.8\% \\
+49/24/251                   & 835                            & 922  & 780  & 770  & 850 & 842 & 10.4\% & -6.6\% & -7.8\% & 1.8\% & 0.8\% \\
 \bottomrule   
 \end{tabular}
-\caption{Simulated and experimental reflectance of the antireflective coatings and Si wafer at different wavelengths}\label{tab: arc_reflectance}
+\caption{Wavelengths( \unit{\nano\meter}) of the experimental (Exp) and simulated reflectance minimum for the antireflective coatings. The refractive indices used for the simulation are from literature (lit.), envelope method and extrema method (EE), envelope method and direct method (ED), direct method and extrema method (DE) and both direct method (DD) for a-Si and SiO$_2$. The DE and DD methods give the lowest error.}\label{tab: arc_reflectance}
 \end{table}
 
-The multilayer coatings deposited using electron beam deposition have reduced values of reflectance compared to the bare wafer, proving their effectiveness as antireflective coatings. The mismatch in the minimum reflectance values obtained experimentally versus the simulation is due to the nature of the experimental setup, which measures the reflectance of the sample relative to the mirror. More accurate reflectance values would be obtained from absolute measurements which consider the total amount of light incident and reflected from the sample. Interestingly, the deviation of wavelengths between the measured minima of the films and that of their simulated counter parts increases as the target wavelength increases; a difference of \qty{7}{\nano\meter} at a target wavelength of \qty{656}{\nano\meter}, which increases to \qty{34}{\nano\meter} at a target wavelength of \qty{684}{\nano\meter}, and finally \qty{62}{\nano\meter} at a target wavelength of \qty{656}{\nano\meter}. This shift in values is likely caused by the inaccuracy in measuring the refractive index of the thin films which were previously deposited, especially for a-Si. The refractive index values calculated may have been accurate at the lower wavelengths but increasingly erroneous for longer wavelengths, which corroborates the observation in~\ref{sec: results_index_Si} where the index does not monotonically decrease with increasing wavelength.
+The comparison of the different methods in obtaining the refractive index for the films show that using the direct method of fitting the Cauchy equation to the transmittance spectra for a-Si results in the most accurate simulations of the minimum wavelength for the multilayer antireflective coating. The envelope method generally underestimates the reflectance of the coatings. For SiO$_2$, the difference between the direct and extrema method is marginal since the difference in refractive indices for the two methods is only around $0.05$, compared to the much larger gap of approximately $0.25$ for the direct and envelope method used for a-Si.
+
+All of the experimental spectra for the multilayer antireflective coatings have reduced values of reflectance compared to the bare wafer, proving their effectiveness as antireflective coatings. The offset in the minimum reflectance values obtained experimentally versus the simulation is likely caused by the nature of the experimental setup, which measures the specular reflectance of the sample relative to a mirror which serves as baseline. More accurate reflectance values would probably be obtained from absolute measurements which consider the total amount of light incident and reflected from the sample, but this setup requires an integrating sphere in order to collect all the reflected light and is much more complex. 
